@@ -1,0 +1,84 @@
+/*登录、注册、找回密码页面样式*/
+.login_bg{-webkit-background-size:100% auto;background-size:100% auto;}
+::-webkit-input-placeholder{color:#ccc !important;}
+:-moz-placeholder{color:#ccc !important;}
+::-moz-placeholder{color:#ccc !important;}
+:-ms-input-placeholder{color:#ccc !important;}
+/*登录*/
+.y_loginbox{width: 100%;margin: 1.25rem 0 1rem;}
+.y_loginlist li{background:#fff;border-bottom:1px solid #e4e4e4;height:2.2rem;position:relative;}
+.y_loginlist li input{background:none;border:none;color:#666;height:2.2rem;line-height:1.2rem;padding:0.5rem 0;font-size:0.7rem;width:66%;-webkit-box-sizing:border-box;box-sizing:border-box;}
+.y_loginlist .y_sure input{width:70%;}
+.y_loginlist li .y_ico{position:absolute;left:3px;top:0.575rem;width:0.825rem;height:0.96rem;background:url(../img/y_loginbg.png) left top no-repeat;-webkit-background-size:100% auto;background-size:100% auto;}
+.y_loginlist .y_pass .y_ico{background-position:0 center;}
+.y_loginlist .y_sure .y_ico{background-position:0 bottom;}
+.y_loginlist li .y_img{position:absolute;right:3px;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);max-width:3rem;}
+.y_loginlist li .y_img img{display:block;}
+.y_loginlist li .y_del{position: absolute; right: .75rem;width: 0.6rem;height: 0.6rem;top: 0.8rem;background:url(../img/del4.png) center no-repeat;-webkit-background-size:100% auto;background-size:100% auto;}
+/*账号下拉列表*/
+.userMenu{background: none;border: none;color: #ccc;height: 2.2rem;line-height: 1.2rem;padding: 0.5rem 0 0.5rem 26%;font-size: 0.7rem;width: 100%;-webkit-box-sizing: border-box; box-sizing: border-box;}
+ /*显示密码*/
+.y_loginlist li .y_password{position:absolute;right:.75rem;width:0.75rem;height:0.75rem;top:0.725rem;bottom:0;display:none;background:url(../img/del1.png) top no-repeat;-webkit-background-size:auto 200%;background-size:auto 200%;}
+.y_loginlist li .y_password{display:block;}
+.y_loginlist li .y_account{position:absolute;right:.75rem;width:0.75rem;height:0.75rem;top:0.8rem;bottom:0;display:none;background:url(../img/nav_bg4.png) top no-repeat;-webkit-background-size:auto 200%;background-size:100%;}
+.y_loginlist li .y_account{display:block;}
+.y_loginlist li.active .y_account{position:absolute;right:.75rem;width:0.75rem;height:0.75rem;top:0.8rem;bottom:0;display:none;background:url(../img/nav_bg2.png) top no-repeat;-webkit-background-size:100;background-size:100%;}
+.y_loginlist li.active .y_account{display:block;}
+.y_findpaslist li .y_password{position:absolute;right:.75rem;width:0.75rem;height:0.75rem;top:0.725rem;bottom:0;display:none;background:url(../img/del1.png) top no-repeat;-webkit-background-size:auto 200%;background-size:auto 200%;}
+.y_findpaslist li .y_password{display:block;}
+.y_logintext{text-align:right;padding:0.5rem .75rem 0.6rem;}
+.y_logintext a{color:#fff;font-size:0.65rem;}
+.y_logintext .fl{color: #10adff;}
+.y_logintext .fr{color: #666666;}
+.y_btnbox .btn{margin-bottom:0.5rem;margin-top: 1.5rem;width: 90.8%}
+.y_btnbox .btn.disable{opacity: .6 !important;    background-color: #ff4a00;color: #fff;}
+.y_btnbox .btn-custom2{background:transparent;border-color:rgba(255,255,255,0.5)}
+
+.login_bg .clear_input{position: absolute; right: 1.2rem; width: 0.75rem; height: 0.75rem; top: 0.75em; display: none; background: url(../img/clear1.png) top no-repeat; -webkit-background-size: auto 100%; background-size: auto 100%; color: #fff; }
+
+/*找回密码*/
+.y_findpasbox{width: 90.8%;margin: 3.75rem auto 1rem;}
+.y_findpasbox .y_ico{width:4.5rem;height:4.5rem;overflow:hidden;margin:0 auto 1rem;background:url(../img/find_pasico1.png) left top no-repeat;-webkit-background-size:100% auto;background-size:100% auto;}
+.y_findpasbox .y_ico2{background-position:0 100%;}
+.y_findpaslist{margin-bottom:0.75rem;}
+.y_findpaslist li{border-bottom:1px solid #e4e4e4;height:2.2rem;position:relative;}
+.y_findpaslist li input{background: none; border: none; color: #666; height: 2.2rem; line-height: 1.2rem; padding: 0.5rem 0; font-size: 0.75rem; width: 66%; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.y_findpaslist li input.z_width50{width: 50%; }
+.y_findpaslist .y_pass input::-webkit-input-placeholder{/*letter-spacing: 0.3rem;*/}
+.y_findpaslist .y_pass input::-moz-placeholder{letter-spacing: 0.3rem;}
+::-webkit-input-placeholder{color:#a6d9ff;}
+::-moz-placeholder{color:#a6d9ff;}
+:-moz-placeholder{color:#a6d9ff;}
+.y_findpaslist li .btn{position:absolute;right:.75rem;top:50%;font-size:0.6rem;padding:0.25rem;-webkit-border-radius:0.2rem;border-radius:0.2rem;-webkit-transform:translateY(-50%);transform:translateY(-50%);}
+.y_findh2{font-size:.7rem;color:#666;text-align:center;font-weight:lighter;margin-bottom:1rem;}
+.y_findpaslist .y_pass .z_btn-custom{border:1px solid #ff4a00;color: #ff4a00;background: #fff;}
+/*.y_findpaslist .y_pass .z_btn-custom:hover{border:1px solid #a6d9ff;color: #a6d9ff;background: #fff;}*/
+.y_findpaslist .y_pass .z_btn-custom.disabled{border:1px solid #ffa47f;color: #ffa47f;background: #fff;}
+
+
+/*注册*/
+.y_registerxieyi{color:#666;margin:1rem .75rem 0;font-size: .6rem;}
+.y_registerxieyi input{vertical-align: middle;margin-top:-2px;}
+.y_registerbox .y_loginselect{position:absolute;left:0;top:0;opacity:0;background:none;border:none;width:100%;height:100%;color:#fff;line-height:1.2rem;padding:0.5rem 0;font-size:0.75rem;}
+.y_registerbox .y_loginselect option{padding:0}
+.y_papertype{position:absolute;right:3px;top:50%;padding-right:0.6rem;transform:translateY(-50%);transform:translateY(-50%);color:#fff;font-size:0.6rem;background:url(../img/y_toright.png) right center no-repeat;-webkit-background-size:0.35rem auto;background-size:0.35rem auto;}
+.y_regxieyibox{width:78%;height:80%;margin: 0.7rem auto;padding: 0.75rem 0;background:#fff;-webkit-box-shadow:0 0 8px rgba(14,14,14,0.26);box-shadow:0 0 8px rgba(14,14,14,0.26);-webkit-border-radius:0.2rem;border-radius:0.2rem;-webkit-box-sizing:border-box;box-sizing:border-box;overflow: auto;}
+.y_regxieyibox .y_ms{padding:0 0.9rem;overflow-y:auto;}
+.y_regxieyibox .y_title{margin-bottom:1rem;}
+.y_regxieyibox .y_btnbox{margin: 1rem 0.35rem;padding-top:0.75rem;border-top:1px dashed #999;position:relative;}
+/*.y_regxieyibox .y_btnbox:after{content:'';position:absolute;width:0;height:0;right:-0.35rem;top:-0.5rem;border-width:0.5rem;border-style:solid;border-color:transparent #43afa9 transparent transparent;}*/
+.y_regxieyibox .y_btnbox .btn{width:56%;margin:0 auto;}
+
+.y_findpaslist label.tsl,.y_loginbox label.tsl{padding-left: .25rem; float: left; display: inline-block; width: 23%; height: 100%; line-height: 2.2rem; color: #fff; font-size: .75rem; text-align: justify; text-align-last: justify; margin-right: 2%;}
+
+.y_loginbox label.tsl{float: left; display: inline-block; width: 16%; height: 100%; line-height: 2.2rem; color: #666; font-size: .75rem; padding-left: .25rem; margin-left: .55rem; margin-right: .75rem; }
+.y_loginbox label.tslw{width: 22.5%;}
+
+/*注册成功*/
+.y_registsuccess{padding:30% 4.6% 4%;text-align:center;}
+.y_registsuccess .y_alerth2{font-size:0.8rem;font-weight:normal;text-align:center;margin-bottom:8%;}
+.y_registsuccess .tip,.y_registerbox .tip{padding:0 .75rem;font-size: .7rem; line-height: .9rem; margin-bottom: 1rem; color: #666; }
+.y_registsuccess .y_alerth2 .y_successico{display:inline-block;width:1.75rem;height:1.75rem;vertical-align:middle;margin:-2px 0.4rem 0 0;background: url(../img/y_successico.png) 0 0 no-repeat;-webkit-background-size:100% auto;background-size:100% auto;}
+/*首次登陆*/
+.firstlogin{background: url(../img/firstlogin.jpg) no-repeat top center;background-size: 100%;}
+.y_user font{display: block;width: 80%;}

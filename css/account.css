@@ -1,0 +1,316 @@
+/* 个人账户头部 */
+ 
+#zyb-header {background:url(../img/header/bing.jpg);overflow: hidden;}
+/*#zyb-header {padding-top: 1rem;} */
+#zyb-header a:nth-child(1){
+	/* display:block;
+    width:5.4rem;
+           height:1.05rem;
+    margin: 0 8.3rem 0 9.7rem;
+        color: #fff;
+        border-radius: 10px;
+        text-align:center;
+        line-height:1.05rem;
+        background:#ee8a42;
+        margin-top: .96rem;
+        overflow: hidden;
+       -webkit-transform:translateY(-50%);
+       transform:translateY(-50%);
+       border: 1px solid #ee8a42;
+       float:left;
+       overflow:hidden; */
+
+    position: absolute;
+    display:block;
+    width:5.4rem;
+    height:1.05rem;
+    border-radius: 8px;
+    text-align:center;
+    line-height:1.05rem;
+    background:#ee8a42;
+    right: 4.68%;
+    top: 62%;
+    color: #fff;
+    font-size: -1.3rem;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    overflow:hidden;
+   
+}
+#zyb-header a:nth-child(2){
+	/* display:block;
+        color: #fff;
+        margin-right:13rem;
+        font-size: 0.7rem;
+        overflow: hidden;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        float:left;
+        overflow:hidden; */
+    position: absolute;
+    display:block;
+    width:6.4rem;
+    height:1.05rem;
+    border-radius: 10px;
+    text-align:center;
+    line-height:1.05rem;
+    background:#ee8a42;
+    left: 4.68%;
+    top: 63%;
+    color: #fff;
+    font-size:-1.3rem;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    overflow:hidden;
+
+}
+
+/* 个人头像，信息 */
+#y_orange .user_header_gh { height: 100%;background: url(../img/header/bing.jpg) right center no-repeat;    padding: 1rem .72rem;}
+.user_header_gh .h_details {
+	/* background: url(../img/nav_bg.png) -100%  no-repeat; */
+	/* width: 14.5rem; */
+	height: 100%;
+	/* margin: 0 auto; */
+    overflow: hidden;
+    text-align:center;
+   /*  background: #4affff; */
+    /* margin-top: -1rem; */
+}
+.u_nai {
+    background: url(../img/user.png) 100% center no-repeat;
+    overflow: hidden;
+}
+ /* .user_header_gh .h_details .kj {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px #fff solid;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin-left: 5rem;
+    margin-top:0.4rem;
+ } */
+ /* .user_header_gh .h_details .kj a{
+    display:block;
+ }
+ */
+.u_chang {
+    background: url(../img/user.png) 100% center no-repeat;
+    background-size: 12px auto;
+    overflow: hidden;
+    height: 5.9rem;
+}
+#y_orange .q_form {
+   //  display:block;
+   //  border: 1px solid #ffffff;
+   //  text-align: center;
+   //  border-radius: 5px;
+   //  line-height: 1.3rem;
+   //  height: 1.3rem;
+   //  font-size: .7rem;
+   //  overflow: hidden;
+   // /*  margin: 0 auto; */
+   // text-align:center;
+   //  margin-top: 3rem;
+   //  color: #ffffff;
+   //  margin-left:4rem;
+   position: absolute;
+    top:61%;
+    left: 30%;
+    z-index: 99;
+    padding: 0 0.35rem;
+    color: #ffffff;
+    line-height: 1.3rem;
+    height: 1.3rem;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-size: .67rem;
+    margin-top: 1rem;
+}
+.user_header .kj {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px #fff solid;
+    box-sizing: border-box;
+    margin-left: 39%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.user_header_gh .mn {
+    margin-left: 3.5rem;
+}
+.user_header_gh .mn p.k_kade {
+    font-size: .7rem;
+    max-height: 1.8rem;
+    overflow: hidden;
+    width:69%;
+    line-height: .9rem;
+    text-align: center;
+    word-break: break-all;
+    color: #ffffff;
+   /*  margin-left: 10%;  */
+    padding-top: 0.5rem;
+}
+ .y_famal  {
+   /*  z-index: 99;
+   padding: 0 0.35rem;
+   color: #ffffff;
+   line-height: 1.3rem; */
+    height: 2.3rem;
+    text-align:center;
+   /*  font-size: .6rem; */
+}
+.h_details .y_famal .q_form {
+	 position:static; 
+    border: 1px solid #ffffff;
+    text-align:center;
+    border-radius: 5px;
+    line-height: 1.3rem;
+    height: 1.3rem;
+    font-size: .7rem;
+    overflow: hidden;
+    /* top: 5.3rem;
+    left: 11.76rem; */
+    margin:0 auto;
+  margin-top:0.8rem; 
+      color: #ffffff;
+}
+#y_orange .user_header_gh .u_skip {
+    display: block;
+    
+}
+
+.user_header_gh .h_detato {
+    /* background: url(../img/nav_bg.png) -100% no-repeat; */
+    width: 14.5rem;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    /* background: #4affff; */
+    margin-top: -1rem;
+}
+.h_detato {
+    background: url(../img/nav_bg.png) 100% center no-repeat;
+    background-size: 12px auto;
+    overflow: hidden;
+}
+/* 医生工作样式 */
+
+#t_scientific{
+	background:url(../img/header/zhuan.jpg);overflow: hidden;}
+#t_scientific a:nth-child(1){
+	/* display:block;
+        width:5.4rem;
+        height:1.05rem;
+        margin: 0 8.3rem 0 9.7rem;
+        color: #fff;
+        border-radius: 10px;
+        text-align:center;
+        line-height:1.05rem;
+        background:#5ea7d9;
+        margin-top: .98rem;
+        overflow: hidden;
+       -webkit-transform:translateY(-50%);
+       transform:translateY(-50%);
+       border: 1px solid #5ea7d9;
+       float:left;
+       overflow:hidden; */
+    position: absolute;
+    display:block;
+    width:5.4rem;
+    height:1.05rem;
+    border-radius: 10px;
+    text-align:center;
+    line-height:1.05rem;
+   background:#5ea7d9;
+    right: 4.68%;
+    top: 62%;
+    color: #fff;
+    font-size: 0.7rem;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    overflow:hidden;
+   
+}
+#t_scientific a:nth-child(2){
+	/* display:block;
+        color: #fff;
+        margin-right:13rem;
+        font-size: 0.7rem;
+        overflow: hidden;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        float:left;
+        overflow:hidden; */
+    position: absolute;
+    display:block;
+    width:6.4rem;
+    height:1.05rem;
+    border-radius: 10px;
+    text-align:center;
+    line-height:1.05rem;
+    left: 4.68%;
+    top: 63%;
+    color: #fff;
+    font-size: 0.7rem;
+    background:#5ea7d9;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    overflow:hidden;
+}
+.user_hai{   
+	 display: block;
+    background: url(../img/header/zhuan.jpg) right center no-repeat;
+    padding: 1rem .75rem;
+    height: 4.5rem;
+
+}
+.u_nai .wet {
+    margin-left: 3.5rem;
+}
+.u_nai .wet p{
+    font-size: .7rem;
+    max-height: 1.8rem;
+    overflow: hidden;
+    line-height: .9rem;
+    width: 85%;
+    word-break: break-all;
+    color: #ffffff;
+    padding-top: 0.3rem;
+}
+.u_nai .wet p.ju{
+    font-size: .7rem;
+    max-height: 1.8rem;
+    overflow: hidden;
+    line-height: .9rem;
+    width: 85%;
+    word-break: break-all;
+    color: #ffffff;
+}
+.u_nai{
+    background: url(../img/user.png) 100% center no-repeat;
+    background-size: 12px auto;
+    overflow: hidden;
+}
+.u_nai .wet .ju span{
+    margin-left: 0.45rem;
+}
+.u_tra {
+    position: absolute;
+    top: 2.8rem;
+    left: 4.25rem;
+    z-index: 99;
+    padding: 0 0.35rem;
+    color: #ffffff;
+    line-height: 1.3rem;
+    height: 1.3rem;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-size: .67rem;
+    margin-top: 1rem;
+}

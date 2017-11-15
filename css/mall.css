@@ -1,0 +1,162 @@
+﻿
+/*健康商城首页*/
+
+/*6-14健康商城 分类导航*/
+.zc_reportmain{margin-left: 4rem;background:#fff; -webkit-box-sizing:border-box;box-sizing:border-box; overflow: auto;   -webkit-overflow-scrolling: touch;}
+.zc_reportitem{display:none;background:#fff;}
+.zc_reportitem.active{display:block;}
+.zc_reportmain .list a{float: left;width: 33.33%;padding: 0.5rem 0 .2rem;text-align: center;border-right:1px solid #eee;box-sizing: border-box;border-bottom: 1px solid #eee;margin-bottom: -1px;}
+.zc_reportmain .list a img{ width: 2rem;height: 2rem;}
+.zc_reportmain .list a p{font-size: 0.55rem;text-align: center;padding-top: 0.3rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+#drop_down .zc_reportitem li{border-bottom: none}
+
+/*6-14健康商城 药品列表左侧导航切换***/
+.zc_nav{background:#fff;overflow:hidden; border-top: 1px solid #eee;}
+.zc_nav .zc_mednav{float:left;width:4rem; text-align:center;-webkit-box-sizing:border-box;box-sizing:border-box;background: #f6f5f5; } 
+.zc_nav .zc_mednav{overflow: auto; -webkit-overflow-scrolling: touch;}
+.zc_nav .zc_mednav li{position:relative; font-size: 0.65rem;line-height: 2.25rem;border-left: 2px solid transparent;width:100%;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;border-bottom:1px solid #eee;box-sizing: border-box;}
+.zc_nav .zc_mednav li.gps{line-height: 1.55rem;}
+.zc_nav .zc_mednav li.gps p{font-size: .5rem; line-height: 15px; margin-top: -6px; color: #15a0f8;}
+.zc_nav .zc_mednav li.active{background: #fff;position:relative;border-left: 2px solid #15a0f8;}
+.zc_nav .zc_mednav li a{width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; height: 2.25rem; }
+.zc_nav .qq{ overflow: auto;}
+.zc_nav .qq .zc_reportmain{width: 100%;}
+
+.zc_nav .zc_mednav li em.tip{     position: relative; top: 0; right: -3px; vertical-align: middle; margin-top: -3px;}
+
+/*6-14健康商城 医院医生 健康管理 图片列表 公用*/
+.zc_reportmain ul{overflow:hidden;}
+.zc_reportitem li{border-bottom:1px solid #eee;position: relative; }
+.zc_reportitem li>h2{font-size: 0.65rem;line-height:2rem;text-align: left;font-weight:normal;padding-left: 0.5rem;border-bottom: 1px solid #eee;margin-top: -1px;}
+.zc_reportitem li>h2 s{float:right; width:0.7rem; height:0.725rem; margin-top:0.5875rem;margin-right: 0.5rem; background: url(../img/zc_navbg33.png) right center no-repeat; -webkit-background-size: 100% auto;background-size: 100% auto;  -webkit-transition: all .3s ease-in-out;   transition: all .3s ease-in-out;}
+.zc_reportitem li>h2.active1 s{transform:rotate(-90deg);-ms-transform:rotate(-90deg); -moz-transform:rotate(-90deg); -webkit-transform:rotate(-90deg);-o-transform:rotate(-90deg);}
+.zc_reportitem li a{overflow:hidden;padding:.5rem .75rem; display:block;}
+.zc_reportitem li a.btn {position: absolute; top: 0.5rem; right: 0.5rem; color: #fff; text-align: center; background: #15a0f8; padding: 0 .1rem; font-size: .55rem; border-radius: 3px; vertical-align: middle; display: inline-block;}
+.zc_reportitem li a.btn2 {border-color: #f71231;background: #fff;top:3.75rem;;color: #f71231;font-size: .6rem;padding: 0.3rem;position: absolute;bottom: 0.5rem;right: .75rem;}
+.zc_reportitem li a.btn3.btn-custom11 { text-align: center; color: #15a0f8;border:1px solid #15a0f8;    padding:.2rem .5rem;margin-bottom:.5rem;margin-right: .5rem; min-width:3rem;font-size: .65rem;  border-radius: 3px; vertical-align: middle; display: inline-block;}
+.zc_reportitem li a.btn3.btn-custom4 { text-align: center; color: #ff4a00;border:1px solid #ff4a00;    padding:.2rem .5rem;margin-bottom:.5rem;margin-right: .5rem; font-size: .65rem;  border-radius: 3px; vertical-align: middle; display: inline-block;}
+.zc_reportitem li a.btn3.disabled{border: 1px solid #ebeaf0;color: #ebeaf0;}
+
+/*健康商城 图片列表 左侧有导航切换 图片大小65px */
+.zc_reportitem .y_pic{float:left;width:3.25rem;height:3.25rem;/*overflow:hidden;*/font-weight:bold;position: relative;}
+.zc_reportitem  img{width: 100%; height: 100%;}
+.zc_reportitem .y_ms{margin-left: 3.75rem;}
+.zc_reportitem .y_ms h2{line-height: .9rem;font-weight: normal;font-size: 0.7rem;overflow:hidden;margin-bottom: .2rem;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;}
+.zc_reportitem .y_ms h4{font-size: 0.65rem;  height: 1.6rem;line-height:0.8rem;font-weight:normal;overflow: hidden;margin-bottom: .2rem; color:#999; text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+.zc_reportitem .y_ms .fs20 {font-size: 0.65rem;}
+
+
+/*健康商城 图片列表 左侧无导航切换 图片大小85px */
+.zc_reportitem .y_pic1{float:left;width:4.25rem;height:4.25rem;font-weight:bold;position: relative;}
+.zc_reportitem .y_ms1{margin-left: 4.75rem;}
+.zc_reportitem .y_ms1 h2{line-height: .9rem;font-weight: normal;font-size: 0.7rem;overflow:hidden;margin-bottom: .2rem;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;}
+.zc_reportitem .y_ms1 h4{font-size: 0.65rem; height: 1.6rem; line-height:0.8rem;font-weight:normal;color:#999999;overflow: hidden;margin-bottom: .2rem;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+
+.zc_reportitem .y_ms1 h4 .btn{padding: .2rem .4rem; font-size: .65rem; }
+
+/*首页论坛 阅读数和评论*/
+.zc_reportitem .icon{font-size: 0.7rem;    color: #999;}
+.zc_reportitem .icon .subject {padding-left: .8rem;    margin-right: 0.5rem;background: url(../img/zzzc_lt.png) left center no-repeat;background-size: 33% auto;}
+.zc_reportitem .icon .comment {padding-left: .8rem;background: url(../img/zc_lt0.png) left center no-repeat;background-size: 33% auto;}
+.zc_reportitem .labalsign{border: 1px solid #ff4a00; padding: .1rem;margin-left: .2rem;border-radius: .25rem;}
+
+/*健康商城 文字列表 左侧有导航切换 */
+.zc_reportitem .tit1{font-size: 0.75rem; line-height: 2rem; text-align: left; font-weight: normal; padding-left: 0.5rem; border-bottom: 1px solid #eee; }
+.zc_reportitem .tit1 s{float:right; width:0.7rem; height:0.725rem; margin-top:0.5875rem;margin-right: 0.5rem; background: url(../img/zc_navbg33.png) right center no-repeat; -webkit-background-size: 100% auto;background-size: 100% auto;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;}
+.zc_reportitem .tit1.active s{transform:rotate(-90deg);-ms-transform:rotate(-90deg); -moz-transform:rotate(-90deg); -webkit-transform:rotate(-90deg);-o-transform:rotate(-90deg);}
+
+.zc_reportitem .y_ms2 h2{line-height: .9rem;font-weight: normal;font-size: 0.7rem;overflow:hidden;margin-bottom: .2rem;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;}
+.zc_reportitem .y_ms2 h4{font-size: 0.65rem;height: 1.6rem; line-height:0.8rem;font-weight:normal;color:#999999;overflow: hidden;margin-bottom: .2rem;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+
+/*两行文字 图片大小45px  单行文本 超过省略号显示 如 家庭医生的推荐药品*/
+.zc_reportitem .y_pic3{float:left;width: 2.25rem;height: 2.25rem;font-weight:bold;position: relative;}
+.zc_reportitem .y_ms3 h2{line-height: .9rem;font-weight: normal;font-size: 0.7rem;overflow:hidden;margin-bottom: .2rem;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;}
+.zc_reportitem .y_ms3{margin-left: 2.75rem;    margin-top: .2rem;}
+.zc_reportitem .y_ms3 h4{ font-size: 0.65rem;line-height:0.9rem; max-height: 1.8rem; font-weight:normal;color:#999999;overflow: hidden;margin-bottom: .2rem;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+.zc_reportitem .y_ms3 .level{color: #fff; text-align: center; background: #15a0f8; padding: 0 .1rem; font-size: .55rem; border-radius: 3px; vertical-align: middle; display: inline-block; /* margin-left: .3rem; */ margin-top: -.2rem; }
+
+/*健康商城 文字列表 只有一级导航 */
+.zc_reportitem li a.name{font-size: .7rem; padding: .5rem 0; text-align: center; }
+
+/*账户-我的药品-带选择*/
+.zc_reportitem li .choose{overflow:hidden;padding:.5rem 1.5rem .5rem .75rem; }
+
+/*医院医生页面 国内医院 */
+.h_hospitallist .item{padding: .7rem 0;display: block;width: 50%;border-bottom: 1px solid #eee;border-right: 1px solid #eee;-moz-box-sizing: border-box;float: left;text-align: center;font-size: 0.65rem;box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;}
+.h_hospitallist .item img{display: block; width: 2.75rem; height: 2.75rem; margin: 0 auto; margin-bottom: 0.5rem; border-radius: 50%; }
+
+/*首页-健康画像-常规体检报告*/
+.zc_reportitem ul.status{margin-bottom: .35rem;}
+.zc_reportitem ul.status li{position:relative;margin: 0.5rem .5rem .5rem .5rem;-webkit-border-radius:0.2rem;border-radius:0.2rem;-webkit-box-sizing:border-box;box-sizing:border-box;}
+/*用户诊断是添加报告勾选*/
+.zc_reportitem ul.status li.w83{border-bottom: none;}
+.zc_reportitem ul.status li.w83 a{width: 83%;}
+
+.zc_reportitem ul.status li a{overflow:hidden;color:#fff;-webkit-box-sizing:border-box;background:#10beff;-webkit-border-radius:0.2rem;border-radius:0.2rem;box-sizing:border-box;font-size: .7rem;display: block;}
+.zc_reportitem ul.status li p{font-size: 0.7rem;font-weight: normal;white-space: nowrap;text-overflow: ellipsis;width: 100%;overflow: hidden;line-height: 1rem;}
+
+.zc_reportitem .link_t{margin: 1.75rem .75rem .75rem;font-weight: normal;font-size: .8rem;}
+.zc_reportitem .link{font-size: .75rem;display: block;margin-bottom:0.25rem; color: #666;line-height: 1.5rem;}
+
+.zc_reportitem .apply,.y_doctorms .apply{display:block;position: relative;zoom: 1;overflow: hidden;}
+.zc_reportitem .item,.y_doctorms .item{ overflow: hidden;  position: relative; }
+.zc_reportitem .addit,.y_doctorms .addit{display: inline; border-bottom: 1px solid #eee;width: 0; position: absolute; height: 100%; top: 0px; right: 0px; background: #ff4b4b;color: #fff; font-size: .75rem; text-align: center;}
+
+/*图片列表 新增小图标 按钮 样式*/
+.zc_reportitem .chufang{width: 3.25rem;height: 1rem;line-height: 1rem;font-size: .5rem;position: absolute;top: .25rem;left: -.75rem;text-align: center;background: #15a0f8;color: #fff;transform:rotate(-45deg); -ms-transform:rotate(-45deg); /* Internet Explorer */ -moz-transform:rotate(-45deg); /* Firefox */ -webkit-transform:rotate(-45deg); /* Safari 和 Chrome */ -o-transform:rotate(-45deg); /* Opera */ }
+.zc_reportitem .new{width: 3.25rem;height: 1rem;line-height: 1rem;font-size: .5rem;position: absolute;top: .25rem;left: -.75rem;text-align: center;background: #fe8f00;color: #fff;transform:rotate(-45deg); -ms-transform:rotate(-45deg); /* Internet Explorer */ -moz-transform:rotate(-45deg); /* Firefox */ -webkit-transform:rotate(-45deg); /* Safari 和 Chrome */ -o-transform:rotate(-45deg); /* Opera */ }
+
+.zc_reportitem li span.btn {color: #fcb303; padding: 0; font-size: .5rem; display: block; text-align: left;} /*医院等级*/
+.zc_reportitem .bm{position: absolute; top: 2rem; right: 0.75rem; font-size: .7rem; }
+.zc_reportitem .bg{background: url(../img/nav_bg.png) 95.4% center no-repeat; background-size: 2.5% auto;}
+.zc_reportitem em.tip{right: -0.34rem; top: -0.3rem;}/*右上圆点*/
+.zc_reportitem em.tip2{ position: absolute; left: -.75rem; top: 2rem;}
+.zc_reportitem h4.line1,.zc_reportitem  h2.line1{-webkit-line-clamp:1 !important; height: .8rem !important} /*一行显示*/
+.zc_reportitem h4.line2,.zc_reportitem  h2.line2{-webkit-line-clamp:2 !important; } /*两行显示*/
+.zc_reportitem h4.f_clr66{ color: #666;}
+
+.zc_reportitem .icon3{position: absolute; top: .6rem; right: 0; font-size: .7rem; width: 1rem; height: 1rem; padding: .5rem; background: url(../img/cart2.png) center no-repeat; -webkit-background-size: 50% auto; background-size: 50% auto; }
+.zc_reportitem .bm3{position: absolute; top: 1rem; right: .75rem; font-size: .7rem; color: #15a0f8; border: 1px solid #15a0f8; padding: 0 .35rem; text-align: center; line-height: 1.2rem; border-radius: 3px; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
+.zc_reportitem .bm3.cur{border: 1px solid #fcb303; color: #fcb303;}
+.zc_reportitem .bm4{position: absolute; top: .7rem; right: .75rem; font-size: .7rem;}
+.zc_reportitem .y_ico {float: right;/* margin: 0.625rem 0.625rem 0 0; */width: 0.9rem;height: 0.9rem;background: url(../img/m_radio.png) right center no-repeat;-webkit-background-size: 50% auto;background-size: 50% auto;position: absolute;top: 1rem;right: .75rem;padding: .75rem;}
+.zc_reportitem .y_ico.active {background: url(../img/m_radio1.png) right center no-repeat;-webkit-background-size: 50% auto;background-size: 50% auto;}
+
+.zc_reportitem .zh .y_ms1 h4 p{ font-size: .65rem;    display: inline-block;}
+
+.zc_reportitem p.edit_btn{position: relative; bottom: .3rem; right: .75rem;margin-top: .5rem; overflow:hidden;}
+.zc_reportitem p label.btn.btn-sm{ padding: 0.2rem 0.3rem; margin-left:.35rem;}
+
+
+	/*我的药品库 处方药*/
+.zc_reportitem  h4 label.level{color: #fff; text-align: center; background: #15a0f8; padding: 0 .1rem; font-size: .55rem; border-radius: 3px; vertical-align: middle; display: inline-block; /* margin-left: .3rem; */ margin-top: -.2rem; }
+	/*我的课件 时间*/
+.zc_reportitem .time {padding: .1rem.2rem; text-align: center; font-size: .6rem; color: #fff; position: absolute; right: 0; bottom: 0; background: rgba(0,0,0,.5); }
+
+/*健康检查 分类*/
+.health_ass .zc_reportitem{margin-left: .5rem; }
+.health_ass .zc_reportitem li{width: 50%; float: left; border-bottom:none; position:relative; }
+.health_ass .zc_reportitem li a{padding: 0; margin: .5rem .5rem 0rem 0rem; box-sizing: border-box; }
+.health_ass .health_ass_three li{width: 100%;}
+.health_ass .health_ass_three li a{width: 33.33%;padding: 0.5rem 0 .2rem;text-align: center; border-right: 1px solid #eee;box-sizing: border-box;border-bottom: 1px solid #eee; margin: 0 0 -1px 0;}
+.health_ass .health_ass_two li{width: 100%;}
+.health_ass .health_ass_two li a{width: 100%;padding: 0.5rem .35rem .2rem;text-align: left; border-right: 1px solid #eee;box-sizing: border-box;border-bottom: 1px solid #eee; margin: 0 0 -1px 0;}
+
+.health_ass .zc_reportitem li  em.tip{    right: .2rem; top: .2rem;}
+
+
+/*国内医院 左侧导航 手风琴 样式*/
+.zc_mednav2 li{border-left: none !important; border-bottom: 1px solid #d7d7d7 !important;}
+.zc_mednav2 li.active{ border-left: none !important;}
+.zc_mednav2 li span{display: block;background: #eaeaea;}
+.zc_mednav2 li span.active{     color: #15a0f8;}
+.zc_mednav2 li span .next {display: inline-block;width: 0.7rem;height: 0.7rem;background: url(../img/nav_bg.png) center no-repeat;-webkit-background-size: 40% auto;background-size: 40% auto;-webkit-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;vertical-align: middle;}
+.zc_mednav2 li span.active .next{transform: rotate(90deg);-ms-transform: rotate(90deg);-moz-transform: rotate(90deg);-webkit-transform: rotate(90deg);-o-transform: rotate(90deg);}
+.zc_mednav2 .list p{font-size: .7rem;border-top: 1px solid #eee;border-left: 2px solid transparent;background: #f6f5f5;}
+.zc_mednav2 .list p.active{border-left: 2px solid #15a0f8;color: #15a0f8;background: #fff;}
+
+/*评估诊断  右侧按钮切换切换 */
+.btn_toggle{margin: .75rem .75rem 0 .75rem;}
+.btn_toggle .btn{margin-bottom: .5rem; font-size: .7rem; padding: .15rem 1rem; margin-right: .5rem; line-height: .8rem; }
+.btn_toggle .btn span{display: block;}
+

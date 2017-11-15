@@ -1,0 +1,251 @@
+/*体检报告详情*/
+.y_abnormal{display:inline-block;vertical-align:middle;margin:-3px 0 0 0.4rem;position:relative;line-height:0.6rem;padding:0.1rem;text-align:center;font-size:0.45rem;background:#ff4848;color:#fff;-webkit-border-radius:1px;border-radius:1px;text-decoration:none;}
+.y_abnormal:before{content:"";position:absolute;width:0;height:0;left:-8px;top:50%;margin-top:-4px;border-width:4px;border-style:solid;border-color:transparent #ff4848 transparent transparent;}
+.y_abnormal_lt{margin:-3px 0.4rem 0 0;}
+.y_abnormal_lt:before{left:auto;right:-8px;border-color:transparent transparent transparent #ff4848;}
+.zc_set{width: 1.1rem;position:absolute;right:4.68%;top:50%;color:#fff;font-size:0.6rem;-webkit-transform:translateY(-50%);transform:translateY(-50%);}
+.zc_all{display: none;}
+.active{display: block;}
+
+/* 5-25肝报告详情*/
+.y_reptvwnav .y_reportslide .y_ico{display:none;width:0.4rem;height:0.725rem;vertical-align:middle;margin:-2px 0 0 10px;background: url(../img/nav_bg.png) right center no-repeat; -webkit-background-size: 100% auto;background-size: 100% auto;transform:rotate(90deg);-ms-transform:rotate(90deg); -moz-transform:rotate(90deg); -webkit-transform:rotate(90deg);-o-transform:rotate(90deg);}
+.y_reptvwnav .y_reportslide .y_ico.active{transform:rotate(-90deg);-ms-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-webkit-transform:rotate(-90deg);-o-transform:rotate(-90deg);}
+.y_reptvwnav .y_reportslide.active .y_ico{display:inline-block;}
+.y_reptwolist{margin-bottom:0.5rem;width:100%;overflow:hidden;background:#fff;border-top:1px solid #ccc;display:none;}
+.y_reptwolist li{float:left;width:33.33%;text-align:center;}
+.y_reptwolist li a{display:block;border-right:1px solid #ccc;height:1.9rem;line-height:1.9rem;border-bottom:1px solid #ccc;font-size:0.65rem;}
+.y_reptwolist li:nth-child(3n) a{border-right:none;}
+	
+	/*报告详情表格*/
+.y_repbox{margin-top: .35rem;}
+.y_repbox table{width:100%;border-collapse:collapse;}
+.y_repbox table th{background:#fff;color:#333333;height:1.5rem;font-size:0.6rem;border-left:1px solid rgba(255,255,255,0.5)}
+.y_repbox table td{background:#fff;height:1.95rem;padding:0 0.1rem;border-top:1px solid #eee;border-left:1px solid #eee;border-bottom:1px solid #f2f2f2;font-size: 0.65rem;text-align:center;}
+.y_repbox h3{font-size: 0.7rem;color: #15a0f8;text-align: left;font-weight: normal;margin-top: .35rem;padding: 0 4.6%;line-height: 1.75rem;background: #fff;}
+.y_repbox .pic{padding: .35rem 4.6% 0; margin: 0 auto; background: #fff; border-top: 1px solid #eee; }
+.y_repbox .pic p{font-size: 0.6rem;text-align: center;padding-bottom: 0.3rem;}
+.y_repbox .pic img{margin-bottom: 0.5rem;}
+.y_repbox .note{font-size: 0.6rem;}
+.y_repbox .red{color: red;}
+.zc_reportsummary{background: #fff;text-align: right;padding: 0.5rem;font-size: 0.8rem;}
+.y_repbox .form-control{text-align: center; border:none;}
+
+	/*总检结论*/
+.y_departit{width:90%;position:relative;margin:1.2rem auto 0;border-top:1px solid #eee;text-align:center;}
+.y_departit h2{display:inline-block;position:relative;background:#f2f2f2;padding:0 0.35rem;font-size:0.75rem;color:#999;font-weight:normal;top:-0.56rem;}
+.y_departit_2{border-color:#15a0f8}
+.y_departit_2 h2{color:#15a0f8}
+.y_repvwitem{background:#fff;border-top:1px solid #eee;border-bottom:1px solid #eee;margin-bottom:0.5rem;}
+.y_repvwitem .y_departit{padding:0 4.68%;height:1.9rem;line-height:1.9rem;border-bottom:1px solid #eee;}
+.y_repvwitem .y_departit h3{float:left;font-size:0.75rem;}
+.y_repvwitem .y_departit .y_errortit{float:right;font-size:0.55rem;}
+.y_repvwitem .y_departit .y_errortit b{color:#ff4343}
+.y_replist{padding:0 4.68%;}
+.y_replist li{border-top:1px dotted #ccc;font-size:0.6rem;overflow:hidden;}
+.y_replist li:first-child{border:none;}
+.y_replist li .y_project{float:left;padding:0.5rem 0;}
+.y_replist li .y_result{float:right;padding:0.5rem 0;}
+.y_replist li > a{display:block;overflow:hidden;background:url(../img/nav_bg.png) right center no-repeat;-webkit-background-size:0.4rem auto;background-size:0.4rem auto;}
+.y_repvwitem footer{margin:0 4.68%;border-top:1px solid #eee;padding:0.5rem 0;text-align:right;font-size:0.6rem;font-weight:bold;}
+.y_repli_link li .y_project{width:47%;}
+.y_repli_link li .y_result{width:50%;}
+.y_replist li .y_flat{color:red;font-size:0.6rem;margin-left:0.2rem;}
+.y_replist li .y_normalsize{font-size:0.5rem;color:#999}
+.y_repli_text li .y_project{width:34%;}
+.y_repli_text li .y_result{width:66%;}
+
+/*常规报告详情*/
+.m_age{background:#51c092; height:5.25rem; text-align:center;color:#fff; padding-top:2.25rem; margin-bottom:0.5rem;}
+.m_age p{font-size:1.8rem; line-height:1.85rem; }
+.m_age h2{font-size: 0.6rem; font-weight:normal;}
+.administration_age h3{  cursor: pointer;border-bottom: 1px solid #eee;border-top: 1px solid #eee;font-size: 0.7rem; font-weight: normal;padding: 0 4.5%;height: 1.9rem;line-height: 1.9rem;background: #fff;}
+.administration_age h3 a{display:block;}
+.administration_age h3 s{float: right;width: 0.4rem;height: 0.725rem; margin-top: 0.5875rem; background: url(../img/nav_bg.png) right center no-repeat;-webkit-background-size: 100% auto;background-size: 100% auto;}
+.administration_main{background:#fff; text-align:center; padding:1.25rem 0; border-bottom:1px solid #eee; margin-bottom:0.5rem;}
+.administration_main .m_span{ display:inline-block; vertical-align:middle;text-align:center; margin-right:2.7rem; font-size:1.45rem; color:#fff; height:4.45rem; line-height:4.45rem; background:#e9b22b; border-radius:50%; width:4.45rem;}
+.administration_main .m_span1{font-size:1.45rem; color:#bbb; display:inline-block; vertical-align:middle;}
+.organ_age{margin-bottom:0.5rem;}
+.organ_age .m_span{background:#bbbbbb;  display:inline-block; vertical-align:middle;text-align:center;  font-size: 0.9rem; color:#fff; height:3.07rem; line-height:3.07rem; border-radius:50%; width:3.07rem;}
+.organ_main{background:#fff; border-bottom: 1px solid #eee; padding:1.25rem 0;}
+.organ_age .organ_main p{font-size: 0.6rem; margin-top:0.35rem;}
+.organ_age .organ_main .fl,.organ_age .organ_main .fr{text-align:center;}
+.organ_age .organ_main .fr span{background:#ff4848;}
+.organ_age .organ_main .itme{width:51%; margin:0 auto;}
+.organ_age .organ_main .m_itme{width:82%; margin-top:0.625rem;}
+.organ_age .organ_main .m_itme div:nth-child(2){ margin:0 1.9rem;}
+.organ_age .organ_main .m_itme span{background:#51c092;}
+.m_obesity{border-top:1px solid #eee; overflow:hidden; zoom:1; margin:1.25rem 4.6% 0 4.6%; padding:1.25rem 2.45rem 0;}
+.m_obesity .fl {text-align:center;}
+.m_obesity .fl .m_span{display: inline-block; background:#51c092; margin:0px; vertical-align: middle;text-align: center;font-size: 0.9rem; color: #fff;height: 3.07rem;line-height: 3.07rem;border-radius: 50%;width: 3.07rem;}
+.administration_main .m_obesity  p{font-size: 0.6rem; margin-top:0.35rem;}
+.m_analysis{background:#fff;}
+.m_analysis h3{    cursor: pointer;border-bottom: 1px solid #cccccc;border-top: 1px solid #eee;font-size: 0.7rem;font-weight: normal;padding: 0 4.5%;height: 1.9rem;line-height: 1.9rem;background: #fff;}
+.m_analysis_tit{padding:0 4.6%; }
+.m_analysis_tit .tit{border-bottom: 1px solid #eee;}
+.m_analysis_tit h4{ font-size: 0.65rem; color:#15a0f8; padding:0.65rem 0; font-weight:normal;}
+.m_analysis_tit p{font-size: 0.6rem; line-height:0.95rem; margin-bottom:0.825rem;}
+
+/*肥胖体型年龄明细*/
+.m_prompt{margin:1rem 4.6% 0; padding:0.85rem 0 0; border-top:1px dashed #eee; text-align:center; color:#ff4848;}
+.m_customized{background:#fff;}
+.m_customized h3{cursor: pointer;border-bottom: 1px solid #eee;border-top: 1px solid #eee;font-size: 0.7rem;font-weight: normal;padding: 0 4.5%;height: 1.9rem;line-height: 1.9rem;background: #fff;}
+.m_customized ol{padding:0.75rem 4.6%;} 
+.m_customized ol li{font-size: 0.6rem; padding-left:0.75rem; line-height:1.15rem; background:url(../img/m_customized.png) 0 0.45rem no-repeat;-webkit-background-size:0.3rem auto;background-size:0.3rem auto;}  
+.m_customized .m_customized_tit h4{font-size: 0.65rem; font-weight:normal; color:#15a0f8; padding:0 4.6%; margin-top:0.5rem;}
+.m_customized .m_customized_tit ol{border-bottom:1px solid #ccc; padding:0.5rem 4.6%;}
+.m_customized .m_customized_tit li a{color:#fcb303;}
+.m_customized .m_customized_tit li a.color_1{color:#2087f0; text-decoration: underline;}
+
+/*医学生理年龄明细*/
+.age_detail{ padding:0 4.6%; background:#fff; border-bottom: 1px solid #eee;    margin-bottom: 0.5rem;}
+.age_detail h2{font-size: 0.7rem; font-weight:normal; height:2rem; line-height:2rem; border-bottom: 1px solid #eee; }
+.age_detail .table_tit{width:100%; overflow:hidden; zoom:1;}
+.age_detail .table_tit span{border-bottom:1px solid #ccc; line-height:1.75rem;font-size: 0.65rem; float:left;}
+.age_detail .table_tit span:nth-child(1){width:42%;}
+.age_detail .table_tit span:nth-child(2){width:25%;}
+.age_detail .table_tit span:nth-child(3){width:33%;}
+
+.age_detail_mian{ border-right:1px solid #ccc;  margin:0.6rem 0 1rem; width:78%;}
+.age_detail_mian .clearfix {position:relative; margin-bottom:.2rem;}
+.age_detail_mian .clearfix span{float:left;}
+.age_detail_mian .clearfix .span1{position:absolute; right:-1.5rem;top:0px; background:#ff4848;}
+.age_detail_mian .clearfix span:nth-child(1){width:53%;}
+.age_detail_mian .clearfix span:nth-child(2){width:13%; text-align:center;}
+.age_detail_mian .clearfix span:nth-child(3){ color:#fff;width:1.5rem; height:0.8rem; text-align:center;  line-height:0.8rem; font-size: 0.5rem;}
+.age_detail_mian .clearfix .span2{position:absolute; right:0px; top:0px; background:#51c092;}
+.m_customized_list{border-bottom:1px solid #ccc; margin:0 4.6%; padding:0.5rem 0;}
+.m_customized_list p{ padding-left:0.75rem; line-height:1.15rem;font-size: 0.6rem; background:url(../img/m_customized.png) 0 0.45rem no-repeat;-webkit-background-size:0.3rem auto;background-size:0.3rem auto;}
+.m_customized_tit .m_customized_list .btn{color:#fcb303; border-color:#fcb303; margin:0.5rem 0;}
+.m_plan .m_customized_tit ol{padding: 0.5rem 0%; margin:0 4.6%;}
+
+
+/*异常指标*/
+.y_flatico{display:inline-block;vertical-align:middle;margin:-3px 0.2rem 0 0;width:0.4rem;height:0.55rem;background:url(../img/y_topbottom2.png) 0 0 no-repeat;-webkit-background-size:100% auto;background-size:100% auto;}
+.y_flatico.y_flatico_top{background-position:0 bottom;}
+.y_reptextlist{background:#fff;padding:4.68%;border-top:1px solid #eee;border-bottom:1px solid #eee;margin-bottom:0.5rem;}
+.y_reptextlist li{font-size:0.6rem;padding:0.2rem 0;}
+.y_reptextsug{background:#fff;padding:4.68%;border-top:1px solid #eee;border-bottom:1px solid #eee;margin-bottom:0.5rem;}
+.y_reptextsug dl{margin-bottom:0.5rem;}
+.y_reptextsug dt{font-size:0.6rem;margin-bottom:0.2rem;}
+.y_reptextsug dd{font-size:0.6rem;padding-left:0.5rem;}
+.y_wanstext{font-size:0.6rem;color:red;text-align:center;padding:0.85rem 1rem;}
+
+/**5-24 首页-基因检测报告***/
+.y_wanstext{font-size:0.6rem;width:100%;line-height:1.6rem;padding:1rem 0;color:#999;text-align:center;position: fixed;bottom: 0;background: #f2f2f2;}
+.y_wanstext_t{font-size:0.6rem;width:100%;line-height:1.6rem;padding:1rem 0;color:#999;text-align:center;background: #f2f2f2;}
+
+.zc_genereport li{margin-top: 0.35rem;background: #fff;padding: 0 4.6%;}
+.zc_genereport .zc_genereportlist{padding-top: 4.6%; background: url(../img/nav_bg.png)  right  no-repeat;background-position-y: 45%; -webkit-background-size: auto 20%;background-size: auto 20%;}
+.zc_genereport .zc_genereportlist .pic{width: 2.75rem;height: 2.75rem;overflow: hidden;}
+.zc_genereport .zc_genereportlist .pic img{width: 2.75rem;}
+.zc_genereport .zc_genereportlist .tit{/* width: 76%; */float: inherit;/* margin-left: 3.05rem; */margin-right: 1rem;}
+.zc_genereport .zc_genereportlist .tit h1{font-weight: normal;font-size: 0.75rem;/* line-height: 1.5rem; */}
+.zc_genereport .zc_genereportlist .tit h2{font-weight: normal;font-size: 0.7rem;color: #999999;}
+.zc_genereport .zc_schedule{font-size: 0.65rem;color: #999999;padding: 0.65rem 0;}
+.zc_genereport .zc_schedule .zc_schedule_p{width: 2.2rem;}
+.zc_genereport .zc_schedule .zc_schedule_s{font-size: 0.65rem;width: 10.5rem;height: 0.85rem;line-height: 0.9rem;color: #fff;border-radius: 3px;text-align: center;}
+.zc_genereport .zc_schedule .zc_schedule_t{font-size:0.5rem; height: 0.85rem;width: 80%;}
+.zc_genereport .zc_schedule .zc_schedule_t span{display: inline-block;height: 0.85rem;border-radius: 3px;text-align: center;margin-right: 3%;}
+.zc_genereport .zc_schedule .zc_schedule_t .span_two{width: 45%;}
+.zc_genereport .zc_schedule .zc_schedule_t .span_three{width: 29%;}
+.zc_genereport .zc_schedule .zc_schedule_t .span_four{width: 20.5%;}
+.zc_genereport .zc_schedule .background{background:url(../img/dui.png)  center no-repeat #ffbe33;-webkit-background-size: auto 90%;background-size: auto 90%;width: 76%;}
+.zc_genereport .zc_schedule .bgea{background: #eaeaea;    width: 76%;}
+.zc_genereport .zc_schedule .bggreen{background: #29c78a;    width: 76%;}
+.zc_genereport .zc_schedule .bgyellow{background: #ffbe33;}
+
+.zc_genereport .zc_reportcue p{text-align: center;font-size: 0.7rem;padding-top: 2rem;}
+.zc_genereport .zc_reportcue a{color: #179aff;}
+
+@media screen and (max-width:320px){
+	.zc_genereport .zc_genereportlist .tit{/* width: 70%; */}
+	.zc_genereport .zc_genereportlist .tit h1{line-height: 1rem;}
+}
+
+
+/* 5-25免疫报告 */
+.im_genereportlist{height:2.2rem;line-height:2.2rem;font-size:0.7rem;/* padding-right: .5rem; */display:block;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
+.im_genereportlist_link{font-weight:normal;background: url(../img/nav_bg.png) 100% center no-repeat;-webkit-background-size: 0.4rem auto;background-size: 0.4rem auto;border-top:1px solid #f3f3f3;border-top:1px solid #f3f3f3;}
+.im_genereportlist.bg{background: url(../img/nav_bg.png) 100% center no-repeat;-webkit-background-size: 0.4rem auto;background-size: 0.4rem auto;border-top:1px solid #f3f3f3;border-top:1px solid #f3f3f3;}
+.im_wrap  s,.im_inoculate s ,.im_wait_wrap s,.h_im_inoculate s{float:left;margin: 0.65rem 0;height: 0.9rem;width: 0.9rem;background: none;-webkit-background-size: 100% auto;background-size: 100% auto;margin-right:0.5rem;}
+.im_wrap  s.active,.im_inoculate  s.active,.im_wait_wrap s.active,.h_im_inoculate s.active {background: url(../img/default.png) 0 center no-repeat;-webkit-background-size: 100% auto;background-size: 100% auto;}
+.h_im_inoculate s.unactive {background: url(../img/undefault.png) 0 center no-repeat;-webkit-background-size: 100% auto;background-size: 100% auto;}
+
+.im_genereportlist .logo {width: 1.4rem;height: 1.4rem;margin: .4rem 0 0 0;}
+
+/*5-25免疫报告-我的免疫报告 */
+.im_describe{color:#fff;margin:1rem .75rem;background-color:#20cc83;border-radius: 0.2rem;padding: .75rem .75rem.3rem;}
+.im_describe1{ height: auto; padding: .65rem 4%;}
+.im_describe b{font-size: 0.75rem;}
+.im_describe .im_type{font-size: 0.7rem;}
+.im_describe p{font-size: 0.7rem;margin:.65rem 0 .65rem 0;}
+.im_inoculate{background-color:#fff;padding:0 4.6%;}
+.im_inoculate div{font-size:0.7rem;}
+.im_inoculate ul li span{font-size: 0.65rem;color:#999;float:left;}
+.im_inoculate ul li input{float:right;width:74%;height:2.2rem;line-height:2.2rem;border:none;font-size: 0.65rem;}
+.im_inoculate div,.im_inoculate ul li{height:2.2rem;line-height:2.2rem;border-bottom:1px solid #eee;}
+.im_wait_wrap{height:2.2rem;line-height:2.2rem;font-size:0.7rem; background: #fff}
+.in_wait_order a{color:#179aff;}
+.y_header .im_set {position: absolute;right: 4.68%;top: 50%;color: #fff;font-size: 0.7rem;-webkit-transform: translateY(-50%);transform: translateY(-50%);}
+.in_wait_order input.fl{border: none; width: 35%; font-size: 0.55rem; background-color: #fff; height: 2.2rem; line-height: 2.2rem; }
+
+.h_im_inoculate .text_l_w {width: 70%;}
+
+/* 医生报告-电话咨询报告详情 */
+.y_doctorms {padding: .65rem 0% 0;overflow: hidden;background: #fff;line-height: .85rem; border-bottom: 1px solid #eee; position: relative;}
+.y_doctorms a{ overflow: hidden; display: inline-block;width: 100%;}
+.y_doctorms dt,.y_doctorms .pic {float:left;width:3rem;height:3rem;margin-left:.75rem;border-radius: 50%;/* overflow: hidden; */margin-bottom: .65rem;position: relative;}
+.y_doctorms dt img , .y_doctorms .pic img{width:100%;border-radius: 50%;}
+.y_doctorms  span.tj{color: #fff; text-align: center; background: #fcb303; padding: 0 .1rem; font-size: .55rem; position: absolute; left: .2rem; bottom: -1px; line-height: .8rem; }
+.y_doctorms dd , .y_doctorms .ms{margin-left:4.25rem;margin-right:4.6%;line-height:.95rem;}
+.y_doctorms .name {font-size: 0.75rem;color:#333;}
+.y_doctorms .name .f_clr66{font-size: .65rem;margin: 0 0 0 .2rem;}
+.y_doctorms .name .level{color: #fff;text-align: center;background: #15a0f8;padding: 0 .1rem;font-size: .55rem;border-radius: 3px;vertical-align: middle;display: inline-block;margin-left: .3rem;margin-top: -.2rem;}
+.y_doctorms .name  .level1{color: #fcb303;text-align: center;border:1px solid #fcb303;padding: 0 .1rem;font-size: .55rem;border-radius: 3px;vertical-align: middle;display: inline-block;margin-left: .3rem; }
+.y_doctorms p {font-size: .65rem;color: #666;}
+.y_doctorms .hos_name {margin: .05rem 0;}
+.y_doctorms .skill_one {overflow:hidden;font-size: .65rem;color: #999;margin-bottom: .35rem;}  /*列表页 描述 一行显示 类名 skill  详情页全部展示 类名改为 skill_one*/
+.y_doctorms .skill {overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; font-size: .65rem; color: #999; margin-bottom: .35rem;}
+.y_doctorms .skill.f_color3{ color:#ff9900;}
+
+.h_tel_code{ overflow: hidden; background: #fff;}
+.h_tel_code  s.del{display: inline-block; width: 13px; height: 16px; float: right; margin: .5rem 0; background: url(../img/del2.png) 0 center no-repeat; -webkit-background-size: 100% auto; background-size: 100% auto; }
+.h_tel_code .txt{padding: .75rem 0 .35rem;background: #fff; }
+.h_tel_code .txt p{font-size: .65rem; padding: 0 .7rem;margin-bottom: .1rem; }
+.h_tel_code .txt span{font-size: .65rem; padding: 0 .75rem; color: #999}
+
+
+.y_orderltbtnbx{padding: .4rem 4.6%; width: 90.8%; background: #fff;overflow: hidden;text-align: center;}
+.y_orderltbtnbx .btn{min-width:4.5rem;margin-left:0.5rem;}
+
+/* 基因报告-报告详情 */
+.h-reportdetails{background: #fff;padding: 0 .75rem;overflow: hidden;display: block;}
+.h-reportdetails h2{text-align: center;font-size: 1rem;border-top: 1px solid #666;padding-top: .6rem;margin: 2rem 0 1rem 0;font-weight: normal;}
+.h-reportdetails p{clear: both; font-size: .7rem; color: #333; line-height: 1.25rem; letter-spacing: 1px; }
+.h-reportdetails p .f_color4{ color:#e7aa05;}
+.h-reportdetails p.f_color_no{ line-height:1rem; margin-top:.35rem; color:#666;}
+.h-reportdetails em{display: inline-block; width: 0.3rem; height: 0.3rem; border-radius: 50%; vertical-align: middle; margin: -2px 5px 0 0.5rem; }
+.h-reportdetails em.red{ background:#ff604c;}
+.h-reportdetails em.yellow{ background:#e7aa05;}
+
+.h-reportdetails .table{overflow: scroll; }
+.h-reportdetails .table span{width: 3rem;box-sizing:border-box;border-right: 1px solid #e7e7e7;display: inline-block;text-align:center;float: left;border-bottom: 1px solid #e7e7e7;color: #666;font-size: .55rem;}
+.h-reportdetails .tit{overflow: hidden;font-size:.5rem;color:#fff;}
+.h-reportdetails .tit span{background: #10adff; color: #fff; display: inline-block; border-bottom: none; word-wrap: break-word; height: 1.2rem; line-height:1.2rem; }
+.h-reportdetails .content label{display: inline-block; font-size: .55rem; padding: 0 1px; margin: 0 auto; min-width: 3rem; border-radius: 3px;}
+.h-reportdetails .content b{ display:block;}
+.h-reportdetails .content .list{line-height: 2.2rem;font-size:.5rem;clear:both;overflow: hidden;box-sizing: border-box;}
+.h-reportdetails .content label.active{color: #fff; border-color: #ff4a00; background:#ff4a00; }
+.h-reportdetails .content span.first{line-height: 1rem;}
+.h-reportdetails .table span.f_color1{color: #ff604c;}
+.h-reportdetails .table span.f_color{ color:#6cb828;}
+
+.h-reportdetails .content .des{clear:both;overflow: hidden;border-bottom: 1px solid #e7e7e7;background: #fff;z-index: 222;}
+.h-reportdetails .content .des h4{background:#cddeee;line-height:.75rem;text-align:center;font-size:.4rem;font-weight:normal;display: none;}
+.h-reportdetails .content .des p{font-size:.45rem;line-height: 1rem;width: 14rem;border: 1px solid #ff4a00;box-sizing: border-box;}
+.h-reportdetails .content span{height:2.2rem;     word-break: break-all;}
+.h-reportdetails .y_repbox table{     border-right: 1px solid #eee;}
+.h-reportdetails .y_repbox table th{     border-top: 1px solid #eee; border-left: 1px solid #eee; border-bottom: 1px solid #f2f2f2;}
+
+.h-reportdetails .h_table{position:relative;overflow: scroll;border-left: 1px solid #e7e7e7;}
+.h-reportdetails .table2{position: absolute; top: 0; }

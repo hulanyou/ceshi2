@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+<title>云朵医疗-资料修改</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-touch-fullscreen" content="YES">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+<meta name="HandheldFriendly" content="true" />
+<meta name="MobileOptimized" content="320" />
+<meta name="format-detection" content="telephone=no" />
+<link rel="stylesheet" href="css/global.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/member.css" type="text/css" media="screen" />
+<link href="css/mobiscroll_date.css" rel="stylesheet" />
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/init.js"></script>
+</head>
+<body>
+<artical class="choose">		
+	<!--头部-->
+	<header class="y_header">
+		<a onclick="javascript:history.back(-1);" class="y_back"></a>
+		<h1>资料修改</h1>
+	</header><!--头部 end-->
+	<!--资料列表-->
+	<section class="h_testtit">
+		<div class="clearfix">
+			<span class="fl">医生头像</span>
+			<span class="fr">
+				<label class="fr">
+					<img src="../img/adimg1/personal_data.jpg" class="logo">
+					<input style="display:none;" type="file" capture="camera" accept="image/*" name="cameraInput">
+				</label>
+			</span>
+		</div>
+		<div class="clearfix">
+			<span class="fl">医生姓名</span>
+			<span class="fr f_color_no">张三</span>
+		</div>
+		<div class="clearfix  ">
+			<span class="fl">医生职称</span>
+			<span class="fr f_color_no">主任医师</span>
+		</div>
+		<div class="clearfix  ">
+			<span class="fl">所在医院</span>
+			<span class="fr f_color_no">北京协和医院</span>
+		</div>
+		<div class="clearfix ">
+			<span class="fl">所在科室</span>
+			<span class="fr f_color_no">心血管内科</span>
+		</div>
+		<div class="clearfix">
+			<span class="fl">开户银行</span>
+			<span class="fr f_color_no">工商银行</span>
+		</div>
+		<div class="clearfix">
+			<span class="fl">银行账号</span>
+			<span class="fr f_color_no">222121112221211</span>
+		</div>				
+
+	</section><!--资料列表 end-->
+	<!--编辑资料-->
+	<div class="h_testtit">
+		<div class="clearfix background m_mt20 sct">
+			<span class="fl">个人简介</span>
+			<span class="fr mr6"></span>
+		</div>		
+		<div class="clearfix background sct">
+			<span class="fl">擅长领域</span>
+			<span class="fr mr6"></span>
+		</div>
+		<div class="clearfix background sct">
+			<span class="fl">教育经历</span>
+			<span class="fr mr6"></span>
+		</div>		
+		<div class="clearfix background sct">
+			<span class="fl">职业经历</span>
+			<span class="fr mr6"></span>
+		</div>					
+		<div class="clearfix background sct">
+			<span class="fl">获得荣誉</span>
+			<span class="fr mr6"></span>
+		</div>		
+		<div class="clearfix background sct">
+			<span class="fl">相关报导</span>
+			<span class="fr mr6"></span>
+		</div>	
+		<div class="clearfix background sct">
+			<span class="fl">相关案例</span>
+			<span class="fr mr6"></span>
+		</div>	
+		<div class="clearfix background sct">
+			<span class="fl">所属医院案例</span>
+			<span class="fr mr6"></span>
+		</div>	
+		<div class="clearfix background sct">
+			<span class="fl">相关科室案例</span>
+			<span class="fr mr6"></span>
+		</div>	
+		<div class="clearfix background sct">
+			<span class="fl">相关故事</span>
+			<span class="fr mr6"></span>
+		</div>		
+		<div class="clearfix background sct">
+			<span class="fl">医生资质</span>
+			<span class="fr mr6"></span>
+		</div>		
+		<div class="clearfix background sct">
+			<span class="fl">其他</span>
+			<span class="fr mr6"></span>
+		</div>						
+	</div><!--编辑资料end-->
+	<footer class="m_mt40 y_mb40">
+		<a href="inspect_applysuccess_jia.html" class="btn btn-custom btn-block">提交</a>
+	</footer>			
+</artical>		
+<artical class="choose2" style="display:none;">
+	<header class="y_header">
+		<a onclick="javascript:history.back(-1);" class="y_back"></a>
+		<h1>编辑</h1>
+	</header>	
+	<div class="padd-rl">
+		<textarea  placeholder="请输入文字描述..."  class="form-control" style="padding:1rem 0; border:none; background:none"></textarea>
+	</div>	
+	
+</artical>
+<script src='../js/autosize.js'></script>		
+<script>
+	$(".sct").click(function(){
+		$(".choose2").show();
+		$(".choose").hide();
+		$(this).find(".fr").html('已编辑');
+	});	
+	$(".y_btnfixed2 .btn-custom5").click(function(){
+		$(".choose").show();
+		$(".choose2").hide();
+	});	
+	autosize(document.querySelectorAll('textarea'));
+</script>	
+</body>
+</html>

@@ -1,0 +1,29 @@
+﻿/*云朵咨讯 列表*/ .title_70.news_bg{    background: url(../img/news_bg.png) .75rem center no-repeat; background-size: 64px auto; height: 1.75rem;}
+.h_news_list{ overflow: hidden; background: #fff; clear: both;}
+.h_news_list a{display: block;padding: .75rem;border-bottom: 1px solid #eee;overflow: hidden; position:relative;}
+.h_news_list h3{line-height: 1.1rem; font-weight: normal; font-size: .8rem; margin-bottom: .35rem; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; max-height: 2.2rem; }
+.h_news_list h4{line-height: .9rem; font-weight: normal; font-size: .7rem; color: #666; margin-bottom: .2rem; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; /* color: #666; */ }
+.h_news_list p{font-size: .5rem !important;color: #999 !important;clear: both; margin:0 !important;}
+.h_news_list p span{margin: 0 .35rem  0 0 !important; font-size: .5rem !important;}
+.h_news_list p span.read{padding-left: .8rem;margin: 0 0.5rem 0 0 !important;background: url(../img/eyes.png) left center no-repeat;background-size: 12px 12px;}
+.h_news_list label{display: inline-block;background: #ff4b4b;font-size: .55rem;color: #fff;border-radius: 3px;margin-left: .25rem;padding: 0 .1rem;margin-top: -.1rem;vertical-align: middle;}
+
+.h_news_list .item1 .txt{float: left;width: 65%;}
+.h_news_list .item1 .pic{float: right;width: 4.8rem;height: 3.1rem;}
+.h_news_list .item1 .pic img{width: 100%; height:100%; }
+
+.h_news_list .item2 .pic{margin: .35rem 0;overflow: hidden;box-sizing: border-box;}
+.h_news_list .item2 .pic img{width: 32%;float: left;margin-right: 2%; overflow: hidden;    max-height: 3.1rem;}
+.h_news_list .item2 .pic img:last-child{margin-right:0}
+
+.h_news_list em.tip2{position: absolute; left: .1rem; top: 1.3rem;}
+
+/*云朵咨讯 详情*/
+.h_news_detail{padding:1rem .75rem 0;   overflow: hidden;}
+.h_news_detail .tex h3{    font-size: 20px;    line-height: 25px; font-weight: normal;}
+.h_news_detail .pic{width: 1.7rem;height: 1.7rem;margin-right:.5rem;border-radius: 50%;overflow: hidden;}
+.h_news_detail p.f_clr99{font-size: .6rem !important;    }
+.h_news_detail p{font-size: 16px !important; line-height: 28px !important;      margin: .5rem 0;}
+.h_news_detail ul li,.h_news_detail div{font-size: 16px !important; line-height: 28px !important; }
+
+

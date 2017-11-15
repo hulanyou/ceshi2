@@ -1,0 +1,59 @@
+/*圆形进度条---运动管理*/
+.schedule{position: relative; background: #fff;margin: 1.75rem auto;width: 8.5rem;}
+.circle {width: 8.5rem; height: 8.5rem; border-radius: 50%; background: #fff; }
+
+.pie_left, .pie_right {width: 8.5rem; height: 8.5rem; position: absolute; top: 0;left: 0; }
+.left, .right {display: block; width:8.5rem; height:8.5rem; border-radius: 50%; position: absolute; top: 0; left: 0; transform: rotate(30deg); }
+.left{background: #eee;}
+.right{background:#10adff} 
+.pie_right, .right {clip:rect(0,auto,auto,0); /*clip:rect(0,0,0,0);*/ }
+.pie_left, .left {clip:rect(0,100,auto,0); }
+
+.mask {width: 8.1rem; height: 8.1rem; border-radius: 50%; left: .2rem; top: .2rem; background: #FFF; position: absolute; text-align: center; line-height:8.1rem; font-size: 1.5rem; color: #666; }
+.control_btn {margin: 0 auto;width: 8.5rem;padding: 1rem 0;overflow: hidden;}
+.control_btn span{width: 2.75rem;height: 2.75rem;border-radius: 50%;font-size: .6rem;color: #333;text-align: center;/* margin-left: 0; */}
+.control_btn .in_block{display: inline-block; line-height:1.3rem;font-size: .75rem;}
+.control_btn .in_block font{font-size: 1.2rem;}
+/*圆形进度条---login*/
+#caseBlanche {height:7rem; width:7rem;margin: 1rem auto;position: relative;}
+#caseBlanche #load { color:#fff;left:.55rem;top:.55rem;text-align:center;position:absolute;height:6rem;width:6rem; border-radius:50%;background:#15a0f8;}
+#caseBlanche #load  p{ line-height:6rem;}
+#test { height:.5rem;width:.5rem;position:absolute; background-color:#15a0f8;border-radius:50%;top:0px;left:1.3rem;margin:5px;}
+#rond { height:7rem;width:7rem;border:1px solid #15a0f8;border-radius:50%;position:absolute;}
+@keyframes rond {
+  0% {transform : rotate(0deg);}
+  100% {transform : rotate(360deg);}
+}
+@-webkit-keyframes rond {
+    0%{-webkit-transform : rotate(0deg);}
+  100%{-webkit-transform : rotate(360deg);}
+}
+/*顶部导航---运动报告*/
+.zc_mednav li{ float: left;font-size: .7rem;color: #333;height: 1.35rem;line-height: 1.35rem; text-align: center;margin: .4125rem .7rem;}
+.zc_mednav li.active{background: #15a0f8;color: #fff;border-radius: .675rem;-webkt-border-radius: .675rem;}
+.zc_mednav2 li{ float: left;width: 2.2rem;font-size: .65rem;color: #333;height: 1.35rem;line-height: 1.35rem; text-align: center;margin: .25rem .525rem;}
+.zc_mednav2 li.active a{color: #fff;}
+.zc_mednav2 li.active{background: #15a0f8;color: #fff;border-radius: .675rem;-webkt-border-radius: .675rem;}
+.detailed_list{overflow: auto; overflow-y: scroll; /* 增加该属性，可以增加弹性 */ -webkit-overflow-scrolling: touch; }
+
+.detailed_list .month .list li{background: #fff;padding: 0 4.6% ;border-top: 1px solid #eee;}
+.detailed_list .month .list lifirst-child{border:none}
+.detailed_list .month .tit{height:1.7rem;line-height: 1.7rem;font-size: .6rem;}
+.detailed_list .month .list_tit{font-size: .6rem;padding-top: .7rem;line-height: .6rem;}
+.detailed_list .month .list_tit span{margin-left: .4rem;}
+.detailed_list .month .list .time {position: relative;}
+.detailed_list .month .list .time .shu{height: 2rem;width: 0rem;border-left: 1px solid #eee;position: absolute;top:1.5rem;left:50%;}
+.detailed_list .month .list .time .fl{width: 50%;text-align: center;}
+.detailed_list .month .list .time .fl .num{font-size: 1.25rem;color: #15a0f8;line-height:1.25rem;margin-top: 1.5rem;}
+.detailed_list .month .list .time .fl .num span{line-height: .6rem;}
+.detailed_list .month .list .time .fl .name{font-size: .65rem;color:#999;line-height: .65rem;margin: .55rem 0 .8rem;}
+
+/*头部左右滑动*/
+.h_shop{line-height: 2.2rem;overflow: hidden;background: #fff;position: relative;height: 2.2rem;}
+.h_shop li{width:20%;float:left; display:block;text-align:center;font-size: .75rem;position: relative;}
+.h_shop .active{color: #15a0f8;}
+.h_shop .active:after{content: ""; display: block; position: absolute; left: 0; bottom: 0; height: 2px; width: 100%; background: #15a0f8;}
+
+.h_shop .inner {overflow-x: auto;}
+.h_shop ul {font-size: 0px;  white-space: nowrap;}
+.h_shop ul li {float: inherit;display: inline-block;width: 90px;border-bottom: 1px solid #eee;}

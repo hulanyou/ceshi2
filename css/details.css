@@ -1,0 +1,129 @@
+/*2-14 医院详情页*/
+
+	/*****名称 价格描述 *****/
+.h_msg {background: #fff; border-bottom: 1px solid #eee; padding-bottom: .5rem;  overflow: hidden;}
+.h_msg h2 {font-size: .8rem;margin: .75rem .75rem .25rem;     font-weight: normal;}
+.h_msg p {font-size: .65rem;line-height: 1.25rem;margin: 0rem .75rem 0;color: #666;}
+.h_msg p.price{font-size: 1.25rem; line-height: 1rem; margin: .35rem 4.6% 0; color: #ff4a00; font-weight: bold; }
+.h_msg p.clr99{color:#999;}
+.h_msg p.f_color3{color:#ff4a00;}
+
+	/****详情标题 加边框 居中***/
+.h_hos_des h3.tit{color:#262930;border:1px solid #ccc;text-align: center;margin: 2rem auto 1.25rem;display: block;width: 34%;letter-spacing: 5px;font-weight: normal;line-height: 1.6rem;font-size: .95rem;}	
+
+	/****详情二级标题 左对齐***/
+.h_hos_des h4{color: #262930; font-weight: normal;margin: 0 .75rem 0;}
+	/****详情二级标题 两边加line***/
+.h_hos_des .tit2 {text-align:center;}
+.h_hos_des .tit2 .line1,.h_hos_des .tit2 .line2 {width: 20px; height: 1px; display: inline-block; vertical-align: middle; margin-top: -.1rem; background: #eee; position: relative;}
+.h_hos_des .tit2 .line2:before,.h_hos_des .tit2 .line1:after {content: ""; display: block; overflow: hidden; width: 5px; height: 5px; display: inline-block; position: absolute; top: -2px; border-radius: 50%; background: #eee; }
+.h_hos_des .tit2 .line2:before {right: 17px;}
+.h_hos_des .tit2 .line1:after {left: 17px;  }
+.h_hos_des .tit2 h3 {color:#292929;font-size: .85rem;display:inline-block;margin: 2rem auto 1.25rem;letter-spacing: 3px;font-weight: normal;}
+
+.h_hos_des  p{font-size: .7rem; color: #333; line-height: 1.25rem; margin: 0 .75rem !important; letter-spacing: 1px;  }
+.h_hos_des  p.indent{text-indent: 2rem}
+.h_hos_des  p.mtb30{margin: .7rem;}
+.h_hos_des  p.mt30{margin:0 .7rem .75rem;}
+	/****文字排版 优势科室***/
+.h_hos_des .founder{background:#fff;overflow: hidden;}
+.h_hos_des .des{padding: .5rem .7rem 0;background: #fff;}
+.h_hos_des .des h3.dep{font-size: .7rem; line-height: 1.25rem}
+	/****左边图片 右边文字 竖版  医院简介***/
+.h_hos_des .pic_txt{margin: 0 .35rem;     margin: 0 .35rem; clear: both; overflow: hidden; }
+.h_hos_des .pic_txt .pic{width: 75%;height: 9rem;}
+.h_hos_des .pic_txt .pic img{width: 100%; height: 100%;}
+.h_hos_des .pic_txt .name{font-size: .6rem;color:#666;width: 25%;text-indent: 1rem;writing-mode: vertical-rl;height: 9rem;letter-spacing: 2px; overflow: hidden;line-height: 1rem;}
+.h_hos_des .pic_txt .name label{width: 1rem; overflow: hidden; height: 9rem; text-indent: 0;}
+
+
+
+	/****医院资质 图片排版***/
+.h_hos_des .pic5{margin: 0 1.5rem} 
+.h_hos_des .pic5 img{margin-bottom: .75rem; }
+
+	/****只有一张图片***/
+.h_hos_des .pic6{margin: 0 .35rem}
+.h_hos_des .pic6.m30{margin: .75rem .35rem}
+
+	/****虚线框 样式 历任院长***/
+.h_hos_des .successive{border: 1px dashed #ccc;padding: .5rem 0;margin-left: .75rem;margin-right: .75rem;}
+.h_hos_des .successive p{line-height: 1.25rem; font-size: .6rem;}
+
+
+/*2-15 基因详情页*/
+	/****详情标题 不加边框 居中***/
+.h_hos_des h3.tit3{color:#262930;text-align: center;margin: 1.5rem auto .5rem;display: block;letter-spacing: 5px;font-weight: normal;line-height: 1.6rem;font-size: .95rem;}	
+
+
+/*2-15 奶粉*/
+.h_hos_des .tex_bg.blue{background: #e3f5ff;padding: 1.2rem .5rem;margin: 0 .25rem;}
+	/****文字定位*****/
+.row_two{-webkit-line-clamp: 2;display: -webkit-box;overflow: hidden;    -webkit-box-orient: vertical;text-overflow: ellipsis;}
+.h_hos_des .founder .tex_pos1{position:absolute;top:4rem;background: #eff9ff;opacity:.7;width: 53%;padding:.2rem 0 ;margin:.5rem;border:#c5eaff solid 1px;border-radius: .5rem;max-height: 16.5rem;}	
+.h_hos_des .founder .tex_pos4{position:absolute;top:5rem;left:1.5rem;width: 3.4rem; height: 3.4rem;}	
+.h_hos_des .founder .tex_pos4_1{position:absolute;top:5.6rem;left:1.5rem;width: 3.5rem;color: #1c94e3;}	
+.h_hos_des .founder .tex_pos4_2{position:absolute;top:8.6rem;left:1rem;width: 5rem;}	
+.h_hos_des .founder .tex_pos5{position:absolute;top:7rem;right:1.5rem;width: 3.4rem; height: 3.4rem;}	
+.h_hos_des .founder .tex_pos5_1{position:absolute;top:7.6rem;right:1.5rem;width: 3.5rem;color: #1c94e3;}	
+.h_hos_des .founder .tex_pos5_2{position:absolute;top:10.6rem;right:1rem;width: 5rem; }	
+.h_hos_des .founder .tex_pos6{position:absolute;top:11.5rem;right:.5rem;width: 5.5rem; height: 5.5rem;}
+
+.h_hos_des .pic10{padding:0 .35rem ;overflow: hidden;}
+.h_hos_des .pic10 .two{width: 48%;max-height: 15rem; }
+.h_hos_des .pic10 .one{width: 50%;color: #027dc6;padding: 2rem 1% .5rem;height: 5rem;overflow: hidden;}
+
+.h_hos_des .pic11{padding:0 .35rem ;overflow: hidden;min-height: 10rem;}
+.h_hos_des .pic11 .tex_pos12{position: absolute;top:0rem;left: 0;width: 60%;color: #027dc6;padding:.5rem;height:8rem;overflow: hidden;}
+.h_hos_des .pic11 .tex_pos11{position: absolute;top:0rem;left: 0;width: 100%;}
+
+.h_hos_des p,.h_hos_des p span {font-size: .7rem !important; line-height: 1.25rem !important; margin: 0 .75rem !important; letter-spacing: 1px !important; }
+.h_hos_des p span{margin: 0 !important;}
+.h_hos_des .des p{ margin: 0 !important; }
+.h_hos_des .des img{vertical-align: top; display: block; overflow: hidden; border: none; }
+
+
+
+	/****医院详情页***/
+.h_hos_des2 .pt1{ padding-top:1rem;}
+.h_hos_des2 .des {background: #fff; padding-bottom: .75rem; }
+.h_hos_des2 .des2{border: 1px solid #ccc; width: 6rem; line-height: 1.25rem; text-align: center; margin: 1rem auto; font-size: .7rem; letter-spacing: 2px }
+.h_hos_des2 h3.dep {font-size: .7rem; line-height: 1.5rem; margin: 0 .75rem; }
+
+.dep-border{border:1px solid #b5e1fe; margin: .35rem .75rem .75rem; padding-bottom: .5rem; }
+
+.flexible a{height: 1.75rem; width: 100%; display: block; clear: both; text-indent: -99px; }
+.flexible a.dowm{background: url(../img/down2.jpg) no-repeat; background-size: 100%; }
+.flexible a.up{background: url(../img/up2.jpg) no-repeat; background-size: 100%; }
+.h_hos_des2 p span.f_color{ margin: 0 !important;}
+.h_hos_des2 p, .h_hos_des2 p span {font-size: .65rem !important; line-height: 1.2rem !important; margin: 0 .75rem !important; letter-spacing: 2px !important }
+
+.h_hos_des2 .g_inoculate p{
+	margin:0 !important;
+}
+
+/**医院详情 现任院长**/
+.y_doctorms {overflow: hidden; background: #fff; line-height: .85rem; border-bottom: 1px solid #b5e1fe; margin: .5rem; }
+.y_doctorms .pic {float: left; width: 4.75rem; height: 4.75rem; border-radius: 50%; overflow: hidden; margin-bottom: .65rem; }
+.y_doctorms .pic img {width: 100%; height: 100%; border-radius: 50%; }
+.y_doctorms .ms {margin-left: 4.75rem; line-height: .95rem; margin-top: .3rem; }
+.y_doctorms .name {font-weight: bold; }
+.y_doctorms .hos_name {line-height: .8rem !important; font-size: .6rem !important; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical }
+.y_doctorms .btn {margin-top: .3rem; width: inherit; margin: .2rem 0 0 .75rem; padding: .2rem; font-size: .65rem; }
+
+/**医院详情 列表**/
+.h_hos_des2 .zc_reportitem li h2{line-height: 1.2rem ;margin-bottom: 0; letter-spacing: 2px ; }
+.h_hos_des2 .zc_reportitem li h4{line-height: 1rem ; letter-spacing: 2px ; height: auto; margin-bottom: 0; }
+.h_hos_des2.zc_reportitem .y_pic,.h_hos_des2 .zc_reportitem .y_pic img{border-radius:50%; }
+
+
+	/****医生详情页***/
+.y_doctorms2 {overflow: hidden;line-height: .85rem;background: url(../img/doc_bg.jpg) center no-repeat;background-size: 100% 100%; color:#fff; padding: .75rem;}
+.y_doctorms2 .pic {float: left;width: 4.75rem;height: 4.75rem;border-radius: 50%;overflow: hidden;/* margin-bottom: .65rem; */}
+.y_doctorms2 .pic img {width: 100%; height: 100%; border-radius: 50%; }
+.y_doctorms2 .ms {margin-left: 5.25rem;line-height: .95rem;margin-top: .5rem;}
+.y_doctorms2 .name {font-weight: bold;font-size: .8rem;     margin-bottom: .2rem;}
+.y_doctorms2 .name .f_clr66 {font-size: .65rem; margin: 0 0 0 .35rem; font-weight: normal; color:#fff; }
+.y_doctorms2 .border_t {padding: 0.25rem 0; margin-top: 0.25rem; overflow: hidden; line-height: 1rem; border-top: 1px solid #eee }
+.y_doctorms2 .hos_name {line-height: 1rem !important;font-size: .6rem !important;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+.h_hos_des3{background:#e8f3fd;  padding:0 .5rem 1rem; overflow:hidden;display: block; }

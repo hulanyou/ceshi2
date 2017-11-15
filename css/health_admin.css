@@ -1,0 +1,66 @@
+/*健康管理二级界面*/
+/*头部*/
+.y_mediareanav{height:1.4rem;line-height:1.4rem;background:#fff;text-align:center;font-size:0.6rem;position: absolute;top:2.2rem;width:100%;z-index: 999;opacity: 0.6;}
+.y_mediareanav a{display:block;overflow:hidden;color: #15a0f8;}
+.y_mediareanav a:hover,.y_mediareanav a:active{background:#f5f5f5;}
+.y_mediareanav .y_ico{display:inline-block;vertical-align:middle;margin:-2px 0.2rem 0 0;width:0.4rem;height:0.6rem;background:url(../img/medicine_area.png) center no-repeat;-webkit-background-size:100% auto;background-size:100% auto;}
+.y_manegnav{margin-bottom:0.5rem; background:#fff;}
+.y_manegnav h2{height:2rem; line-height:2rem; font-weight:bold; font-size: 0.75rem; padding:0 4.6%; border-bottom:1px solid #dddddd;}
+.y_manegnav .medicine_list li{overflow:hidden; zoom:1; border-bottom:1px solid #dddddd;  padding:0.6rem 4.6%;}
+.y_manegnav .medicine_list li .itme a{display:block; overflow:hidden; zoom:1;}
+.y_manegnav .medicine_list li .itme{float:left; width:50%; overflow:hidden;zoom:1;}
+.y_manegnav .medicine_list li .itme .pic{width:3.325rem; height:3.325rem; overflow:hidden; zoom:1;}
+.y_manegnav .medicine_list li .tit{ margin:0.325rem 0 0 0.3rem; width:3.35rem;}
+.y_manegnav .medicine_list li .tit h3{font-size: 0.65rem; font-weight:700; line-height:1.5rem;/*line-height:1rem; */height:1rem; /*overflow:hidden;*/}
+.y_manegnav .medicine_list li .tit p{font-size: 0.6rem; line-height:0.75rem; height:1.5rem; overflow:hidden; zoom:1;}
+
+/*健康管理二级界面种类列表css*/
+.zc_reportlinebox{background:#fff;overflow:hidden;}
+.zc_reportlinebox aside{text-align:left;border-right:1px solid #ddd;-webkit-box-sizing:border-box;box-sizing:border-box;}
+.zc_reportlinebox aside li{font-size:0.7rem;line-height:2.2rem;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;border-bottom: 1px solid #f2f2f2;background: url(../img/nav_bg.png)  center no-repeat;background-position-x:98% ;-webkit-background-size:  auto 40%;background-size:auto  40% ;}
+.zc_reportlinebox aside li a{display: block;}
+
+.zc_reportlinebox aside li span{padding-left: 0.8rem;}
+.zc_reportlinebox li .pic{width: 2rem;height: 2rem;}
+.zc_reportlinebox aside li.active{color:#fff;background:#15a0f8;;position:relative;}
+.zc_reportmain{float:left;width:65%;padding:0.5rem 0 1.25rem;border-left:1px solid #ddd;margin-left:-1px;-webkit-box-sizing:border-box;box-sizing:border-box;}
+.zc_reportitem{display:none;}
+.zc_reportitem.active{display:block;}
+.zc_reportmain  {padding: 0 0.5rem; }
+.zc_reportmain .tit{ font-size: 0.8rem;background: #15a0f8;color: #fff;text-align: center; }
+.zc_reportmain .list{ height: auto;}
+.zc_reportmain .list a{ float: left;width: 50%;}
+.zc_reportmain .list a img{ width: 80%;margin-left: 10%;}
+.zc_reportmain .list a p{font-size: 0.65rem;text-align: center;}
+
+.zc_hospital{height:1.9rem; position:relative; z-index:9999; text-align:center; line-height:1.9rem; background:#fff; border-top:1px solid #ddd; border-bottom:1px solid #ddd;}
+.zc_hospital h3{float:left; width:33.333%; border-left:1px solid #ddd; font-size: 0.6rem; -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.zc_hospital h3:nth-child(1){border-left:0px;}
+.zc_hospital h3 s{display:inline-block; width:0.5rem;vertical-align: middle; height:0.325rem; margin-left:0.2rem; background:url(../img/sort.png) 0 0 no-repeat;-webkit-background-size:100% auto;background-size:100% auto;}
+.zc_hospital_list{background:#fff;}
+.zc_hospital_list li{overflow:hidden; zoom:1; border-bottom:1px solid #dddddd;  padding:0.6rem 4.6%; position:relative;}
+.zc_hospital_list li .pic{width:4.5rem; height:4.5rem; overflow:hidden; zoom:1; float:left;}
+.zc_hospital_list li .tit h3{font-size: 0.65rem;}
+.zc_hospital_list li .tit h3 span{font-weight:normal;font-size: 0.55rem; color:#fff; display:inline-block; background:#4aa8ff; padding: 0.05rem 0.35rem;border-radius: 5rem;}
+.zc_hospital_list li .tit h3 span.the_door{background:#84c84e;}
+.zc_hospital_list li .tit{width:9.65rem; float:right;}
+.zc_hospital_list li .tit .tit_box{margin-top:1.05rem;}
+.zc_hospital_list li .tit .tit_box p{line-height:0.75rem; font-size: 0.5rem;}
+.zc_hospital_list li .tit .m_charge {height:1rem;}
+.zc_hospital_list li .tit .m_charge span{display:inline-block; font-size: 0.65rem;  vertical-align:top;}
+.zc_hospital_list li .tit .m_charge span b{color:#fcb303;}
+
+.zc_hospital_box h3 .tit.active{color:#15a0f8;}
+.zc_screen_tck{position:absolute; top:1.9rem; display:none; border-top:1px solid #dddddd; font-weight:normal; left:0px; text-align:left; background:#fff; z-index:9999; width:100%; padding:0 ;}
+.zc_screen_tck span{font-size: 0.65rem; float:left; width:3.4rem; font-weight:700;}
+.zc_screen_tck .fr{width:10rem;}
+.zc_screen_tck .fr .form-control{width:3.25rem;}
+.zc_screen_tck .fr b{color:#999; }
+.zc_screen_tck .clearfix{padding:0.4rem 4.6%; border-bottom:1px solid #dddddd}
+.zc_screen_tck .u_drop_down .form-control{display:block; width:100%; margin-bottom:0.175rem;}
+.zc_screen_tck label{margin-right:0.5rem;}
+.zc_screen_tck label input{vertical-align:middle; padding-right:0.5rem;}
+.zc_sort a{padding:0 4.6%;  display:block; font-weight:700; border-bottom:1px solid #dddddd; font-size: 0.65rem;}
+.zc_sort a.active{color:#15a0f8;}
+.modal-backdrop2{position: absolute;top: 4.1rem;right: 0;bottom: 0;left: 0;z-index: 1040;background-color: #000; filter: alpha(opacity=50); opacity: .5; display:none;}
+/**健康管理产品列表样式-暂定**/

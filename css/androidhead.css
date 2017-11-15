@@ -1,0 +1,17 @@
+/*适配安卓头部*/
+header.y_header_red{background: #ff4a00;  padding-top: 0;}
+/*适配app 头部状态栏高度*/
+header,header.y_header_red{padding-top:0rem}
+header .mes,header .y_back,.h_new_header .sweep,.h_new_header .search,.h_new_header1 .sweep,.header .m_cart,.header .zc_gps,header .zc_gps{margin-top: 0rem;}
+header .y_set{margin-top:0rem;}
+header .y_addbtn{margin-top:0rem;}
+.head_fixd{top:3.2rem;}
+/*商品/医生，表头悬浮*/
+header .y_addbtn {position:absolute;z-index:222;right:4.6%;top:0.55rem;width:1.05rem;height:1.05rem;background:url(../img/addbtn.png) center no-repeat;background-size:auto 100%;}
+.head_fixd{position: fixed;top:2.2rem;left: 0rem; width: 100%;z-index: 9999;box-sizing: border-box;}
+/*消息提醒的数字*/
+.h_new_header1 .news,.y_header .news,.h_new_header .news{font-style: inherit;padding: .1rem;border-radius: .35rem;background: #fff;color:#f71231;min-width: .3rem;height: .3rem;line-height: .3rem;text-align:center;position: absolute;left:94%;top: .4rem;font-size: .5rem;z-index: 99999;}
+.h_new_header1 .news div,.h_new_header .news div,.y_header .news div{margin: 0 .15rem;}
+header .m_cart {position:absolute;z-index:222;right:15%;top:0.55rem;width:1.07rem;height:1.07rem;background:url(../img/m_cart.png) center no-repeat;-webkit-background-size:auto 100%;background-size:auto 100%;margin-top: 0rem;}
+.h_prompt{position:fixed;top: 3rem;right: .3rem;width: 7.75rem;line-height: 2.25rem;background: #fff;border-radius: 5px;z-index: 99999;}
+

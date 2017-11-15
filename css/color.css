@@ -1,0 +1,106 @@
+	/*浅粉红*/
+	.LightPink{background:#FFB6C1 ;}
+		/*粉红*/
+	.Pink{background:#FFC0CB ;}
+		/*猩红*/
+	.Crimson{background:#DC143C ;}
+		/*脸红的淡紫色*/
+	.LavenderBlush{background:#FFF0F5 ;}
+		/*苍白的紫罗兰红色*/
+	.PaleVioletRed{background:#DB7093 ;}
+		/*热情的粉红	*/
+	.HotPink{background:#FF69B4 ;}
+		/*深粉色	*/
+	.DeepPink{background:#FF1493 ;}
+		/*适中的紫罗兰红色	*/
+	.MediumVioletRed{background:#C71585 ;}
+		/*兰花的紫色	*/
+	.Orchid{background:#DA70D6 ;}
+		/*蓟*/
+	.Thistle{background:#D8BFD8 ;}
+		/*李子*/
+	.plum{background:#DDA0DD ;}
+		/*紫罗兰*/
+	.Violet{background:#EE82EE ;}
+		/*洋红*/
+	.Magenta{background:#FF00FF ;}
+		/*灯笼海棠(紫红色)*/
+	.Fuchsia{background:#FF00FF ;}
+		/*深洋红色*/
+	.DarkMagenta{background:#8B008B ;}
+		/*紫色*/
+	.Purple{background:#800080 ;}
+		/*适中的兰花紫*/
+	.MediumOrchid{background:#BA55D3 ;}
+		/*深紫罗兰色*/
+	.DarkVoilet{background:#9400D3 ;}
+		/*靛青*/
+	.Indigo{background:#4B0082 ;}
+		/*纯蓝	*/
+	.Blue{background:#0000FF ;}
+		/*深蓝色*/
+	.DarkBlue{background:#00008B ;}
+		/*海军蓝*/
+	.Navy{background:#000080 ;}
+		/*浅石板灰	*/
+	.LightSlateGray{background:#778899;}
+		/*石板灰*/
+	.SlateGray{background:#708090 ;}
+		/*淡蓝色*/
+	.LightSkyBlue{background:#87CEFA ;}
+		/*天蓝色*/
+	.SkyBlue{background:#87CEEB;}
+		/*深天蓝*/
+	.DeepSkyBlue{background:#00BFFF ;}
+		/*淡蓝	*/
+	.LightBLue{background:#ADD8E6;}
+		/*淡青色*/
+	.LightCyan{background:#E1FFFF ;}
+		/*青色*/
+	.Cyan{background:#00FFFF;}
+		/*水绿色*/
+	.Aqua{background:#00FFFF ;}
+		/*深青色*/
+	.DarkCyan{background:#008B8B ;}
+		/*纯绿*/
+	.Green{background:#008000	 ;}
+		/*深绿色*/
+	.DarkGreen{background:#006400 ;}
+		/*绿黄色*/
+	.GreenYellow{background:#ADFF2F;}
+		/*米色(浅褐色)*/
+	.Beige{background:#6B8E23;}
+		/*浅黄色*/
+	.LightYellow{background:#FFFFE0;}
+		/*纯黄	*/
+	.Yellow{background:#FFFF00 ;}
+		/*深卡其布*/
+	.DarkKhaki{background:#BDB76B ;}
+		/*卡其布*/
+	.Khaki{background:#F0E68C ;}
+		/*金*/
+	.Gold{background:#FFD700 ;}
+		/*玉米色*/
+	.Cornislk{background:#FFF8DC;}
+		/*小麦色*/
+	.Wheat{background:#F5DEB3;}
+		/*橙色	*/
+	.Orange{background:#FFA500	;}
+		/*巧克力*/
+	.Chocolate{background:#D2691E	;}
+		/*纯红*/
+	.Red{background:#FF0000 ;}
+		/*棕色*/
+	.Brown{background:#A52A2A;}
+		/*纯白	*/
+	.White{background:#FFFFFF;}
+		/*浅灰色*/
+	.LightGrey{background:#D3D3D3;}
+		/*银白色*/
+	.Silver{background:#C0C0C0	;}
+		/*深灰色*/
+	.DarkGray{background:#A9A9A9;}
+		/*灰色	*/
+	.Gray{background:#808080;}
+		/*纯黑*/
+	.Black{background:#000000	 ;}

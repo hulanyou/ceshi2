@@ -1,0 +1,199 @@
+/*引导页css*/
+
+/***公共头部 高度为88px****/
+.h_tit{height: 2.2rem; line-height: 2.2rem; font-weight: normal; background: #fff; border-bottom: 1px solid #eee; padding: 0 4.6%; font-size: 0.65rem; margin: .35rem 0; }
+
+/*首页-健康画像*/
+
+	/*---我自己的健康画像---*/
+.zc_medicineage{ padding: 0 4.5%;/* margin: 0.5rem; */ background: #fff; /* border: 1px solid #cccccc; *//* border-radius: 10px; */margin: 0;overflow: hidden;}
+.zc_medicineage b{font-size: 0.9rem;color: #15a0f8;}
+.zc_medicineage .borderb{border-bottom: 1px solid #f0f0f0;}
+.zc_medicineage .borderr{border-right: 1px solid #f0f0f0;}
+.zc_medicineage p{font-size: 0.7rem;line-height: 2rem;}
+.zc_medicineage .clearfix{text-align: center;/* margin: .3rem 0; */}
+.zc_medicineage .clearfix s{    width: 0.4rem;height: 0.725rem;margin-top: 0.5875rem;margin-left:0.5rem;background: url(../img/nav_bg.png) right center no-repeat;-webkit-background-size: 100% auto;background-size: 100% auto;}
+.zc_medicineage .clearfix .w49{width: 49%;text-align: center;margin: .3rem 0;line-height: 1.4rem;}
+
+.zc_agelist{margin: 0.5rem 0; background: #fff;padding: 0 4.6% .5rem;font-size: .7rem;text-align: center;}
+.zc_agelist div{ float: left; width: 33%;margin: .5rem 0 0rem;background: #fff;/* border: 1px solid #cccccc; */ /* border-radius: 8px; */ }
+.zc_agelist div p{font-size: 0.7rem;text-align: center;line-height: 1.2rem;color: #fff;width: 2.5rem;height: 2.5rem;border-radius: 50%;/* margin-bottom: .3rem; */margin: 0 auto .3rem;line-height: 2.5rem;}
+.zc_agelist div p.f{background: #29c78a;}
+.zc_agelist div p.w{background: #dadada;}
+.zc_agelist div p.z{background: #ff4b4b;}
+.m_portrait .m_portrait_itme p s{float: right; width: 0.4rem;height: 0.725rem;margin-left:1rem;background: url(../img/nav_bg.png) right center no-repeat;-webkit-background-size: 100% auto;background-size: 100% auto;}
+.m_portrait{background: #fafafa;}
+.h_portrait .m_portrait_itme{background: #fafafa;}
+.m_portrait .m_portrait_itme p {font-size: 0.65rem; padding: 0.4rem; border-bottom: 1px solid #ddd; }
+.m_portrait .m_portrait_itme p:last-child{border-bottom: none;}
+
+	/*--- 我朋友  孩子 爱人等的健康画像 ---*/
+.h_contacts h3{height: 2.2rem;line-height: 2.2rem;font-weight:normal;background: #fff;border-bottom:1px solid #eee;padding:0 4.6%;font-size: 0.7rem; }
+.h_contacts h3 i{width: 1.5rem; height: 1.5rem; display: inline-block; margin: .3rem .5rem 0 0; float: left; background: url(../img/add.png) 0 center no-repeat; background-size: 100%; }
+.h_contacts h3 i.cur{background: url(../img/add_cur.png) 0 center no-repeat; background-size: 100%;}
+.h_contacts h4{height: 2rem;line-height: 2rem;font-weight:normal;background: #fff;border-bottom:1px solid #ebebeb;padding:0 4.6%;font-size: 0.75rem;}
+.h_contacts .img{width: 2.25rem; float:left; height: 2.25rem; overflow:hidden; zoom:1; border-radius:50%;display: inline-block;}
+.h_contacts .img img{width: 100%; height: 100%;}
+.h_contacts li{padding: 0.425rem 4.6%; 4.6%; overflow:hidden; zoom:1;  border-bottom: 1px solid #eee;background: #fff; position: relative;}
+.h_contacts li .m_tit{font-size: 0.7rem;line-height:2.25rem;margin-left: 2.5rem;}
+.h_contacts li a{display: block;overflow: hidden;}
+.h_contacts li a.btn{display: inline-block; margin-left: .15rem; float: right; padding: .2rem .1rem; margin-top: .4rem; margin-left: .3rem; }
+.h_contacts .item{ position: relative;  overflow: hidden; display: block;}
+.h_contacts .item span{display: inline-block;}
+.h_contacts .item span.name{width: 25%; height: 2.25rem; overflow: hidden; float: left; text-overflow: ellipsis;     white-space: nowrap; }
+.h_contacts .item span.tag{width: 20%; text-align: right;}
+.h_contacts .item span.age{width: 20%;text-align: right;}
+.h_contacts .item span.fr{width: 30%; height: 2.25rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;    text-align: right; }
+.h_contacts .item i{width: .6rem; height: 1.2rem; display: inline-block; margin: -.1rem 0 0 .2rem; vertical-align: middle; }
+.h_contacts .item i.famale{background: url(../img/famale.png) 0 center no-repeat; background-size: 65%; }
+.h_contacts .item i.male{background: url(../img/male.png) 0 center no-repeat; background-size: 85%; }
+.h_contacts .addit{ width: 0; position: absolute; height: 100%; top: 0px; right: 0px; background: #ffb400;  color: #fff; line-height: 2.75rem !important; font-size: 0.7rem; text-align: center;}
+
+.h_contacts .item em.tip{right: auto; top: 0; left: 1.5rem; }
+.h_contacts .item em.tip2{top: .35rem; left: 1.5rem; position: absolute; }
+
+.h_contacts .m_tit .sure{position: absolute; color: #fff; height: 1rem; width: 3rem; background: #15a0f8; border-radius: .125rem; top: .55rem; text-align: center; right: 3.5rem; line-height: 1rem;}
+.h_contacts .m_tit .sure_n{position: absolute; color: #fff; height: 1rem; width: 3rem; background: #15a0f8; border-radius: .125rem; top: .55rem; text-align: center; right: 0rem; line-height: 1rem; }
+.h_contacts .m_tit .area{width: 3.5rem; overflow: hidden; height: 2.25rem; text-overflow: ellipsis; white-space: nowrap; }
+
+/*首页-健康画像-基因检测-添加报告页面*/
+.y_reporttype{background: #fff; }
+.y_reporttype .y_item{display:block;background:#fff;padding: 4.6875% 0 3.125% 0;overflow:hidden;border-bottom:1px solid #ddd;margin: 0 4.6%;}
+.y_reporttype .y_item:last-child{border-bottom: none;}
+.y_reporttype .y_ico{float:left;width:2rem;height:2.25rem;background: url(../img/report_add4.png) left 6px no-repeat;-webkit-background-size:100% auto;background-size:100% auto;}
+.y_reporttype .y_item2 .y_ico{background-position: 0 -55px;}
+.y_reporttype .y_item3 .y_ico{background-position: 0px -110px;}
+.y_reporttype .y_ms{float:left;width:80%;margin-left:4%}
+.y_reporttype .y_ms h3{font-size: 0.75rem;font-weight: normal;/* margin-bottom: .2rem; */}
+.y_reporttype .y_ms p{font-size: 0.7rem;color:#999;}
+
+.y_reportadd{display: block; background: #fff; padding: 4.6875% 4.6% 4.6875% 4.6%; overflow: hidden; font-size: .65px; }
+.y_reportadd h3{font-size: .7rem; font-weight: normal; color: #666; margin-bottom: .4rem; }
+.y_reportadd p{ font-size: .65px;color: #999;}
+.y_reportadd a.btn{border-color: #ffba00; color: #ffba00; padding: 0.35rem .8rem; font-size: .65rem; margin-top: .3rem;}
+
+/*首页-健康画像-基因检测-添加报告-激活报告（获取电子报告）*/
+.y_electreptbx{padding:4.6875%;margin-bottom:5%;}
+.y_electreptbx h2{font-size:0.7rem;font-weight:normal;margin-bottom:2%;}
+.y_electreptbx .form-control{font-size:0.7rem;padding:0.4rem;}
+
+/*首页-健康画像-基因检测-添加报告-添加拍照报告*/
+.physic_time{position: absolute; left: 0; top: 0; right: 0; bottom: 0; width: 90%; height: 2.2rem; line-height: 2.2rem; font-size: 0.65rem; color: #666; border: none; background: transparent; text-align: right; padding-right: 10%; }
+.h_testtit .addpic{background: #fff; padding: .5rem .75rem 0;     overflow: hidden;}
+.h_testtit .addpic img{width: 3rem; height: 3rem; margin-bottom: .5rem; margin-right: .5rem; }
+
+/*首页-检测报告-隐私设置*/
+/*.y_header .cart_more{position:absolute;  top: 0.53rem; right:4.6%;  width:0.25rem; height:0.95rem; background: url(../img/cart_top1.png) center no-repeat; -webkit-background-size: auto 100%; background-size: auto 100%;}
+挪到公用了 可删除*/
+.m_privacysettings h3{ height: 2.2rem; line-height: 2.2rem; background:#fff; color:#666; overflow:hidden; zoom:1; font-size: 0.7rem; font-weight:normal; padding:0 4.6%; border-bottom:1px solid #eee;}
+.m_privacysettings h3 span{float:left; width:65%;}  
+.m_privacysettings li h4{height: 2.2rem; line-height: 2.2rem;clear: both; background:#fff; color:#666; overflow:hidden; zoom:1; font-size: 0.7rem; font-weight:normal; padding:0 4.6% 0 7%; border-bottom:1px solid #eee;}
+.m_privacysettings li h4 s{ width:0.4rem; height:0.725rem; margin-right:0.2rem;  float:right; margin-top:0.73rem; transform:rotate(90deg);-webkit-transform:rotate(90deg); background: url(../img/nav_bg.png) 95% center no-repeat;-webkit-background-size: 100% auto;background-size: 100% auto;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;}
+.m_privacysettings li.active h4 s{transform:rotate(0deg);-webkit-transform:rotate(0deg);}
+.m_privacysettings li h4 .fr{width:25%; overflow:hidden; zoom:1;}
+.m_privacysettings li h4 .m_left{display:none;}
+.m_privacysettings li h4 .m_left{margin-top:0.6rem; float:left;}
+.m_privacysettings li h4 .m_left a{border:1px solid #15a0f8; color:#15a0f8; width:0.8rem; font-size: 1rem; text-align:center; line-height:0.8rem; height:0.8rem; border-radius:50%;float:left;}
+.m_privacysettings li h4 .m_left a.m_reduce{margin-left:0.5rem; line-height:0.65rem;}
+.m_privacysettings li .clearfix{overflow: hidden;background:#fff; padding:0 4.6% 0 7%;height: 2.2rem; line-height: 2.2rem;border-bottom: 1px solid #eee;}
+.m_privacysettings li .clearfix span{ font-size: 0.7rem; padding-right:2.5rem; color:#666;}
+.m_privacysettings li .clearfix b{font-weight:normal; color:#666; font-size: 0.6rem;}
+
+/*首页-检测报告-隐私设置-选择联系人*/
+.m_contacts .img{width:2.05rem; float:left; height:2.05rem; overflow:hidden; zoom:1; border-radius:50%;}
+.m_contacts li{padding: 0.425rem 4.6%; 4.6%; overflow:hidden; zoom:1;  border-bottom:1px solid #ebebeb;}
+.m_contacts li .m_tit{float:left;font-size: 0.75rem; line-height:2.05rem; margin-left:0.5rem;}
+.m_contacts li s{float:right; margin:0.5rem 0; height:0.9rem; width:0.9rem;background: url(../img/nochoice.png) 0 center no-repeat;-webkit-background-size: 100% auto;background-size: 100% auto;}
+.m_contacts li.active s{background: url(../img/nochoice1.png) 0 center no-repeat;-webkit-background-size: 100% auto;background-size: 100% auto;}
+
+/*首页-检测报告-隐私设置-朋友圈白名单*/
+.m_whitelist h1{text-align:left; padding-left:1.75rem;font-weight: lighter;}
+.m_whitelist_list li{border-bottom:1px solid #eee; padding:0.5rem 4.6% 0; overflow:hidden; zoom:1;}
+.m_whitelist_list li .item{float:left; width:2.6rem; margin: 0 0.5rem 0.5rem 0;}
+.m_whitelist_list li .img{width:2.05rem; margin:0 auto; height:2.05rem; overflow:hidden; zoom:1; border-radius:50%;}
+.m_whitelist_list li p{font-size: 0.7rem; color:#666; text-align:center; margin-top:0.375rem;}
+.m_whitelist_list li .fr{overflow:hidden; zoom:1;  margin:1.2rem 0;}
+.m_whitelist_list li .fr a{border:1px solid #d0d0d0; color:#cccccc; width:0.8rem; font-size: 1rem; text-align:center; line-height:0.8rem; height:0.8rem; border-radius:50%;float:left;}
+.m_whitelist_list li .fr a.m_reduce{margin-left:0.6rem; line-height:0.65rem;}
+.m_whitelist_list li .fr a:active{border:1px solid #15a0f8; color:#15a0f8;}
+
+/*首页-健康比较*/
+.h_compare .item{border-bottom: 1px solid #eee; font-size: 0.75rem; padding: 0 4.6%; height: 2.2rem; line-height: 2.2rem; background: #fff; position:relative; }
+.h_compare a.btn{float: right;/* border-color: #ffba00; *//* color: #ffba00; */padding: 0.2rem .5rem;font-size: .6rem;margin-top: .45rem;border-radius: 3px;}
+.h_compare a.btn-custom6{/* color: #15a0f8; *//* border-color: #15a0f8; *//* background: #fff; */}
+.h_compare a.disabled{border-color: #999; background: #f2f2f2; color: #999;}
+.h_compare .item em.tip2{  margin-top: -10px;}
+
+/*首页-健康比较-我与标准比较*/
+.h_comprepotbox{margin-top: 0;}
+.h_comprepotbox .m_left{/* font-size: 0.65rem; *//* color: #999; */}
+.h_comprepotbox .m_right{/* font-size: 0.7rem; *//* color: #666; */}
+.h_comprepotbox .y_width90{margin-top: 1rem;}
+
+/*首页-健康比较-选择项目*/
+.h_porselect{ overflow:hidden;}
+.h_porselect h2{margin: 0;font-size: .7rem;/* width: 50%; */}
+.h_porselect h2 s{float:right; width:0.4rem; height:0.725rem; margin-top:0.75rem; background: url(../img/nav_bg.png) right center no-repeat; -webkit-background-size: 100% auto;background-size: 100% auto;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;}
+.h_porselect h2.active s{transform:rotate(90deg);-ms-transform:rotate(90deg); -moz-transform:rotate(90deg); -webkit-transform:rotate(90deg);-o-transform:rotate(90deg);}
+
+.h_porselect .item{background: #fafafa; padding: 0px .75rem; overflow:hidden; zoom:1;}
+.h_porselect .item div{color: #666;font-size: 0.7rem;line-height: 2rem;margin: 0 1.5rem;border-bottom: 1px solid #eee;}
+.h_porselect .item p:last-child{border:none;}
+.h_porselect .item p a{display: block; background: url(../img/nav_bg.png) 100% center no-repeat; -webkit-background-size: 0.4rem auto; background-size: 0.4rem auto; margin: 0 -7.6%; }
+.h_porselect .item p b{ margin-top: .55rem;float: right;width: 1.4rem;height: 0.8rem;line-height:0.9rem;text-align: center;color: #fff;border-radius: 15px;margin-right: 1rem;}
+
+.h_porselect .item2 p{color: #666;font-size: 0.7rem;line-height: 2rem;margin: 0 1.5rem;border-bottom: 1px solid #eee;}
+
+.h_porselect .bgred{background-color: #ff4b4b;}
+.h_porselect .bggray{background-color: #dadada;}
+.h_porselect .bggreen{background-color: #29c78a;}
+
+.h_porselect .item label img{float: left; margin: .5rem .3rem 0 0.2rem; width: 10%; }
+
+/*三级*/
+.hxnk s{float:right; width:0.4rem; height:0.725rem; margin-top:0.75rem; background: url(../img/nav_bg.png) right center no-repeat; -webkit-background-size: 100% auto;background-size: 100% auto;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;}
+.active s{transform:rotate(90deg);-ms-transform:rotate(90deg); -moz-transform:rotate(90deg); -webkit-transform:rotate(90deg);-o-transform:rotate(90deg);}
+/*首页-健康比较-对比页面*/
+	/*---图形比较---*/
+.y_comprepottab h1{line-height: 1.75rem; font-size: .7rem;padding: 0 4.6%; color: #15a0f8; font-weight: normal; background: #fff; border-top: 1px solid #eee;     border-bottom: 1px solid #eee;}
+.y_comprepottab .pic{padding: .5rem 4.6%; background: #fff; }
+.y_comprepottab .table-wrapper,.y_comprepottab .pic,.y_comprepottab .pic img{margin-bottom: .35rem;}
+.y_comprepottab .table-wrapper:last-child,.y_comprepottab .pic:last-child,.y_comprepottab .pic img:last-child{margin-bottom: 0}
+
+	/*---表格比较---*/
+@media only screen and (max-width: 767px) {
+	.y_comprepottab .table-wrapper { position: relative;  overflow: hidden;  }
+    .y_comprepottab .table-wrapper div.scrollable { overflow: scroll; overflow-y: hidden; }
+
+	.y_comprepottab table{ text-align: center;}  
+	.y_comprepottab table td{background:#fff;border-top: 1px solid #eee;border-left: 1px solid #eee;font-size: 0.65rem;padding:0.35rem;text-align:center;white-space: nowrap;}
+	.y_comprepottab table th{font-weight:normal;height:1.5rem;font-size: 0.65rem;border-left: 1px solid #eee;background: #f2f2f2;color: #666;}   
+    .y_comprepottab table.responsive {border-bottom: 1px solid #eee; margin-left: 30%;}
+	.y_comprepottab table.responsive th {white-space:nowrap;padding: 0 0.35rem;}
+    .y_comprepottab table.responsive th:first-child, table.responsive td:first-child, table.responsive.pinned td{ display: none;}
+	.y_comprepottab table.responsive .tit th {background: #f2f2f2; color: #666; }
+
+    .y_comprepottab .pinned { position: absolute; left: 0; top: 0; background: #fff; width: 30%; overflow: hidden; overflow-x: scroll;  /* border-right: 1px solid #eee; */}
+   	.y_comprepottab .pinned .tit2 td:first-child {color: #15a0f8; }  
+}
+
+/*首页-健康钱包-社会医疗保险*/
+.y_mybalance{padding:1.25rem 0 0.7rem;text-align:center;color:#fff;background:url(../img/y_yibaobg.jpg) 0 0 no-repeat;-webkit-background-size:100% 100%;background-size:100% 100%;}
+.y_mybalance .y_ico{width:4.5rem;height:4.5rem;margin:0 auto 0.5rem;background:url(../img/y_yibaoico.png) 0 0 no-repeat;-webkit-background-size:100% 100%;background-size:100% 100%;}
+.y_mybalance h2{font-size:0.75rem;font-weight:normal;}
+.y_mybalance strong{font-size:0.9rem;}
+
+/*zcc饮食报告*/
+.food_report{background:#fff;}
+.food_report .title_70 {font-weight: normal;line-height:2rem;font-size: 0.65rem;background: #f2f2f2;border: none;}
+.food_report .meal{width:8%;height:auto;text-align:center;font-size: .75rem;margin: .35rem 0 .35rem .75rem;padding-right:.75rem;}
+.food_report .meal_con{font-size: .65rem;padding: .5rem .75rem .5rem 0;border-bottom: 1px solid #eee;margin-left: 18%;position: relative;}
+.food_report .meal_con:before{content:'';display:block;width: 1px;height:1rem;position: absolute;left: -4%;top: 15%;background: #eee;height: 70%;}
+.food_report .clearfix:last-child .meal_con{border-bottom: none;}
+
+
+/* ios 充值*/
+.h_recharge_ios  .h_income{border-bottom: 1px solid #eee; padding: 1.3rem 0; overflow: hidden; margin: 0; text-align: center; font-size: 1.75rem; color: #ff640b; }
+.h_recharge_ios .title_70{color:#666; font-size:.65rem; }
+.h_recharge_ios .title_70 span{ background:none; padding-right:0; font-size:.6rem;}
+.h_recharge_ios .g_inoculate p { font-size:.6rem;}

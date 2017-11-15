@@ -1,0 +1,890 @@
+<!doctype html>
+<html>
+<head>
+<title>云朵医疗-健康报告首页</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-touch-fullscreen" content="YES">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+<meta name="HandheldFriendly" content="true" />
+<meta name="MobileOptimized" content="320" />
+<meta name="format-detection" content="telephone=no" />
+<link rel="stylesheet" href="css/global.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/home.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/mall.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/news.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/swiper.min.css">
+<link rel="stylesheet" href="css/swiper.min2.css">
+<link rel="stylesheet" href="css/homepage_change.css" type="text/css" media="screen" />
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/init.js"></script>
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/jquery.event.drag-1.5.min.js"></script>
+<script src="js/jquery.touchSlider.js"></script>
+
+<style>
+	img {
+		background: url(img/loading.gif) no-repeat center;
+		background-size: 25px;
+	}
+</style>
+</head>
+<body>
+	<header class="h_new_header ">
+		<a href="my_scan.html" class="sweep"></a>
+		<a href="search.html">
+			<div class="y_topsearch y_topsearch1">
+				<div class="y_searchbtn"></div>
+				<input type="text" placeholder="搜资讯、检查、医生、医院.." class="form-control" autofocus="" readonly>		
+			</div>
+		</a>
+		<a class="m_cart" href="portrait_cart.html"><span class="hide"></span></a>
+		<a class="y_addbtn" href="my_news_index.html"></a>
+		<div class="news"></div>
+	</header>
+	<!--<div class="h_prompt" style="display:none">
+		<a href="my_news_index.html"><img src="img/mes3.png" class="icon1">会话通知</a>
+		<a href="my_news_index.html"><img src="img/mes2.png" class="icon1">系统消息</a>
+	</div>-->
+		
+	<!--焦点图-->
+	<div class="jd">
+		<div class="swiper-container">
+			<div class="swiper-wrapper swiper-wrapper1">
+				<div class="swiper-slide swiper-slide1"><img src="img/blank.gif" data-echo="img/adimg1/portrait_banner04.jpg"></div>
+			</div>
+			<!-- <div class="swiper-pagination"></div> -->
+		</div>
+	</div><!--焦点图 end-->
+	<!-- <section class="y_mb14 m_mt20 h_doctor_login">
+		<div class="box" style="border-color: rgb(255, 255, 255);">
+			<h3 class="active" style="left: -15px;"><span>我的工作区<em class="tip" style="right: .4rem">3</em></span> </h3>
+			<div style="display: none;">
+				<div class="h_profit">
+					<a href="account/balance_detail1.html" class="clearfix">
+						<p>今日收益</p>
+						<b style="color:#ff9000; margin-right:.5rem">￥107</b>
+					</a>
+					<a href="account/balance_detail.html" class="clearfix">
+						<p style="margin-left:.35rem">累计收益</p>
+						<b style="color:#10adff">￥18078</b>
+					</a>
+				</div>
+				<div class="order">
+					<a href="account/my_order_list_doc.html">
+						<div class="pic fr"><img src="img/portrait_nav33.png" data-echo="img/portrait_nav33.png"></div>
+						<div class="tit fl" style="color:#3a6ded">
+							订单处理<em class="tip">2</em>
+						</div>
+					</a>
+					<a href="account/user_serviceserve.html">
+						<div class="pic fr"><img src="img/portrait_nav34.png" data-echo="img/portrait_nav34.png"></div>
+						<div class="tit fl" style="color:#2ab0b7">
+							服务设置
+						</div>
+					</a>
+					<a href="home/portrait_users.html">
+						<div class="pic fr"><img src="img/portrait_nav35.png" data-echo="img/portrait_nav35.png"></div>
+						<div class="tit fl" style="color:#25cc77"><em class="tip">1</em>
+							我的用户
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<script>
+		//广告图高度
+			var ad_width = $("body").width();
+			var val_height = ad_width/640* 270;
+			$(".swiper-wrapper1 .swiper-slide").height(val_height);
+		//我的工作区
+			$(".box h3").click(function(){
+				$(this).toggleClass("active").next("div").slideToggle();
+				if($(this).hasClass("active")){
+					$(".box").css("border-color","#fff");
+					$(this).animate({left:"-15px"});
+					$(this).addClass("active");
+				}else{
+					$(".box").css("border-color","#ff604c");
+					$(this).animate({left:"15px"});
+					$(this).removeClass("active");
+				}
+				
+			});
+	</script>
+	<!-- 呼叫家庭医生-->
+	<section class="y_mb14 h_mydoctor">
+		<a href="health_management/my_doctor/familydoctor/doctor_details.html">
+			<span style="color:#10adff">呼叫<label class="f_clr99">家庭医生</label></span>
+			<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/portrait_nav28.png"></div>
+		</a>
+		<a href="health_management/my_doctor/mavindoctor/expert_consultation.html">
+			<span style="color:#fcb303">呼叫<label class="f_clr99">专家医生</label></span>
+			<div class="pic "><img src="img/blank.gif" data-echo="img/chanpin/portrait_nav27.png"></div>
+		</a>
+	</section><!--呼叫家庭医生 end-->
+	<!--每日健康报告-->
+	<section class="up_down bg_2 y_mb14 ">
+		<div class="title_70" style="color:#10adff">每日健康报告</div>
+		<div class="ppo">
+			<div class="swiper-container main_visual">
+				 
+			 <!-- 轮播（Carousel）项目 -->
+				 <div class="swiper-wrapper list_four clearfix">
+				 	 <div class="swiper-slide item">
+				 	 	<a href="home/my/portrait_report.html">
+							<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/a(1).png"></div>
+							<div class="tit">我自己的</div>
+						</a>
+						<a href="home/lover/portrait.html">
+							<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/a(2).png"></div>
+							<div class="tit">我爱人的</div>
+						</a>
+						<a href="home/child/portrait.html">
+							<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/a(3).png"></div>
+							<div class="tit">我孩子的</div>
+						</a>
+						<a href="home/parent/portrait_add.html">
+							<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/a(4).png"></div>
+							<div class="tit">我父母的</div>
+						</a>
+				 	 </div>
+				 	 <div class="swiper-slide">
+				 	 	<a href="home/family/portrait.html">
+							<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/a(5).png"></div>
+							<div class="tit">我亲属的</div>
+						</a>
+						<a href="home/friend/portrait.html">
+							<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/a(6).png"></div>
+							<div class="tit">我朋友的</div>
+						</a>
+						<a href="home/workmate/portrait.html">
+							<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/a(7).png"></div>
+							<div class="tit">我同事的</div>
+						</a>
+						<a href="home/compare/portrait_compare.html">
+							<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/a(8).png"></div>
+							<div class="tit">健康比较</div>
+						</a>
+				 	 </div>
+				 	
+				 </div>
+				  	<!-- 轮播（Carousel）指标 -->
+				    <!--ol class="carousel-indicators">
+				        <li  data-slide-to="0" class="active"></li>
+				        <li  data-slide-to="1"></li>-->
+				        <!-- <li  data-slide-to="2"></li> -->
+				    <!--</ol> -->
+				     <div class="swiper-pagination1"></div>
+			</div>	
+		</div>
+
+	</section>
+	
+
+
+	<!--健康服务 end-->
+	<section class="up_down bg_2 y_mb14 ">
+		<!-- <div class="title_70" style="color:#10adff">健康服务</div> -->
+
+		<div class="title_70 tm" id="tm" style="color:#10adff"> 健康服务<p class="y_bai">更多</p><s></s> </div>
+
+		<div class="list_four clearfix">
+			<div class="itme">
+				<a href="management_index.html">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/d(1).png"></div>
+					<div class="tit">基因检测</div>
+				</a>
+				<a href="health_management/health_check/ Intestinal-flora.html">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/d(2).png"></div>
+					<div class="tit">肠道菌群</div>
+				</a>
+				<a href="home/chronic_disease/find_device.html">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/b(1).png"></div>
+					<div class="tit">血压自测</div>
+				</a>
+				<a href="home/chronic_disease/find_device.html">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/b(2).png"></div>
+					<div class="tit">血糖自测</div>
+				</a>
+				<div class="tapr" style="display: none;height: 100%">
+					<a href="health_management/rehabilitation/healing/treat_index.html">
+						<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/b(3).png"></div>
+						<div class="tit">血氧自测</div>
+					</a>
+					<a href="health_management/healthcare/sport_anagement.html">
+						<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/b(4).png"></div>
+						<div class="tit">尿液自测</div>
+					</a>
+
+					
+					<a href="health_management/healthcare/sport_anagement.html">
+						<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/b(5).png"></div>
+						<div class="tit">心电自测</div>
+					</a>
+					<a href="health_management/healthcare/sport_anagement.html">
+						<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/d(3).png"></div>
+						<div class="tit">治疗康复</div>
+					</a>
+				</div>
+
+			</div>
+		</div>
+	</section>	
+
+	<!--健康比较 && 健康钱包-->
+	<section class="up_down bg_2 y_mb14 ">
+		<!-- <div class="title_70" style="color:#f28000">健康管理</div> -->
+		<div class="title_70 tmm" id="tmm" style="color:#f28000">健康管理<p class="y_bai">更多 </p><s></s> </div>
+		<div class="list_four clearfix">
+			<div class="itme">
+				<a href="home/wallet/portrait_mywallet.html">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/portrait_nav13.png"><em class="tip">8</em></div>
+					<div class="tit">健康钱包</div>
+				</a>
+				<a href="home/pregnancy/Hospital_doctor1.html">
+					<div class="pic">
+						<img src="img/blank.gif" data-echo="img/chanpin/portrait_nav9.png">
+						
+					</div>
+					<div class="tit">孕婴管理</div>
+				</a>
+				<a href="home/test_tube/test_tube.html">
+					<div class="pic">
+						<img src="img/blank.gif" data-echo="img/chanpin/portrait_nav10.png">
+						
+					</div>
+					<div class="tit">试管婴儿</div>
+				</a>
+				<a href="home/my/immune/report_immune_open.html">
+					<div class="pic">
+						<img src="img/blank.gif" data-echo="img/chanpin/portrait_nav11.png">
+						
+					</div>
+					<div class="tit">免疫管理</div>
+				</a>
+				<div class="tapsr" style="display: none;height: 100%">
+				<a href="home/food/encyclopedia.html">
+					<!--<a href="being_developed.html">-->
+						<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/portrait_nav12.png"></div>
+						<div class="tit">饮食管理</div>
+					</a>
+					
+					<a href="home/chronic_disease/chronic_disease.html">
+						<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/portrait_nav14.png"><em class="tip">1</em></div>
+						<div class="tit">慢病管理</div>
+					</a>
+					<a href="home/oral_cavity/oral_cavity.html">
+						<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/portrait_nav15.png"></div>
+						<div class="tit">口腔管理</div>
+					</a>
+					<a href="home/sport/doctor_findahospital.html">
+						<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/portrait_nav16.png"></div>
+						<div class="tit">运动管理</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section><!--健康比较 && 健康钱包 end-->
+	<!-- 健康商城 -->
+	<!-- <section class="up_down bg_2 y_mb14 ">
+		<div class="title_70" style="color:#10adff">健康商城</div>
+	
+		<div id="myCarousel" class="carousel slide main_visual">
+			 轮播（Carousel）指标
+		    <ol class="carousel-indicators">
+		        <li  data-slide-to="0" class="active"></li>
+		        <li  data-slide-to="1"></li>
+		        <li  data-slide-to="2"></li>
+		    </ol> 
+		    轮播（Carousel）项目
+		    <div class="carousel-inner">
+		        <div class="list_four clearfix y_yin">
+					<div class="itme youou">
+						<a href="#">
+							<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/c(1).png"></div>
+							<div class="tit">澳洲保健</div>
+						</a>
+						<a href="#">
+							<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/c(2).png"></div>
+							<div class="tit">中国保健</div>
+						</a>
+						<a href="#">
+							<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/c(3).png"></div>
+							<div class="tit">医疗器械</div>
+						</a>
+						<a href="#">
+							<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/c(4).png"></div>
+							<div class="tit">母婴用品</div>
+						</a>
+	
+					</div>
+				</div>
+				<div class="list_four clearfix y_yin">
+					<div class="itme  youou">
+						<a href="#">
+							<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/c(1).png"></div>
+							<div class="tit">澳洲保健</div>
+						</a>
+						<a href="#">
+							<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/c(2).png"></div>
+							<div class="tit">中国保健</div>
+						</a>
+						<a href="#">
+							<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/c(3).png"></div>
+							<div class="tit">医疗器械</div>
+						</a>
+						<a href="#">
+							<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/c(4).png"></div>
+							<div class="tit">母婴用品</div>
+						</a>
+					</div>
+				</div>
+	
+				<div class="list_four clearfix y_yin">
+					<div class="itme youou">
+						<a href="#">
+							<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/c(1).png"></div>
+							<div class="tit">澳洲保健</div>
+						</a>
+						<a href="#">
+							<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/c(2).png"></div>
+							<div class="tit">中国保健</div>
+						</a>
+						<a href="#">
+							<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/c(3).png"></div>
+							<div class="tit">医疗器械</div>
+						</a>
+						<a href="#">
+							<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/c(4).png"></div>
+							<div class="tit">母婴用品</div>
+						</a>
+	
+					</div>
+				</div>
+				
+		    </div> 
+		</div>
+	</section> -->
+	<section class="up_down bg_2 y_mb14 ">
+		<!-- <div class="title_70" style="color:#10adff">健康商城</div> -->
+
+		<div class="title_70 tm" id="tm" style="color:#10adff"> 健康商城<p class="y_bai">更多</p> <s></s> </div>
+
+		<div class="list_four clearfix">
+			<div class="itme">
+				<a href="#">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/c(1).png"></div>
+					<div class="tit">澳洲保健</div>
+				</a>
+				<a href="#">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/c(2).png"></div>
+					<div class="tit">中国保健</div>
+				</a>
+				<a href="#">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/c(3).png"></div>
+					<div class="tit">医疗器械</div>
+				</a>
+				<a href="#">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/c(4).png"></div>
+					<div class="tit">母婴用品</div>
+				</a>
+				<div class="tapr" style="display: none;height: 100%">
+					<!-- <a href="#">
+						<div class="pic"><img src="img/blank.gif" data-echo="img/chanpin/c(1).png"></div>
+						<div class="tit">澳洲保健</div>
+					</a> -->
+				</div>
+
+			</div>
+		</div>
+	</section>	
+	
+	<!--健康头条-->
+	<!-- <section class="bg_2 y_mb14">
+		<a class="title_70 news_bg"  href="news_list.html"><span class="fr">更多</span> </a>
+		<div class="h_news_list">
+			<a href="news_list_detail.html" class="item1">
+				<div class="txt">
+					<h3>全民口腔，打造移动口腔医疗2.0时代</h3>
+					<p><span class="read">9381</span><span>10分钟前</span></p>
+				</div>
+				<div class="pic"><img src="img/blank.gif" data-echo="img/adimg1/news_img1.png"> </div>
+			</a>
+			<a href="javascript:void(0)" class="item2">
+				<h3>HPV疫苗，究竟你需不需要</h3>
+				<div class="pic">
+					<img src="img/blank.gif" data-echo="img/adimg1/news_img2.png">
+					<img src="img/blank.gif" data-echo="img/adimg1/news_img4.png">
+					<img src="img/blank.gif" data-echo="img/adimg1/news_img5.png">
+					<img src="img/blank.gif" data-echo="img/adimg1/news_img6.jpg" style="width:auto">
+				</div>
+				<p><span class="read">9381</span><span>2小时前</span></p>
+			</a>
+			<a href="javascript:void(0)" class="item1">
+				<div class="txt">
+					<h3>感冒了该吃什么药？感冒吃什么好的快，感冒是一种常见的多发病</h3>
+					<p><span class="read">256</span><span>12-15 22:14</span></p>
+				</div>
+				<div class="pic"><img src="img/blank.gif" data-echo="img/adimg1/news_img3.png"> </div>
+			</a>
+		</div>
+	</section> --><!--健康头条 end-->
+	<!-- <div class="box y_mb14 bg_2">
+		<nav class="y_orderlistnav y_ordernav_three">
+			<div class="tab active"><span>论坛</span></div>
+			<div class="tab"><span>培训</span></div>
+			<div class="tab"><span>展会</span></div>
+			<div class="underline"></div>
+		</nav>
+		<section class="zc_reportitem list active" >
+			<ul>
+				<li>
+					<a href="home/forum/details.html">
+						<div class="y_pic1"><img src="img/blank.gif" data-echo="img/docter/zh1.jpg"></div>
+						<div class="y_ms1">
+							<h2> 乙肝论坛</h2>
+							<h4 class="line1">乙肝患者要慎喝保健酒类</h4>
+							<p class="icon">
+								<span class="subject">206</span>
+								<span class="comment">437</span>
+							</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="home/forum/details.html">
+						<div class="y_pic1"><img src="img/blank.gif" data-echo="img/docter/zh1.jpg"></div>
+						<div class="y_ms1">
+							<h2> 糖尿病论坛</h2>
+							<h4 class="line1">我的糖尿病严重怀疑被误诊了或是逆转了，请帮我看下</h4>
+							<p class="icon">
+								<span class="subject">206</span>
+								<span class="comment">437</span>
+							</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="home/forum/details.html">
+						<div class="y_pic1"><img src="img/blank.gif" data-echo="img/docter/zh1.jpg"></div>
+						<div class="y_ms1">
+							<h2> 艾滋病论坛</h2>
+							<h4 class="line1">各位大师帮我分析患爱滋的可能性有多少</h4>
+							<p class="icon">
+								<span class="subject">206</span>
+								<span class="comment">437</span>
+							</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<div class="read_more">
+				<a href="home/forum/health_forum.html" class="btn btn-custom6"> 更多论坛</a>
+			</div>
+		</section>
+		<section class="zc_reportitem list" style="display:none">
+			<ul>
+				<li>
+					<a href="health_management/my_doctor/familydoctor/zhibo2.html">
+						<div class="y_pic1"><img src="img/blank.gif" data-echo="img/docter/play1.png"></div>
+						<div class="y_ms1">
+							<h2>手指教您看健康</h2>
+							<h4  class="line1">2016-12-07  8:00直播</h4>
+							<h4 class="line1">有没有疾病，先看手，看手了解你的身体状况</h4>
+							<p class="fs20 f_color3"><b>￥</b><span class="fs30">130</span></p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="health_management/my_doctor/familydoctor/zhibo2.html">
+						<div class="y_pic1"><img src="img/blank.gif" data-echo="img/docter/play2.png"></div>
+						<div class="y_ms1">
+							<h2>名医直播</h2>
+							<h4  class="line1">2016-10-16  14:00直播</h4>
+							<h4 class="line1">不吃早饭真的会得胆结石吗</h4>
+							<p class="fs20 f_color3"><b></b><span class="fs30">免费</span></p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="health_management/my_doctor/familydoctor/zhibo2.html">
+						<div class="y_pic1"><img src="img/blank.gif" data-echo="img/docter/play3.png"></div>
+						<div class="y_ms1">
+							<h2>完美塑形健美操</h2>
+							<h4  class="line1">2016-12-30 14:00直播</h4>
+							<h4 class="line1">舞蹈整形，完美身材养成计划</h4>
+							<p class="fs20 f_color3"><b></b><span class="fs30">免费</span></p>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<div class="read_more">
+				<a href="health_management/my_doctor/zhibo_list2.html" class="btn btn-custom6"> 更多培训直播</a>
+			</div>
+		</section>
+		<section class="zc_reportitem list" style="display:none">
+			<ul>
+				<li>
+					<a href="javascript:void(0)">
+						<div class="y_pic1"><img src="img/blank.gif" data-echo="img/docter/zh4.jpg"></div>
+						<div class="y_ms1">
+							<h2> 第三十一届西部国际医疗器械展览会邀请函</h2>
+							<h4  class="line1">展会时间：2016-9-1 至 2016-9-3</h4>
+							<h4 class="line1">展会地点：西安曲江国际会展中心A馆（陕西省电视塔东侧）</h4>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">
+						<div class="y_pic1"><img src="img/blank.gif" data-echo="img/docter/zh5.jpg"></div>
+						<div class="y_ms1">
+							<h2> 第十八届中国云南医疗器械设备及技术展览会</h2>
+							<h4  class="line1">展会时间：2016-7-19 至 2016-7-23</h4>
+							<h4 class="line1">展会地点：中国昆明国际会展中心</h4>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">
+						<div class="y_pic1"><img src="img/blank.gif" data-echo="img/docter/zh6.jpg"></div>
+						<div class="y_ms1">
+							<h2> 2016第十届中国老年产业博览会暨康复护理展</h2>
+							<h4  class="line1">展会时间：2016-11-6 至 2016-11-8</h4>
+							<h4 class="line1">展会地点：重庆国际会展中心</h4>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<div class="read_more">
+				<a href="javascript:void(0)" class="btn btn-custom6"> 更多展会</a>
+			</div>
+		</section>
+	</div> -->
+	<!--通栏广告-->
+	<!-- <section class="tl y_mb14">
+		<div class="swiper-container">
+			<div class="swiper-wrapper swiper-wrapper2">
+				<div class="swiper-slide"><a href="health_mall/medicine_category1.html#1"><img src="img/blank.gif" data-echo="img/adimg1/adpic3.jpg" alt=""></a></div>
+				<div class="swiper-slide"><a href="health_mall/medicine_category1.html#2"><img src="img/blank.gif" data-echo="img/adimg1/adpic2.jpg" alt=""></a></div>
+				<div class="swiper-slide"><a href="health_mall/medicine_category1.html#3"><img src="img/blank.gif" data-echo="img/adimg1/adpic.jpg" alt=""></a></div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+	</section> --><!--通栏广告 end-->
+	<script>
+		//广告图高度
+var ad_width = $("body").width();
+var val_height = ad_width/640* 118;
+$(".swiper-wrapper2 .swiper-slide").height(val_height);
+	</script>	
+	<!-- 健康商城-->
+	<!-- <section class="y_mb14 around1">
+		<a class="title_70" style="color:#f40000" href="medicine_index.html"> 健康商城<span class="fr">更多</span> </a>
+		<div class="itme">
+			<a href="health_mall/medicine_category1.html#3">
+				<img src="img/blank.gif" data-echo="img/chanpin/portrait_nav24.jpg">					
+			</a>
+			<a href="health_mall/medicine_category1.html#2">
+				<img src="img/blank.gif" data-echo="img/chanpin/portrait_nav22.jpg">					
+			</a>
+			<a href="health_mall/medicine_category1.html#1">
+				<img src="img/blank.gif" data-echo="img/chanpin/portrait_nav21.jpg">					
+			</a>
+			<a href="health_mall/medicine_category4.html#1">
+				<img src="img/blank.gif" data-echo="img/chanpin/portrait_nav26.jpg">					
+			</a>	
+			<a href="health_mall/medicine_category3.html#1">
+				<img src="img/blank.gif" data-echo="img/chanpin/portrait_nav25.jpg">					
+			</a>
+			<a href="health_mall/medicine_category2.html#1">
+				<img src="img/blank.gif" data-echo="img/chanpin/portrait_nav23.jpg">					
+			</a>						
+		</div>
+	</section> --><!--健康商城 end-->	
+	<!--今日上新-->
+	<section class="h_recommend y_mb14">
+		<div class="tit">
+			<em class="line1"></em>
+			<h3 class="c1">今日上新</h3><em class="line2"></em>
+		</div>
+		<ul>
+			<li class="list">
+				<a href="javascript:void(0)">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/adimg1/adpic11.jpg" alt=""></div>
+					<p class="name">孕中 女性 无创d- na产前基因检</p>
+					<p class="price f_color3"><label class="fs20">￥</label>1230-2200</p>
+				</a>
+			</li>
+			<li class="list">
+				<a href="javascript:void(0)">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/adimg1/adpic01.jpg" alt=""></div>
+					<p class="name">A0-30岁 男女 遗 传筛查基因检测</p>
+					<p class="price f_color3"><label class="fs20">￥</label>20000-38000</p>
+				</a>
+			</li>
+			<li class="list">
+				<a href="javascript:void(0)">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/adimg1/adpic02.jpg" alt=""></div>
+					<p class="name">20-80岁 女性 美 容相关基因检测</p>
+					<p class="price f_color3"><label class="fs20">￥</label>1280-2200</p>
+				</a>
+			</li>
+			<li class="list">
+				<a href="javascript:void(0)">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/adimg1/adpic12.jpg" alt=""></div>
+					<p class="name">三九牌 999感冒 灵颗粒9袋冲剂</p>
+					<p class="price f_color3"><label class="fs20">￥</label>19.8</p>
+				</a>
+			</li>
+			<li class="list">
+				<a href="javascript:void(0)">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/adimg1/adpic03.jpg" alt=""></div>
+					<p class="name">善存R小佳维咀嚼 片（香甜柠檬</p>
+					<p class="price f_color3"><label class="fs20">￥</label>129</p>
+				</a>
+			</li>
+			<li class="list">
+				<a href="javascript:void(0)">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/adimg1/adpic04.jpg" alt=""></div>
+					<p class="name">碧生源牌减肥茶 2.5g/袋*15袋/</p>
+					<p class="price f_color3"><label class="fs20">￥</label>138</p>
+				</a>
+			</li>
+		</ul>
+	</section><!--今日上新 end-->
+	<!--热门推荐-->
+	<section class="h_recommend y_mb14">
+		<div class="tit">
+			<em class="line1"></em>
+			<h3 class="c2">热门推荐</h3><em class="line2"></em>
+		</div>
+		<ul>
+			<li class="list">
+				<a href="javascript:void(0)">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/adimg1/adpic05.jpg" alt=""></div>
+					<p class="name">欧姆龙电子血压计 HEM-7200臂</p>
+					<p class="price f_color3"><label class="fs20">￥</label>359</p>
+				</a>
+			</li>
+			<li class="list">
+				<a href="javascript:void(0)">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/adimg1/adpic07.jpg" alt=""></div>
+					<p class="name">Beurer指夹式血 氧饱和测量仪</p>
+					<p class="price f_color3"><label class="fs20">￥</label>339</p>
+				</a>
+			</li>
+			<li class="list">
+				<a href="javascript:void(0)">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/adimg1/adpic06.jpg" alt=""></div>
+					<p class="name">三诺血糖测试仪家 用智能语音免</p>
+					<p class="price f_color3"><label class="fs20">￥</label>199</p>
+				</a>
+			</li>
+			<li class="list">
+				<a href="javascript:void(0)">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/adimg1/adpic08.jpg" alt=""></div>
+					<p class="name">可孚体温计 婴儿 红外线电子温</p>
+					<p class="price f_color3"><label class="fs20">￥</label>149</p>
+				</a>
+			</li>
+			<li class="list">
+				<a href="javascript:void(0)">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/adimg1/adpic09.jpg" alt=""></div>
+					<p class="name">妃莉娅洛神花多酚 饮洛神正品</p>
+					<p class="price f_color3"><label class="fs20">￥</label>128</p>
+				</a>
+			</li>
+			<li class="list">
+				<a href="javascript:void(0)">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/adimg1/adpic10.jpg" alt=""></div>
+					<p class="name">黑苦荞茶花茶全胚 芽荞麦茶500g</p>
+					<p class="price f_color3"><label class="fs20">￥</label>49</p>
+				</a>
+			</li>
+		</ul>
+	</section><!--热门推荐 end-->
+	<!--猜你喜欢-->
+	<section class="h_recommend y_mb14">
+		<div class="tit">
+			<em class="line1"></em>
+			<h3 class="c3">猜你喜欢</h3><em class="line2"></em>
+		</div>
+		<ul>
+			<li class="list">
+				<a href="javascript:void(0)">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/adimg1/adpic05.jpg" alt=""></div>
+					<p class="name">欧姆龙电子血压计 HEM-7200臂</p>
+					<p class="price f_color3"><label class="fs20">￥</label>359</p>
+				</a>
+			</li>
+			<li class="list">
+				<a href="javascript:void(0)">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/adimg1/adpic07.jpg" alt=""></div>
+					<p class="name">Beurer指夹式血 氧饱和测量仪</p>
+					<p class="price f_color3"><label class="fs20">￥</label>339</p>
+				</a>
+			</li>
+			<li class="list">
+				<a href="javascript:void(0)">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/adimg1/adpic06.jpg" alt=""></div>
+					<p class="name">三诺血糖测试仪家 用智能语音免</p>
+					<p class="price f_color3"><label class="fs20">￥</label>199</p>
+				</a>
+			</li>
+			<li class="list">
+				<a href="javascript:void(0)">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/adimg1/adpic08.jpg" alt=""></div>
+					<p class="name">可孚体温计 婴儿 红外线电子温</p>
+					<p class="price f_color3"><label class="fs20">￥</label>149</p>
+				</a>
+			</li>
+			<li class="list">
+				<a href="javascript:void(0)">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/adimg1/adpic09.jpg" alt=""></div>
+					<p class="name">妃莉娅洛神花多酚 饮洛神正品</p>
+					<p class="price f_color3"><label class="fs20">￥</label>128</p>
+				</a>
+			</li>
+			<li class="list">
+				<a href="javascript:void(0)">
+					<div class="pic"><img src="img/blank.gif" data-echo="img/adimg1/adpic10.jpg" alt=""></div>
+					<p class="name">黑苦荞茶花茶全胚 芽荞麦茶500g</p>
+					<p class="price f_color3"><label class="fs20">￥</label>49</p>
+				</a>
+			</li>
+		</ul>
+	</section><!--猜你喜欢 end-->
+	<!--底部-->
+	<footer class="y_footerbox">
+
+		<nav class="y_footer">
+			<a href="portrait_index_doc.html" class="y_nav1 active"><span class="y_ico"></span><em class="tip ">···</em>首页</a>
+			<a href="safe_index.html" class="y_nav2"><span class="y_ico"></span><em class="tip ">5</em>健康保险</a>
+			<a href="management_index.html" class="y_nav3  "><span class="y_ico"></span><em class="tip ">2</em>健康检查</a>
+			<a href="medicine_index.html" class="y_nav4"><span class="y_ico"></span>健康商城</a>
+			<a href="hospital_index.html" class="y_nav5"><span class="y_ico"></span>医院医生</a>
+			<a href="user_index.html" class="y_nav6"><span class="y_ico"></span>我的</a>
+		</nav>
+	</footer><!--底部 end-->
+	<div class="modal-backdrop fade"></div>
+	<script src="js/swiper.min.js"></script><!--图片轮播-->
+	<script src="js/echo.min.js"></script><!--图片懒加载-->
+
+	<script>
+
+		//右上角 添加按钮
+//		$(".y_addbtn").click(function() {
+//			$(".h_prompt:after").show();
+//			$(".h_prompt").animate({width: 'toggle', height: 'toggle'},100);
+//			$(".modal-backdrop").toggleClass("in");
+//			$("body").toggleClass("modal-open");
+//		});
+//
+//		$(".modal-backdrop").click(function() {
+//			$(".h_prompt").animate({width: 'toggle', height: 'toggle'},100);
+//			$(".modal-backdrop").removeClass("in");
+//			$("body").removeClass("modal-open");
+//		});
+
+		//推荐商品图1：1限制
+		var h_img = $(".h_recommend img").width();
+		$(".h_recommend img").height(h_img);
+		//焦点图切换js
+		var swiper = new Swiper('.jd .swiper-container', {
+			pagination: '.swiper-pagination',
+			/*分页器容器的css选择器或HTML标签*/
+			paginationClickable: true,
+			/*点击分页器的指示点分页器会控制Swiper切换*/
+			loop: true,
+			/*无限循环切换*/
+			autoplay: 20000000 /*自动滚动*/
+		});
+		//通栏
+		var swiper2 = new Swiper('.tl .swiper-container', {
+			pagination: '.swiper-pagination',
+			/*分页器容器的css选择器或HTML标签*/
+			paginationClickable: true,
+			/*点击分页器的指示点分页器会控制Swiper切换*/
+			loop: true,
+			/*无限循环切换*/
+			autoplay: 2000 /*自动滚动*/
+		});
+
+		//Echo.js调用==图片懒加载
+		Echo.init({
+			offset: 400, //离可视区域多少像素的图片可以被加载
+			throttle: 0 //throttle: 3000 图片延迟多少毫秒加载     
+		});
+
+		//tab
+		$(".box .tab").click(function() {
+			$(this).addClass("active").siblings().removeClass("active");
+			$(".box .list").eq($(this).index()).show().siblings(".list").hide();
+		});
+		//健康商城更多的下拉
+		$("#tt s").click(function(){
+			$(this).parent().toggleClass("active").next(".tape").slideToggle();
+			if($(".tape").css("display")=="none"){
+				$(".tape").show();
+				}else{
+				$(".tape").hide();
+				}
+		});	
+		$("#tt .y_bai").click(function(){
+			$(this).parent().toggleClass("active").next(".tape").slideToggle();
+			if($(".tape").css("display")=="none"){
+				$(".tape").show();
+				}else{
+				$(".tape").hide();
+				}
+		});	
+		//健康服务
+		$("#tm s").click(function(){
+			$(this).parent().toggleClass("active").next(".tape").slideToggle();
+			if($(".tapr").css("display")=="none"){
+				$(".tapr").show();
+				}else{
+				$(".tapr").hide();
+				}
+		});	
+		$("#tm .y_bai").click(function(){
+			$(this).parent().toggleClass("active").next(".tape").slideToggle();
+			if($(".tapr").css("display")=="none"){
+				$(".tapr").show();
+				}else{
+				$(".tapr").hide();
+				}
+		});	
+		//健康管理
+		$("#tmm s").click(function(){
+			$(this).parent().toggleClass("active").next(".tape").slideToggle();
+			if($(".tapsr").css("display")=="none"){
+				$(".tapsr").show();
+				}else{
+				$(".tapsr").hide();
+				}
+		});	
+		$("#tmm .y_bai").click(function(){
+			$(this).parent().toggleClass("active").next(".tape").slideToggle();
+			if($(".tapsr").css("display")=="none"){
+				$(".tapsr").show();
+				}else{
+				$(".tapsr").hide();
+				}
+		});	
+		//每日健康报告
+		var mySwiper = new Swiper('.ppo .swiper-container',{
+		//autoplay : 5000,//可选选项，自动滑动
+		//loop : true,//可选选项，开启循环
+		pagination: '.swiper-pagination1',
+        paginationClickable: true
+		});
+		
+	</script>
+	<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1261059423'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1261059423' type='text/javascript'%3E%3C/script%3E"));</script>
+</body>
+</html>

@@ -1,0 +1,536 @@
+.y_ico {margin: 0.625rem 0.625rem 0 0; width: 0.97rem; height: 0.97rem; background: url(../img/m_radio.png) 0 0 no-repeat; -webkit-background-size: 100% auto; background-size: 100% auto; display: inline-block; vertical-align: middle; margin-top: -2px; }
+.y_ico.active  {background: url(../img/m_radio1.png) 0 0 no-repeat; -webkit-background-size: 100% auto; background-size: 100% auto; }
+.y_diagnomodal .y_ico{float: left; margin: .3rem .5rem 0 30%; }
+.y_diagnomodal    .peryear{overflow: hidden; border-bottom: none; line-height: 1.6rem; }
+.y_diagnomodal    .peryear a{color: #15a0f8; }
+.y_diagnomodal    .peryear p.rel{float: left; font-size: .6rem; }
+
+.y_diagnomodal    .peryear a.btn{font-size: .7rem;
+}
+
+
+/*7-10 购物车页面 */
+.h_cart_list .pic{width:4.25rem;height: 4.25rem;background: #f2f2f2;}
+.h_cart_list li{padding: 0.5rem .75rem;background: #fff;overflow: hidden;border-bottom: 1px solid #eee;position: relative;/*margin-bottom: .5rem;*/}
+.h_cart_list .pic{float: left; width: 4.25rem; height: 4.25rem; overflow: hidden; position: relative;}
+.h_cart_list .pic img{width: 100%; height: 100%;}
+.h_cart_list .des{width: auto; margin-right: .75rem; margin: 0 .75rem 0 6.25rem; }
+.h_cart_list .des2{margin: 0 0 0 4.75rem;}
+.h_cart_list .des h3{font-weight: normal; font-size: .65rem; line-height: 1rem; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.h_cart_list .des h4{font-size: .7rem;font-weight: normal;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+.h_cart_list .des h4.fs16{font-size: 0.4rem;}
+.h_cart_list .des .price{    font-size: .7rem;}
+.price .fr{font-size: .55rem;color: #999;}
+.h_cart_list .des .price2{margin: 2.8rem 0 0 0;}
+.h_cart_list .des .y_name{line-height: .9rem; font-weight: normal; font-size: 0.75rem; margin-bottom: .2rem; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; }
+.h_cart_list .des .rule{ font-size: .65rem;   color: #666;}
+.h_cart_list .select_input{display: inline-block; width: 1rem; height: 1rem; float: left; padding: 1rem 0 2.5rem;    margin-right: .5rem; }
+.h_cart_list .select_input input[type=checkbox].input-checkbox:checked+label.input-checkbox-label {-webkit-background-size: .9rem auto; background-size: .9rem auto; }
+.h_cart_list .select_input .input-checkbox-label {-webkit-background-size: .9rem auto; background-size: .9rem auto; }
+.h_cart_list label.input-radio-label {background:url(../img/m_radio.png) 0 center no-repeat;-webkit-background-size:75% auto;background-size:75% auto;}
+.h_cart_list input[type=radio].input-radio:checked+label.input-radio-label {background:url(../img/m_radio1.png) 0 center no-repeat;-webkit-background-size:75% auto;background-size:75% auto;}
+
+.h_cart_list .chufang{width: 3.25rem; height: 1rem; line-height: 1rem; font-size: .5rem; position: absolute; top: .25rem; left: -.75rem; text-align: center; background: #15a0f8; color: #fff; transform: rotate(-45deg); -ms-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -o-transform: rotate(-45deg);}
+
+.h_cart_btn{height: 2.05rem; }
+.h_cart_btn .clearfix {position: fixed; bottom: 2.4rem; left: 0px; width: 100%; background: #fafafa; border-top: 1px solid #eee; height: 2.2rem;line-height: 2.2rem;z-index: 1050; }
+.h_cart_btn .fl {width: 22%; padding-left: .75rem; font-size: .7rem; }
+.h_cart_btn .fl span {font-size: .8rem; }
+.h_cart_btn .fr {width: 33%; }
+.h_cart_btn .fr .btn {padding: 0px;line-height: 2.2rem;border-radius: 0px;width: 100%;font-size: .85rem;/* border: none; *//* padding: .1rem; */}
+
+.h_cart_btn  input[type=checkbox].input-checkbox:checked+label.input-checkbox-label {-webkit-background-size: .9rem auto; background-size: .9rem auto; }
+.h_cart_btn  .input-checkbox-label {-webkit-background-size: .9rem auto; background-size: .9rem auto; }
+
+.h_cart_list .btn {display: inline-block; width: 2rem; font-size: .7rem; border-radius: 0.6rem; border: 1px solid #ccc; text-align: center; padding: 0; margin-top: .4rem; }
+.h_cart_btn2 .clearfix{bottom: 0;}
+/*购物车为空的界面*/
+.cart_null .pic{width: 5rem;height: 5rem;margin: 5rem auto .7rem;}
+	/*7-19 数量修改 */
+.h_cart_list .zc_num {float: right; height: 1.2rem; overflow: hidden; border: 1px solid #eee; border-radius: 3px; position: absolute; bottom: 0.5rem; right: .75rem; }
+.h_cart_list .zc_num_borno {float: right;height: 1.2rem;overflow: hidden;position: absolute;bottom: 0.5rem;right: .65rem;}
+
+.h_cart_list .zc_num a {font-size: 1rem; float: left; color: #9a9a9a; height: 1.2rem; line-height: 1.2rem; width: 1.2rem; text-align: center; }
+.h_cart_list .zc_num a.m_reduce {border-right: 1px solid #eee; }
+.h_cart_list .zc_num input {width: 1.4rem; font-size: .8rem; line-height: 1.2rem; float: left; text-align: center; border: 0px; }
+.h_cart_list .zc_num a.m_add {border-left: 1px solid #eee; }
+.h_cart_list .zc_num .sub_input{width: 1.4rem; font-size: .8rem; line-height: 1.2rem; float: left; text-align: center; border: 0px; }
+
+/*7-10 购物车页面 删除弹出框*/
+.m_delete_modal .modal-dialog{border-radius:5px; background:#f8f8f8}
+.m_delete_modal .modal-header h3{font-size: .7rem;font-weight:normal;text-align:center;line-height:2.825rem;}
+.m_delete_modal .modal-footer{border-top: 1px solid #eee;}
+.m_delete_modal .modal-footer .btn{float: left; width: 50%;text-align: center; font-size: 0.75rem; color: #15a0f8; border: 1px solid #eee; -webkit-box-sizing: border-box; box-sizing: border-box; display: inline-block;}
+
+/*客服界面*/
+.m_customer ol li{padding:0.75rem 4.6%; background:#fff; overflow:hidden; zoom:1;}
+.m_customer ol li .fl{width:4.5rem; height:4.5rem; overflow:hidden; zoom:1;}
+.m_customer ol li .fr{width:9.5rem;}
+.m_customer ol li .fr h4{font-weight:normal; font-size: .7rem;line-height:0.85rem; height:0.8rem; white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
+.m_customer ol li .fr p{font-size: 0.5rem; color:#666; margin-top:0.1rem; line-height:0.8rem; max-height:1.6rem;text-overflow:ellipsis;overflow:hidden;}
+.m_customer ol li .fr .m_price{color:#ffb400;font-size: .8rem;}
+.m_customer_btn{width:5.75rem; margin:0 auto;display:block; height:1rem; text-align:center; color:#ffb400;  font-size: 0.55rem;line-height:1rem; border:1px solid #ffb400;}
+.m_customer_nav{height: 2.2rem;position:relative;}
+.customer_nav_input{padding: 0;background:#fff;width: 100%;overflow:hidden;zoom:1;height: 2.2rem;border-top:1px solid #eee;position:fixed;bottom:0px;left:0px;}
+.m_customer_nav a{float:left;}
+.m_customer_nav .switch_tab{width:1.15rem;height:1.15rem;border:1px solid #eee;border-radius:50%;margin-top: 0.45rem;background: url(../img/switch_tab.png) 0 center no-repeat;-webkit-background-size: 100% auto;background-size: 100% auto;margin-left: 4.6%;}
+.m_customer_nav .m_picture{width:1.15rem;height:1.15rem;text-align:center;text-indent: -1000rem;margin: 0.45rem 0 0 0.35rem;background: url(../img/m_add.png) 0 center no-repeat #fff;-webkit-background-size: 100% auto;background-size: 100% auto;}
+.m_customer_nav .m_voice{width: 71%;height: 1.35rem;border-radius:3px;line-height:1.325rem;text-align:center;font-size: .65rem;border:1px solid #eee;margin: 0.4rem 0 0 0.5rem;background: #eeeeee;}
+	/*底部对话输入框-服务设置里应用-四个并列*/
+.m_customer_nav .chat2_pic{width: 25%;height: 2.2rem;text-align:center;display: block;}
+.m_customer_nav .chat2_pic img{ width: 30%;margin-top: .35rem;}
+/*聊天界面*/
+.talk_hum .pic{width: 2.25rem;height: 2.25rem;border-radius:5px;overflow: hidden;}
+.talk_hum .pic img{width: 100%;}
+.talk_hum .chat{position: relative;font-size: .7rem;}
+.talk_hum .chat .triangle{position:absolute;top:40%;display:block;width:0; height:0; overflow:hidden; line-height:0; font-size:0; border-bottom:.25rem solid transparent; border-top:.25rem solid transparent; }
+.talk_hum .chat .article {color:#000; display:inline-block; *display:inline; zoom:1; border: 1px solid #fff; margin-top: .25rem; border-radius:5px; max-width: 8.65rem; }
+.talk_hum .chat .article p{padding:.35rem;font-size: .55rem;}
+.talk_hum .chat .article img{margin: .35rem .35rem 0 .35rem;}
+.talk_hum .chat_l .triangle {left: 2.4rem;border-left:none;border-right:.25rem solid #fff;}
+.talk_hum .chat_l .article {margin-left: .35rem;background:#fff;color: #9c9c9c;}
+.talk_hum .chat_r .triangle {right:.15rem;border-right:none;border-left:.25rem solid #15a0f8;}
+.talk_hum .chat_r .article {margin-right: .35rem;background:#15a0f8;color: #fff;}
+	/*视频聊天界面*/
+.video_win{width: 3.8rem;height: 4.25rem;position: absolute;top:3.5rem;right: .5rem;border: .1rem solid #15a0f8;z-index: 9999;overflow: hidden;}
+.video_win img{width: 100%;}
+
+.doc_chat{display:none;position: fixed;bottom: 0;left: 0;background: #fff;border-top: 1px solid #eee;    top: inherit;}
+.doc_chat .item{float: left;width: 25%;}	
+.doc_chat .item img{border: 1px solid #eee;width: 2.15rem;height: 2.15rem; margin: .8rem .6875rem 0;  border-radius: .25rem;}
+.doc_chat .item p{font-size: .5rem;color: #999;text-align: center;line-height: 1.15rem;}
+
+	/*服务订单聊天界面*/
+.talk_hum.head_fixd{position: fixed;height: 13rem;background: #f2f2f2;box-sizing: border-box;border-bottom: 1px solid #eee;}	
+.talk_hum.head_fixd .box{height: 10.7rem;overflow-y: scroll;padding: 0 .75rem;}
+
+.serorder .intext{position:absolute;bottom: 0;height: 2.1rem;background: #f8f8f8;width: 100%;border:none;padding: .5rem;box-sizing: border-box; font-size: .7rem;}
+
+/*药品同类比较*/
+.z_meccompare {position: relative;}
+.z_meccompare .titname{width: 100%;position: fixed;left:0;z-index: 300;background: #fff;top:2.2rem}
+.z_meccompare .titname p:first-child{}
+.z_meccompare .titname p:nth-child(2){border-left: 1px solid #eee;margin-right: -2px;}
+.z_meccompare .tc{text-align: center;}
+.z_meccompare .clearfix{ border-bottom: 1px solid #eee;}
+.z_meccompare .clearfix p{float: left;width: 44%;padding: 3%;}
+.z_meccompare .shu{border-right: 1px solid #eee;position:absolute;left: 50%;top:0;}
+.z_meccompare img{width:50%;height:3.95rem ;}
+
+/*物流信息*/
+.h_logistics .clearfix{padding: 0 .75rem; display: block; color: #999; background: #fff; }
+.h_logistics .clearfix p{font-size: .7rem; padding: .5rem 0; max-width: 86%; color: #5cc7ff; line-height: 1rem;}
+.h_logistics .clearfix .phone{position: absolute;right: .75rem;top: .75rem;}
+.h_logistics .clearfix p>span{color: #999; font-size: .6rem; display:block;}
+.h_logistics .clearfix .fl img{padding-top: .95rem;padding-right: 0.3rem;width: .75rem; height: .75rem; }
+.h_logistics .clearfix.background {background:url(../img/nav_bg.png) 95% center no-repeat #fff;-webkit-background-size:0.4rem auto;background-size:0.4rem auto;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;}
+
+.goods_info .time{border-bottom: 1px solid #eee;padding: .25rem 4.6%;}
+.goods_info .time p{font-size: .7rem;color: #999;line-height: 1rem;}
+.y_orderltbtnbx{padding: 0 4.6%; width: 90.8%; background: #fff;overflow: hidden;text-align: right;}
+.y_orderltbtnbx .btn{min-width:3.5rem;  margin:.4rem 0 .4rem .5rem;}
+.bg_recipe{background: url(../img/bg_chufang.png) center no-repeat #fff;background-size: 8.5rem auto;}
+.bg_recipe .z_testtit{background:transparent;}
+.bg_recipe .y_orderltbtnbx{background:transparent;}
+.bg_recipe .h_cart_list li{background: transparent;}
+.bg_recipe .clearfix{background: transparent;}
+
+.y_btnfixed .y_orderltbtnbx{padding-left: 0; width: auto; }
+.y_btnfixed .y_orderltbtnbx .btn{ margin:.2rem 0 0 .5rem; }
+
+/*物流快递信息*/
+.z_express ol{padding: 0.5rem 0.8rem}
+.z_express li .background{background: url(../img/li.png) left top no-repeat;margin-left:-0.45rem;background-size: auto 0.93rem  ;-webkit-background-size: auto 0.93rem ;}
+.z_express li .background2{background: url(../img/li2.png) left top no-repeat;margin-left:-0.45rem;background-size: auto 0.93rem ;-webkit-background-size: auto 0.93rem ;}
+.z_express li .text{padding-left: 1.4rem;}
+.z_express li {border-left: 1px solid #eee;padding: 0.3rem 0 ;}
+.z_express li p{font-size: .7rem;}
+
+/*订单详情页 联系客服*/
+.contact_ser{background: #fff; padding: .5rem 0; }
+.contact_ser .btn{background: url(../img/cs.png) 40% center no-repeat; padding-left: 10%; background-size: 21px 18px;}
+
+/*订单当前状态*/
+.current_state{font-size:.8rem; color:#fff; line-height:4rem; padding:0 .75rem; }
+.current_state.bg1{background: url(../img/order_icon1.png) 90% center no-repeat #75d0ff; background-size: 42px 40px;}
+
+/*回款单*/
+.h_goods_info{text-align:center;background: #fff;overflow: hidden;}
+.h_goods_info .pic{width: 3rem; height: 3rem; margin: 1rem auto 1rem; }
+.h_goods_info label{width: 4rem; float: left; }
+.h_goods_info .pic img{width: 100%; height: 100%; }
+.h_goods_info .price{font-size: 1.6rem; line-height: 3rem; }
+.h_goods_info .status{color: #10adff; font-size: .65rem; margin-bottom: .5rem; }
+.h_goods_info .time {padding: .5rem .75rem;}
+.h_goods_info .time p{font-size: .7rem; color: #666666; line-height: 1.2rem; text-align: left; }
+.h_goods_info p span{color:#999;margin-left: 4rem;display: block;/* float: left; */}
+.h_goods_info .y_btnbx {overflow: hidden; text-align: center; padding: .5rem 0 1rem; }
+.h_goods_info .y_btnbx .btn {min-width: 4.5rem; }
+/*6-24 基因测序 商品详情页面*/
+
+		/****内容描述****/
+.z_com_details{ margin-top: .35rem; background:#fff;overflow: hidden;  padding: 0 .75rem;}
+.z_com_details img{margin: 0 auto; }
+.z_com_details .pic{ margin: 1rem .75rem;}
+.z_com_details p{ font-size: .7rem; line-height: 1.25rem; color: #333;    letter-spacing: 1px; }
+
+.z_com_details .tit{font-size: 1.2rem; padding-top: 1rem;}
+.z_com_details .red{color: #ff3d3d;}
+
+.z_com_details .shop_tit{color: #262930; text-align: center; margin: 2rem auto 1.25rem; display: block; letter-spacing: 5px; font-weight: normal; line-height: 1.6rem; font-size: .95rem;}
+    
+		/****表格****/
+.y_repbox{margin-top: .35rem;}
+.y_repbox table{width:100%;border-collapse:collapse;}
+.y_repbox table th{background:#fff;color:#333333;height:1.5rem;font-size:0.6rem;border: 1px solid #eee;text-align: center;padding: 0 .5rem;}
+.y_repbox table td{background:#fff;height:2.2rem;padding:0 0.1rem;border:1px solid #eee;font-size: 0.65rem;padding: 0 .5rem;    word-break: break-all; text-align: center;}
+
+.y_repbox.zhanghu table th{border-top: 0;border-left: 0;border-right: 0;border-bottom: 1px solid #eee;}
+.y_repbox.zhanghu table td{border-top: 0;border-left: 0;border-right: 0;border-bottom: 1px solid #eee;  }
+.y_repbox.zhanghu table td:last-child{background:url(../img/nav_bg.png) 87% no-repeat #fff;-webkit-background-size:0.4rem auto;background-size:0.4rem auto;background-position: 4.4rem .7rem; padding-right: .5rem;}
+.y_repbox.zhanghu1 table td:last-child{background:#fff;}
+
+.y_repbox.zhanghu2 table th{border-top: 0;border-left: 0;border-right: 0;border-bottom: 1px solid #eee;}
+.y_repbox.zhanghu2 table td{border-top: 0;border-left: 0;border-right: 0;border-bottom: 1px solid #eee;  }
+.y_repbox.zhanghu2 table td:last-child{background:url(../img/nav_bg.png) 87% no-repeat #fff;-webkit-background-size:0.4rem auto;background-size:0.4rem auto;background-position: 3.7rem .7rem; padding-right: .5rem;}
+.y_repbox.zhanghu1 table td:last-child{background:#fff;}
+
+/*商品库存*/
+.y_repbox2 table{width:100%;border-collapse:collapse;}
+/*.y_repbox2 table th{background:#fff;height:2.2rem;padding:0 0.1rem;border:1px solid #eee;font-size: 0.65rem;padding: 0 .5rem;}*/
+.y_repbox2 table td{background:#fff;height:2.2rem;padding:0 0.1rem;border:1px solid #eee;font-size: 0.65rem;padding: 0 .5rem;    word-break: break-all; text-align: center;}
+
+.y_repbox2.zhanghu3 table td{border-top: 0;border-left: 0;border-right: 0;border-bottom: 1px solid #eee;  }
+.y_repbox2.zhanghu3 table td:last-child{background:url(../img/nav_bg.png) 87% no-repeat #fff;-webkit-background-size:0.4rem auto;background-size:0.4rem auto;background-position: 4.5rem .8rem; padding-right: .5rem;}
+.y_repbox2.zhanghu1 table td:last-child{background:#fff;}
+
+/*商品保存2*/
+.y_repbox3 table{width:100%;border-collapse:collapse;}
+.y_repbox3 table td{background:#fff;height:2.2rem;padding:0 0.1rem;border:1px solid #eee;font-size: 0.65rem;padding: 0 .5rem;    word-break: break-all; text-align: center;}
+
+.y_repbox3.zhanghu3 table td{border-top: 0;border-left: 0;border-right: 0;border-bottom: 1px solid #eee;  }
+
+
+
+	/*===专家团成员 ===*/
+.h_docsynopsis{background: #fff;    overflow: hidden;}
+.h_docsynopsis a{width: 33.33%; float: left; text-align: center; margin: .5rem 0;}
+.h_docsynopsis .pic{width: 2.25rem; margin: 0 auto .2rem; height: 2.25rem; }
+.h_docsynopsis .pic img{width: 100%; height: 100%; border-radius: 100%; }
+.h_docsynopsis .name h2{font-weight: normal; font-size: .7rem; }
+.h_docsynopsis .name h3{font-weight: normal; font-size: .7rem; color: #999; }
+
+
+		/*7-10===名称 价格描述 ===*/
+.h_msg {background: #fff; border-bottom: 1px solid #eee; padding-bottom: .5rem;  overflow: hidden;}
+.h_msg h2 {font-size: .8rem;margin: .75rem .75rem .25rem;     font-weight: normal;}
+.h_msg p {font-size: .65rem;line-height: 1.25rem;margin: 0rem .75rem 0;color: #666;}
+.h_msg p.price{font-size: 1.25rem; line-height: 1rem; margin: .35rem 4.6% 0; color: #ff4a00; font-weight: bold; }
+.h_msg p.clr99{color:#999;}
+.h_msg p.f_color3{color:#ff4a00;}
+
+.h_msg .rule{padding: .5rem .75rem .35rem;}
+.h_msg .rule .btn{border-color: #eee; color: #999;margin-right: .35rem;  background: #fff right bottom; }
+.h_msg .rule .btn.active{color: #15a0f8; border-color: #15a0f8; background: url(../img/chenk1.png) right bottom no-repeat; background-size: 1rem auto;}
+
+	/****底部悬浮按钮 客服 收藏 分享 购买****/
+.medicine_details_btn{height:2.4rem; position:relative;}
+.medicine_details_btn .clearfix{position:fixed;left:0px;bottom:0px;width:100%;height:2.4rem;     z-index: 22;}
+.medicine_details_btn .m_left{width: 42%;overflow:hidden;/* zoom:1; */background:#fafafa;height: 100%;border-top: 1px solid #eee;box-sizing: border-box;}
+.medicine_details_btn .m_left .m_collection{float:left;width:33.33%;-webkit-box-sizing: border-box;box-sizing: border-box;height: 100%;}
+.medicine_details_btn .m_left .m_collection:first-child{border-left: none;}
+.medicine_details_btn .m_left .m_collection s{display:block;margin: 0.4rem auto 0.1rem;width:0.8rem;height:0.8rem;background: url(../img/cs.png) center no-repeat;-webkit-background-size: auto 100%;background-size: auto 100%;}
+.medicine_details_btn .m_left .m_collection p{font-size: .5rem;text-align:center;}
+.medicine_details_btn .m_left .m_collection.m_a1 s{background: url(../img/z_collection.png) bottom no-repeat; -webkit-background-size: auto 200%; background-size: auto 200%;}
+.medicine_details_btn .m_left .m_collection.m_a2 s{background: url(../img/z_share.png) center no-repeat; -webkit-background-size: auto 100%; background-size: auto 100%;}
+	
+.medicine_details_btn .h-two  .m_left .m_collection{ width:50%;}
+
+.medicine_details_btn .fr{width: 58%;overflow:hidden;    border-top: 1px solid #eee;    box-sizing: border-box;}
+.medicine_details_btn .fr .btn-custom{width:50%; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.medicine_details_btn .fr .btn-custom5{width:50%; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.medicine_details_btn .fr .btn{border-radius:0;float:left;height: 100%;font-size: .7rem;line-height: 2.4rem;padding:0px;border: none;}
+.medicine_details_btn .btn1 {float: left; height: 2.4rem; width: 50%; line-height: 2.4rem; text-align: center; font-size: .8rem; }
+
+.medicine_details_btn .two .m_left{width: 71%;}
+.medicine_details_btn .two .fr{width: 29%;}
+.medicine_details_btn .two .fr .btn-custom,.medicine_details_btn .two .fr .btn-custom5{width: 100%;}
+.medicine_details_btn .three .m_left{width: 81%;}
+.medicine_details_btn .three .fr{width: 19%;}
+.medicine_details_btn .three .fr .btn-custom,.medicine_details_btn .two .fr .btn-custom5{width: 100%;}
+/*6-15基因检测 商品信息 页面*/
+
+	/****头部悬浮****/
+.shop_box{padding: .5rem 4.6% .5rem; background: #fff; border-bottom: 1px solid #eee;overflow: hidden;}
+.shop_box .fl{ position:relative;}
+.shop_box  img{width: 4.25rem;height: 4.25rem;}
+.shop_box .h_part{margin: 0 0 0 4.75rem;}
+.shop_box .h_part h2{font-size: .7rem;font-weight: normal;/* margin-bottom: .2rem; */line-height: 1rem;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+.shop_box .h_part h2.line2{ height:2rem;}
+.shop_box .h_part h2.line1{     -webkit-line-clamp: 1; height: 1rem;}
+.shop_box .h_part p.f_clr99{font-size: 0.65rem; line-height: 0.8rem; font-weight: normal; color: #999999; overflow: hidden; margin-bottom: .2rem; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.shop_box .h_part p.f_clr99.line1{-webkit-line-clamp: 1; height: .8rem;}
+.shop_box .h_part b.num{font-size: .7rem;}
+.shop_box .h_part .count{color:#666; font-size:.6rem; line-height:1.1rem; }
+.shop_des {border-bottom: 1px solid #eee; overflow: hidden; background: #fff; padding: .5rem .75rem; }
+.shop_des span{display: inline-block;min-width: 30%;font-size: .7rem;margin-right: .35rem;}
+.shop_box .y_pic_c{border-radius: 50%;    overflow: hidden;}
+.shop_box .time{padding: .1rem.2rem; text-align: center; font-size: .6rem; color: #fff; position: absolute; right: 0; bottom: 0; background: rgba(0,0,0,.5); }
+/*6-24 确认订单页面*/
+
+	/****收货信息****/
+.h_ordershxx{padding: .5rem .75rem; border-bottom:1px solid #eee; overflow: hidden; background:#fff;}
+.h_ordershxx.bg{
+	 background: url(../img/dborder.png) bottom repeat-x #fff; 
+}
+.h_ordershxx a{padding-right: 1rem;background: url(../img/nav_bg.png) right center  no-repeat;-webkit-background-size: auto 40%;background-size: auto 40%;display: block;overflow: hidden;}
+.h_ordershxx p{font-size: .7rem;width: 85%;height: 1.1rem;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;text-align: left;color: #999;background: url(../img/area_bg2.png) left 3px no-repeat;background-size: 14px;padding-left: 1.1rem;}
+.h_ordershxx p.name{font-size:.7rem;color:#333;background: none;}
+.h_ordershxx p.line2{width: 95%; white-space: normal; height: auto; }
+.h_ordershxx span{float: left; font-size: .7rem; height: 2rem; background: url(../img/area_bg2.png) left bottom no-repeat; width: 1rem; margin-right: .25rem; background-size: 15px; }
+
+	/****优惠信息展示****/ 
+label.option1 input,label.option2 input{vertical-align: middle;margin: -.2rem .2rem 0 .5rem;}
+
+	/****悬浮 底部支付按钮****/ 
+.y_btnfixed .price_btn{line-height: 2rem;font-size: .7rem;margin-left: .5rem;}
+.y_btnfixed .price_btn span{font-size: .85rem;}
+.y_btnfixed .price_btn span b{font-size: .5rem;}
+.y_btnfixed .pay_btn{width: 50%;}
+.y_btnfixed .pay_btn .btn{padding: 0;width: 6rem;float: right;margin-top: .15rem;line-height: 1.5rem;font-size: .8rem;}
+
+	/****同意服务条款****/ 
+.service_check{display: inline-block; width: 4.2rem;} 
+
+/* 购买数量*/
+.zc_num {float: right; height: 1.2rem; overflow: hidden; border: 1px solid #ccc; border-radius: 3px; position: absolute; bottom: 0.5rem; right: .75rem; }
+.zc_num a {font-size: 1rem; float: left; color: #9a9a9a; height: 1.2rem; line-height: 1.2rem; width: 1.2rem; text-align: center; }
+.zc_num a.m_reduce {border-right: 1px solid #ccc; }
+.zc_num input {width: 1.4rem; font-size: .8rem; line-height: 1.2rem; float: left; text-align: center; border: 0px; }
+.zc_num a.m_add {border-left: 1px solid #ccc; }
+.zc_num a.disabled {border-left: 1px solid #eee; color: #eee;}
+.zc_num .sub_input{width: 1.4rem; font-size: .8rem; line-height: 1.2rem; float: left; text-align: center; border: 0px; }
+
+.zc_num2{margin-top: 0.45rem; position:static; }
+.zc_num3{float:left; position:static; }
+
+/*提交订单 按钮*/
+.y_btnfixed_cart{height: 2.5rem; line-height: 2.5rem; }
+.y_btnfixed_cart .btn_fixed{z-index: 99; position: fixed; left: 0px; bottom: 0; width: 100%; border-top: 1px solid #eee; height: 2.5rem; padding: 0; background: #fff; }
+.y_btnfixed_cart .btn {padding: 0; width: 5.5rem; float: right; line-height: 2.5rem; font-size: .8rem; background: #f71231; margin-left: .5rem; border-radius:0; }
+.y_btnfixed_cart .price_btn {font-size: .7rem; }
+.y_btnfixed_cart .price_btn  .price{font-size:.85rem;}
+.y_btnfixed_cart .price_btn b{font-weight:normal;}
+.y_btnfixed_cart .btn.btn-block{display: block; padding-left: 0; padding-right: 0; margin-left: 4.6%; margin-right: 4.6%; width: 92%; line-height: 1.9rem; margin: .2rem 4.6%; border-radius: .25rem; }
+
+/* 诊断评估 确认订单页面 */
+.h_testtit textarea{background:#f9f9f9;border-radius: 3px; margin-bottom: .5rem; border: 1px solid #eee; display: block; clear: both; width: 100%; font-size: .65rem; padding: .5rem; box-sizing: border-box;}
+.h_testtit .btn{margin-top: .25rem;}
+/* 保险商城 确认订单页面 */
+.h_insure_btn{background: #fff; overflow: hidden; margin-top: .35rem; }
+.h_insure_btn p{font-size: .7rem; margin: .35rem .75rem; }
+.h_insure_btn .clearfix{padding: 0 4.6%; font-size: .7rem; line-height: 2.2rem; display: block; border-top: 1px solid #eee; border-bottom: 1px solid #eee; }
+.h_insure_btn .btn{margin: .35rem .75rem; }
+
+.h_premium{background:#fff; margin:.35rem 0;}
+.h_premium .clearfix{padding: .5rem .75rem;border-bottom: 1px solid #eee;    display: block;}
+.h_premium .clearfix .fr{text-align:right;font-size: .7rem;}
+.h_premium .clearfix p{font-size: .7rem;}
+
+/*巡诊卡 保健卡 确定订单页*/
+.h_select_time{line-height: initial; }
+.h_select_time .btn{margin: 0 0 .5rem 0; width: 5rem; padding: .3rem 0; }
+
+/* 7-1 医生信息 左图 右字 */
+.y_doctorms {padding: .65rem 0% 0; overflow: hidden; background: #fff; line-height: .85rem; border-bottom: 1px solid #eee; position: relative; }
+
+.y_doctorms dt,.y_doctorms .pic {float:left;width:3rem;height:3rem;margin-left:.75rem;border-radius: 50%; overflow: hidden; margin-bottom: .65rem;position: relative;}
+.y_doctorms dt img , .y_doctorms .pic img{width:100%; height:100%;}
+
+.y_doctorms  span.tj{color: #fff; text-align: center; background: #fcb303; padding: 0 .1rem; font-size: .55rem; position: absolute; left: .2rem; bottom: -1px; line-height: .8rem; }
+
+.y_doctorms dd , .y_doctorms .ms{margin-left:4.25rem;margin-right:4.6%;line-height:.95rem;}
+.y_doctorms .name {font-size: 0.8rem;color:#333; font-weight:bold;}
+.y_doctorms .name .f_clr66{font-size: .7rem;margin: 0 0 0 .2rem;}
+.y_doctorms .name .level{color: #fff;text-align: center;background: #15a0f8;padding: 0 .1rem;font-size: .55rem;border-radius: 3px;vertical-align: middle;/* line-height: .8rem; *//* margin-top: -.5rem; */display: inline-block;margin-left: .3rem;}
+.y_doctorms p {font-size: .7rem;color: #666;}
+.y_doctorms .hos_name {margin: .05rem 0;}
+
+.y_doctorms .skill_one {overflow:hidden;font-size: .65rem;color: #999;margin-bottom: .35rem;}  /*列表页 描述 一行显示 类名 skill  详情页全部展示 类名改为 skill_one*/
+.y_doctorms .skill {overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; font-size: .65rem; color: #999; margin-bottom: .35rem;}
+
+.y_doctorms .service{font-size:.65rem;padding: 0 .75rem .5rem;color:#f71231;line-height: .9rem;}
+.y_doctorms .service p{font-size:.65rem; color:#333;}
+.y_doctorms .service .f_color3{color:#f71231;}
+.y_doctorms  .type{position: absolute; right:.75rem; top: 1.8rem;    color: #ff5151; font-size: .7rem; }
+
+.service_mes{color: #333;line-height: 1.25rem;padding: .5rem  .75rem;background: #fff;}
+.service_mes .mes{overflow: hidden;padding-right:2.5rem;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;}
+.service_mes .mes2{ padding-right:0;}
+.service_mes .mes .gps{position: absolute;right: .7rem;top:0;font-weight: normal;color: #10adff;}
+.service_mes span{color: #666;}
+.service_mes .background{background:url(../img/nav_bg.png) 99% center no-repeat #fff;-webkit-background-size:0.4rem auto;background-size:0.4rem auto;}
+
+.doc_order{background: #fff;padding: 0 .75rem .5rem;}
+.doc_order_message{padding:.5rem .75rem ;background: #e8f6f6;border-radius: .25rem;color: #15a0f8;}
+/* 17-4-3 医生信息 左图 右字  会诊、诊断详情页*/
+.y_doctorms_docshop {padding: .65rem 0% 0; overflow: hidden; background:url(../img/doc_bg.jpg) no-repeat center ; line-height: .85rem; border-bottom: 1px solid #eee; position: relative; }
+.y_doctorms_docshop .pic{width: 4.55rem;height: 4.55rem;}
+.y_doctorms_docshop .ms{margin-left:5.75rem;margin-top: .8rem;}
+.y_doctorms_docshop .ms span,.y_doctorms_docshop .ms p{color: #fff;}
+/*-----保险确认订单页------*/
+.service_mes2 .mes{padding-right:0;}
+.service_mes2 span.tr{min-width: 3.5rem; display: inline-block; text-align: right;}
+
+/*7-17 选择付款方式 */
+.y_applytype {background: #fff; border-top: 1px solid #eee; overflow: hidden; }
+.y_applytype h2 {font-size: .7rem; line-height: 2.2rem; margin-left: .75rem; font-weight: normal; }
+.y_applytypelist {padding-left: .75rem; border-bottom: 1px solid #eee; }
+.y_applytypelist li {border-top: 1px solid #eee; padding: 0.5rem 0; overflow: hidden; }
+.y_applytypelist li .y_pic {float: left; width: 2.45rem; min-height: 1px; margin-right: 0.5rem; }
+.y_applytypelist li .y_ms {float: left; width: 64%; padding-top: 0.1rem }
+.y_applytypelist li .y_ms h3 {font-size: .7rem; font-weight: normal; }
+.y_applytypelist li .y_ms h4 {font-size: 0.65rem; color: #999; font-weight: normal; }
+
+.y_applytypelist li .y_ico {float: right; margin: 0.625rem 0.625rem 0 0; width: 0.97rem; height: 0.97rem; background: url(../img/m_radio.png) 0 0 no-repeat; -webkit-background-size: 100% auto; background-size: 100% auto; }
+.y_applytypelist li.active .y_ico {background: url(../img/m_radio1.png) 0 0 no-repeat; -webkit-background-size: 100% auto; background-size: 100% auto; }
+.y_applytypelist li.bg{background: url(../img/nav_bg.png) 95% center no-repeat #fff; -webkit-background-size: 0.4rem auto; background-size: 0.4rem auto; }
+
+.y_applytypelist1{padding-left: 0%;}
+.y_applytypelist1 .y_pic{margin-left: .75rem;}
+
+/*退款页面*/
+.refund{background: #fff;padding: .5rem 4.6% .75rem;}
+.refund .refund_k{border: 1px solid #eee; border-radius:.25rem;line-height: 1.1rem;padding: .25rem .5rem;}
+.refund .refund_dec{margin-left:1.6rem;}
+.refund_text{margin: 1rem auto;text-align: center;}
+/*---退款页面 文本输入框 ----*/
+.refund select{width:100%;font-size: .7rem;color:#333;height:1.45rem;border:1px solid #eee;padding-left:0.3rem;-webkit-appearance:none;border-radius:.125rem;background:url(../img/zc_navbg33.png) center no-repeat #fff;background-position-x:90%;-webkit-background-size:auto 22%;background-size:auto 22%;}
+
+.refund .re_input{line-height: 1.45rem;border: 1px solid #eee;padding:0 .2rem;border-radius: .125rem;}
+.refund .form_input {line-height: 1.45rem;font-size: .7rem;color:#333;padding:0 .2rem;background-color:#fff;background-image:none;border:none;-webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;-o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-appearance:none;}
+/*未收到货*/
+.h_testtit .clearfix.background_r {background:url(../img/nochoice1.png) 95% center no-repeat #fff;-webkit-background-size:1rem auto;background-size:1rem auto;}
+
+/*zcc饮食管理*/
+.food_manage .btn{margin-left: .5rem; margin-bottom: .5rem;border-radius: 25px;}
+/*医院医生-筛选下拉*/
+.u_hospital{height:1.9rem; position:fixed;width: 100%; z-index:9999; text-align:center; line-height:1.9rem; background:#fff;    border-bottom: 1px solid #eee;}
+.u_hospital .tab{float:left; width:33.333%;  font-size: 0.7rem; -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.u_hospital .tab:nth-child(1){border-left:0px;}
+.u_hospital4 .tab{ width:25%;}
+.u_hospital .tab s{display:inline-block; width:0.5rem;vertical-align: middle; height:0.325rem; margin-left:0.2rem; background:url(../img/sort.png) 0 0 no-repeat;-webkit-background-size:100% auto;background-size:100% auto;}
+.u_hospital_list{background:#fff;}
+.u_screen_tck{background: #f6f5f5;position:absolute;top:1.9rem;display:none;border-top:1px solid #eee;font-weight:normal;left:0px;text-align:left;z-index:999;width:100%;padding:0;max-height: 330px;overflow: auto;-webkit-overflow-scrolling: touch;}
+.u_sort{ background: #fff;}
+.u_sort a{overflow: hidden;white-space: nowrap;text-overflow: ellipsis;padding:0 4.6%; display:block; font-size: 0.65rem;}
+.u_sort a.active,.u_hospital .tab .tit.active{color:#15a0f8;}
+.u_screen_tck2{background: #fff;position:absolute;top:1.9rem;display:none;border-top:1px solid #eee;font-weight:normal;right:0px;text-align:left;z-index:1050;width:80%;padding:0;}
+.u_screen_tck2 .y_btn{margin:0 .55rem;}
+.u_screen_tck2 .btn{width: 30%;margin:.3rem 1%;}
+.u_screen_tck2 .btn-custom10.active{background: #10adff; color: #fff;border-color:transparent;}
+.u_screen_tck2 .btn-custom10:hover,.u_screen_tck2 .btn-custom10:focus,.u_screen_tck2 .btn-custom10:active,.u_screen_tck2 .open .dropdown-toggle.btn-custom10{background: #10adff; color: #fff;border-color:transparent;}
+{background: transparent; color: #fff;border-color:transparent;}
+
+.u_screen_tck2 .btn_fixed{position: absolute;bottom:0;left: 0;width: 100%;background: #f81131;color: #fff;font-size: .8rem;line-height: 2.5rem;}
+.u_hospital .tab1{ width:100%;}
+.u_hospital .tab2{ width:50%;}
+.u_hospital .tab4{ width:25%;}
+.u_hospital .tab5{ width:20%;}
+.u_hospital .tab .tit .triangle-up1 {position: absolute;top:.5rem; width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-bottom: 6px solid #ccc; }
+.u_hospital .tab .triangle-up1.active{ border-bottom: 6px solid #15a0f8;}
+.u_hospital .tab .tit .triangle-down1 {position: absolute;top:1rem;width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 6px solid #ccc; }
+.u_hospital .tab .triangle-down1.active{ border-top: 6px solid #15a0f8;}
+
+.u_hospital .tab .tit .triangle-down {width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 6px solid #ccc; }
+.u_hospital .tab .tit.active .triangle-down{ border-top: 6px solid #15a0f8;}
+
+.u_hospital .tab1 .tit{display:block; width:100%; height:1.9rem;}
+.u_hospital .tab1 .tit span{margin-left:.75rem}
+.u_hospital .tab1 .tit .triangle-down{margin:.8rem .75rem 0 0}
+.u_hospital .tab1 .u_screen_tck{background:#fff; }
+.u_hospital .tab1 .u_screen_tck .m_department a.active{background: #fff; position: relative; border-left:2px solid #15a0f8; }
+.u_hospital .tab1 .m_department {background: #f6f5f5; }
+.u_hospital .tab1 .m_department_tab{width: 35%; min-height: 300px; background:#fff; border-right: 1px solid #eee; box-sizing: border-box; }
+.u_hospital .tab1 .m_department_tab2{border-right:none;}
+.u_hospital .tab1 .m_department_imte a{border-bottom:none; }
+
+
+.u_hospital .tab .tit .screen{width: .75rem;height: .75rem;    display: inline-block;vertical-align: middle;    margin-left: 0.2rem;background: url(../img/screen1.png) 0 0 no-repeat;background-size: 100% auto;}
+.u_hospital .tab .tit.active .screen{background: url(../img/screen2.png) 0 0 no-repeat;background-size: 100% auto;}
+/*筛选按钮形式*/
+.u_hospital_btn{background: #fff;padding: .35rem .75rem;text-align: center;position: relative;}
+.u_hospital_btn .btn{width: 33%;margin: 0 1rem;font-size: .7rem;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.u_hospital_btn .btn.active{background: #ccc;color: #fff;}
+.u_hospital_btn .btn.active .triangle-down{border-top:6px solid #fff;}
+.u_hospital_btn .btn .triangle-down{width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 6px solid #ccc; }
+.u_hospital_btn .btn s{display:inline-block; width:0.5rem;vertical-align: middle; height:0.325rem; margin-left:0.2rem; background:url(../img/sort.png) 0 0 no-repeat;-webkit-background-size:100% auto;background-size:100% auto;}
+.u_hospital_btn .u_screen_tck1{position:absolute;top:2.3rem;display:none;border-top:1px solid #eee;font-weight:normal;left:0px;text-align:left;z-index:9999;width:100%;padding:0;max-height: 300px;}
+.u_hospital_btn .u_screen_tck1 .u_choose{max-height: 300px;overflow: auto;-webkit-overflow-scrolling: touch;}
+.u_hospital_btn .u_sort a{ line-height:1.9rem;  background: #fff;display:block; font-weight:700;font-size: 0.65rem;padding:0 0 0 4.6%;width: 45.4%;float: left;}
+.u_hospital_btn .u_sort a.active,.u_hospital .tab .tit.active{color:#15a0f8;}
+.u_hospital_btn .u_btn .fl{text-align: center;width: 50%;line-height: 1.9rem;}
+.u_hospital_btn .u_btn .fl:nth-child(2){background: red;color: #fff}
+
+/*诊断评估-下拉选择框*/
+.m_department{width:30%; float:left; background:#fff;overflow: auto;height: 100%;-webkit-overflow-scrolling: touch;}
+.u_screen_tck .m_department a{height:2rem; line-height:2rem;display:block; border-bottom:1px solid #eee; text-align:center;font-size: 0.65rem;}
+.u_screen_tck .m_department a.active{color:#15a0f8;}
+.m_department_tab{width:70%; float:left; background:#f6f5f5;overflow: auto; height: 100%;-webkit-overflow-scrolling: touch;}
+.m_department_imte{display:none;}
+.m_department_imte a{display:block; height:2rem; line-height:2rem; padding:0 7%; font-size: 0.65rem; border-bottom:1px solid #eee;}
+.m_department_imte a.active{color:#15a0f8;}
+/*编辑医院医生资料的医院列表*/
+.z_applytype{border-top: none;}
+.z_applytype .y_applytypelist{margin-bottom: 0;}
+
+/*业务员 编辑商品*/
+.sp_edit{padding: .5rem 0 .5rem 4.6%;overflow: hidden;background: #fff;margin-top: .35rem;}
+.sp_edit .btn{margin-right: 4.6%;width: 28%;float: left;}
+.sp_edit .txt{ font-size: .7rem; padding:.3rem 0;}
+
+/*家庭医生服务*//*家庭医生列表*/
+.y_servicephone_info .clearfix {padding:0 4.6%;line-height:2.2rem;border-bottom:1px solid #eee;}
+.y_servicephone_info .clearfix .background {padding-right:0.75rem;background:url(../img/nav_bg.png) right center no-repeat;background-size:auto 30%;-webkit-background-size:auto 30%;}
+.y_servicephone_info .clearfix .button {width:0.9rem;height:0.9rem;line-height:0.5rem;border-radius:0;-webkit-border-radius:0;background-color:transparent;-webkit-background-color:transparent;bamargin-top:0.5rem;margin-left:0.25rem;}
+.y_servicephone_info .clearfix .jian {color:#ddd;border:1px solid #eee;}
+.y_servicephone_info .clearfix .add {border:1px solid #999;-webkit-border:1px solid #999;}
+.y_servicephone_info .doc_message {font-size:0.55rem;color:#999;}
+
+
+/*服务订单*/
+.serorder_bottom.fixed{position: fixed;top:16.15rem;width: 100%;overflow-y: scroll;}
+
+/*健康信息*/
+.health_mes .tit{line-height: 2.2rem; text-align: center; font-size: .7rem; border-bottom: 1px dotted #eee; font-weight: bold; }
+.health_mes .txt .time{text-align: center; line-height: 1.5rem; display: block; color: #999; margin-top: .25rem; }
+.health_mes .txt .mes{line-height: 1rem; padding: 0 1rem; font-size: .7rem; }
+.health_mes .h_card{background: #15a0f8; overflow: hidden; display: block; margin: 0 .75rem; border-radius: 5px; padding: .6rem .5rem; color: #fff; }
+.health_mes .h_card .pic{float: left; width: 3.5rem; height: 3.5rem; overflow: hidden; position: relative; }
+.health_mes .h_card .des{width: auto; margin-right: .75rem; margin: 0 .75rem 0 4rem; }
+.health_mes .h_card h3{font-weight: normal; font-size: .7rem; line-height: 1rem; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; }
+.health_mes .h_card h4{font-weight: normal; font-size: .65rem; line-height: 1rem; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; margin: .2rem 0; }
+
+
+/*7.13 专家评估诊断*/
+.select-rep {margin-bottom: .5rem; display: block; clear: both; width: 100%; font-size: .65rem;  }
+.select-btn {margin-bottom: .5rem; background: #fff;display: block; clear: both; width: 100%; font-size: .65rem; padding: .5rem;}
+.select-rep p{font-size: .6rem; color: #999; line-height: 1rem; padding: .35rem 0; }
+.select-btn a{margin: 0 0 0 12%; font-size: .65rem; padding: .3rem .6rem; width:30%; }
+.select-rep textarea{margin-bottom: 0; }
+
+/*6-16 保险详情页*/
+.h_mall_details{background:#fff; position:relative; }
+.h_mall_details img{ border:none;}
+.h_mall_details p.hide_txt{position: absolute; left: -9999px;}
+.h_mall_details .txt{line-height: 1.25rem; font-size: .7rem; margin: .5rem 4.6%; }
+.h_mall_details .txt p{ line-height: 1.25rem !important; font-size: .7rem !important;}
+.h_mall_details .txt2{overflow: hidden; height: 5rem; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; }
+.h_mall_details #bx .title_70 .next{width: .35rem; }
+
+.select-rule .btn-box{padding: 0 .75rem .4rem; background-color: #fff; border-bottom: 1px solid #eee; }
+.select-rule .btn-box p{line-height: 2rem;     font-size: 0.7rem;}
+.select-rule .btn-box .btn{margin: 0 .35rem .35rem 0; float: left;width: 4rem; }
+
+.h_mall_details .dowm{     height: 2.9rem; background: url(../img/down.jpg) no-repeat; width: 100%; display: block; clear: both;text-indent: -99px; padding: 0 !important;    background-size: 100%;     margin-bottom: 1rem;}
+.h_mall_details .up{     height: 2.9rem; background: url(../img/up.jpg) no-repeat; width: 100%; display: block; clear: both; text-indent: -99px; padding: 0 !important;    background-size: 100%;     margin-bottom: 1rem;}

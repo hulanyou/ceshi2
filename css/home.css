@@ -1,0 +1,140 @@
+/*最外层的class是起标识用的 不赋予实际样式！！！！*/
+
+/*图片文字上下排列*/
+
+/*up_down 上下结构类名 ---子公共*/
+.up_down{padding-bottom: .35rem;}
+.up_down a{display: block;margin: .5rem 0 0;}
+.up_down .itme .pic {width: 35px;height: 35px;margin:0 auto;position: relative;}
+.up_down .itme .pic img {width:100%;}
+.up_down .itme .tit {font-size: 0.6rem;text-align: center;margin-top: 0.2rem;width: 100%;height: 1rem; line-height: 1rem; overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.up_down  em.tip{right: -.45rem;top: -.35rem;}
+
+    /*三列 */
+.up_down .list_three .itme a{width: 33.33%; float: left; position: relative; padding: .5rem 0 .35rem; margin: 0; }
+.up_down .list_three .itme a:after{content: ""; display: block; position: absolute; height: 100%; width: 1px; background: #eee; top: 0; right: 0;}
+.up_down .list_three .itme a:last-child:after{display: none}
+.up_down .list_three .itme .pic{    width: 45px; height: 45px;}
+
+    /*四列 */
+.up_down .list_four .itme a{width:25%;float:left;}
+.up_down .list_four .itme .pic{width: 2rem; height: 2rem;}
+
+    /*五列*/
+.up_down .list_five .itme a{width:20%;float:left;}
+.up_down .list_five .itme a:nth-child(n+6){margin-top: 0}
+
+/*首页*/
+
+/*医生操作区*/
+
+.h_doctor_login{ background: #fff; overflow: hidden; }
+.h_doctor_login .box{border: 1px solid #ff604c;margin: .75rem .75rem .35rem .75rem;padding: 0 .5rem;background: #fff;border-radius: 5px;position: relative;background: #fff;font-size: .7rem;font-weight: normal;min-height: 0.675rem;}
+.h_doctor_login h3{position: absolute;top: -16px;left: 15px;font-size: .7rem;font-weight: normal;display: inline-block;background: #fff;text-align: center;height: 1.75rem;line-height: 1.75rem;color: #ff604c;padding: 0 .7rem;}
+.h_doctor_login h3:after,.h_doctor_login h3:before {content: "";display: block;overflow: hidden;width: 4px;height: 4px;display:inline-block;position: absolute;top: 13.4px;border-radius: 50%;background: #ff604c;}
+.h_doctor_login h3:before {left: 0px; }
+.h_doctor_login h3:after {right: 0px;}
+.h_doctor_login h3.change:after,.h_doctor_login h3.change:before{background: #fff;}
+.h_doctor_login h3 span{      border: 1px solid #ff604c; border-radius: 3px; padding: 2px 5px;}
+
+.h_doctor_login h3.active:before,.h_doctor_login h3.active:after{display: none}
+
+.h_profit{overflow: hidden;border-bottom: 1px solid #eee;margin-top: .5rem;border-radius: 5px 5px 0 0;}
+.h_profit a{margin: .35rem 0;display: block;border-right: 1px solid #eee;width: 50%;float: left;text-align: center;box-sizing: border-box;line-height: 1.5rem;}
+.h_profit a:last-child,.order a:last-child{border-right: none;}
+.h_profit p{font-size: .7rem;color: #999;float: left;}
+.h_profit b{font-size: .8rem; float: right;}
+
+.order{overflow: hidden;border-radius: 0 0 5px 5px;}
+.order  a {display:block;overflow:hidden;width: 33.33%;float: left;border-right: 1px solid #eee;box-sizing: border-box;margin: .35rem 0;}
+.order  .pic {width: 20%;height: 1.1rem;margin: .35rem .25rem 0 0;}
+.order  .pic img{width: 100%;     background: #fff;}
+.order  .tit {position: relative;padding: .4rem 0;font-size: .65rem;text-indent:0;margin-left: .4rem;}
+.order  em.tip {right: -.7rem;top: 0rem;}
+
+/*呼叫家庭医生*/
+.h_mydoctor {text-align: center;display:block;overflow:hidden;background: #fff;}
+.h_mydoctor .pic {width: 3.5rem;height: 3.5rem;float: right;border-radius: 50%;margin:0.4rem .75rem 0.4rem 0;overflow: hidden;}
+.h_mydoctor .pic  img {width: 100%;height: 100%;}
+.h_mydoctor span {font-size: .75rem;display: inline-block;font-weight: bold;float: left;margin: .5rem .1rem 0 .75rem;     text-align: left;}
+.h_mydoctor span label{display: block;font-size: 0.6rem;}
+.h_mydoctor a{width:50%;float:left;position: relative;}
+.h_mydoctor a:first-child:after{content: "";display: block;position: absolute;height: 90%;width: 1px;background: #eee;bottom: 0.2rem;right: 0;}
+@media only screen and (max-device-width: 375px)and (-webkit-min-device-pixel-ratio: 2) {
+	/*iPhone6和以下的标准模式 *//*呼叫家庭医生适配*/
+.h_mydoctor .pic {width: 3rem;height: 3rem;float: right;border-radius: 50%;margin:0.4rem .75rem 0.4rem 0;overflow: hidden;}
+}
+/*健康画像*/
+.y_portraitnav {background:#fff;overflow:hidden;padding: 0 0 .35rem;}
+.y_portraitnav .pic a {float:left;width:25%;font-size: 0.65rem;text-align:center;}
+.y_portraitnav .pic a .y_img {display:block;width: 56px;height: 50px;margin: 0.35rem auto 0;position: relative;}
+.y_portraitnav .pic a .y_img img{width: 100%;}
+.y_portraitnav a span{color: #ff604c; border: 1px solid #ff604c; padding: 0 .1rem; border-radius: 3px; }
+.y_portraitnav .tip{right: -.1rem;top: -.35rem;}
+.y_portraitnav .tit {font-size: 0.6rem;text-align: center;width: 100%;height: 1rem;line-height: 1rem;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+
+/*健康商城*/
+.around1{overflow: hidden;background: #fff;}
+.around1 .itme a{width:50%;float:left;border-bottom: 1px solid #eee; display:block;overflow:hidden;    box-sizing: border-box;}
+.around1 .itme a:nth-child(2n+1){border-right:1px solid #eee;}
+.around1 .itme a:nth-child(5),.around1 a:nth-child(6){border-bottom: none;}
+
+
+/*培训活动*/
+.h_train .box{padding: .5rem  .15rem .5rem .5rem;background:#fff;overflow:hidden;background: #fff;}
+.h_train .list {width: 50%;float:left;}
+.h_train .list a {display:inline-block;margin-right: .35rem;border: 1px solid #eee;border-radius: 5px;text-align: center;color: #fff;}
+.h_train .pic {width:100%;position: relative;}
+.h_train .pic img {width:100%;height:100%;border-radius: 5px;}
+.h_train .pic .time{font-size: .65rem;position: absolute;left: 0;bottom: 0;background: rgba(0,0,0,.3);line-height: 1rem;width: 80%;height: 1rem;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;padding: 0 10%;}
+.h_train .name {height: 1rem;line-height: 1rem;color: #fff;background: #ff640b;padding: 0 .8rem;font-size: .7rem;border-radius: 3px;display: inline-block;margin: .5rem 0 .5rem;}
+
+/*今日上新 热门推荐*/
+.h_recommend {padding:0  .375rem 0 .75rem;background:#fff;}
+.h_recommend .tit {line-height:1.75rem;text-align:center;}
+.h_recommend .line1,.line2 {width: 20px; height: 1px; display: inline-block; vertical-align: middle; margin-top: -.1rem; background: #eee; position: relative;}
+.h_recommend .line2:before,.h_recommend .line1:after {content: ""; display: block; overflow: hidden; width: 5px; height: 5px; display: inline-block; position: absolute; top: -2px; border-radius: 50%; background: #eee; }
+.h_recommend .line2:before {right: 17px;}
+.h_recommend .line1:after {left: 17px;  }
+.h_recommend h3 {font-size: .75rem;font-weight:normal;margin:0 .5rem;display:inline-block;}
+.h_recommend h3.c1 {color:#51a8f9;}
+.h_recommend h3.c2 {color:#ff3838;}
+.h_recommend h3.c3 {color:#f75c9a;}
+.h_recommend ul {overflow:hidden;}
+.h_recommend li {width:33.33%;float:left;}
+.h_recommend li a {display:inline-block;margin-right:.375rem;margin-bottom:.5rem;}
+.h_recommend .pic {width:100%;}
+.h_recommend .pic img {width:100%;height:100%;}
+.h_recommend .name {height:1.5rem;font-size: 0.6rem;line-height:0.8rem;overflow:hidden;    word-break: break-all;margin:.2rem 0;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;}
+.h_recommend .price {font-size:.75rem; overflow: hidden; width: 4.5rem; height: .8rem; white-space: nowrap; text-overflow: ellipsis;}
+
+.read_more{text-align: center;padding: .5rem 0;}
+.read_more .btn{padding: .2rem .5rem;font-size: .65rem;}
+
+.h_recommend3 li{width: 50%}
+
+/*商城 今日上新 热门推荐*/
+.h_recommend2{background: #efeff4;padding: 0;}
+.h_recommend2 .tit1{    background: url(../img/mall_tit1.png) no-repeat; background-size: 100% 100%; height: 1.75rem;}
+.h_recommend2 .tit2{background: url(../img/mall_tit2.png) no-repeat; background-size: 100% 100%; height: 1.75rem;}
+.h_recommend2 .tit3{background: url(../img/mall_tit3.png) no-repeat; background-size: 100% 100%; height: 1.75rem;}
+.h_recommend2 li{ width: 50%;}
+.h_recommend2 li a{background: #fff;margin: 0 .125rem .25rem 0;}
+.h_recommend2 li:nth-child(2n) a{margin: 0 0 .25rem .125rem;}
+.h_recommend2 .name,.h_recommend2 .price{margin: .2rem .75rem;}
+
+/*健康管理 页面*/
+.y_manegnav a {display:block;float:left;width:50%;border-bottom:1px solid #eee;text-align:center;}
+.y_manegnav .border_r {border-right:1px solid #eee;position:absolute;left:50%;top:0;}
+.y_manegnav .y_ico {width:3.75rem;height:4.25rem;margin: 5% auto .2rem;}
+.y_manegnav .y_ico img {width:3.75rem;height:4.25rem;margin:0 auto;}
+.y_manegnav .y_ms h2 {font-size: 0.75rem;font-weight:normal;margin-bottom: .2rem;}
+.y_manegnav .y_ms p {font-size: 0.5rem;line-height:0.7rem;color:#666666;padding:0 4.6%;}
+
+/*文字广告轮播*/
+.h_txttip {height:2.55rem;line-height:0.75rem;background:#fff;text-align:left;padding:0 .5rem;font-size:0.55rem;overflow:hidden; background: #fff;}
+.h_txttip img{background: #fff;}
+.h_txttip .f_color3 {padding: 0rem 0 0.25rem;width:3.6rem;height:1.75rem;margin-top: 0.45rem;}
+.h_txttip label {margin-right:.5rem}
+.h_txttip p {font-size: 0.6rem;margin: 0.45rem 0;line-height: .9rem;color: #666;}
+.h_txttip p span{color: #f71231;}

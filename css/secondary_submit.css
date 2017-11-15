@@ -1,0 +1,28 @@
+.u_hospital .tab1 .m_middle {
+		    width: 70%;
+		    min-height: 300px;
+		    background: #fff;
+		    border-right: 1px solid #eee;
+		    box-sizing: border-box;
+		}
+		
+		.m_department a .m_dot {
+			
+			position: absolute; 
+			top:3%;right: 10%;
+			opacity: 0;
+		}
+		.m_department a.active {
+		    color: #15a0f8;
+		}
+		.u_screen_tck .m_kaio a {
+		    height: 2rem;
+		    line-height: 2rem;
+		    display: block;
+		    border-bottom: 1px solid #eee;
+		   margin-left: -37%;
+		    font-size: 0.65rem;
+		}
+		.m_department_imte .nbn{
+			margin-right: -1%;
+		}

@@ -1,0 +1,543 @@
+/*我的家庭医生 简介*/
+.y_doctorms {padding: .65rem 0% 0;overflow: hidden;background: #fff;line-height: .85rem; border-bottom: 1px solid #eee; position: relative;}
+.y_doctorms .rec{width: 59px; height: 14px; line-height: 14px; font-size: .5rem; position: absolute; top: .3rem; right: -.6rem; text-align: center; /* background: #fe8f00; */ background: url(../img/bg_rec.png) no-repeat; color: #fff; transform: rotate(45deg); -ms-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(-45deg); }
+
+.y_doctorms a{ overflow: hidden; display: inline-block;width: 100%;}
+.y_doctorms dt,.y_doctorms .pic {float:left;width:3rem;height:3rem;margin-left:.75rem;border-radius: 50%;overflow: hidden;margin-bottom: .65rem;position: relative;}
+.y_doctorms dt img , .y_doctorms .pic img{width:100%; height:100%; border-radius: 50%;}
+
+.y_doctorms  span.tj{color: #fff; text-align: center; background: #fcb303; padding: 0 .1rem; font-size: .55rem; position: absolute; left: .2rem; bottom: -1px; line-height: .8rem; }
+
+.y_doctorms dd , .y_doctorms .ms{position:relative;margin-left:4.25rem;margin-right:4.6%;line-height:.95rem;}
+.y_doctorms .tip{right:inherit;left:-1rem;}
+.y_doctorms .tip2{position: absolute; left: 3rem; top: 1rem; z-index: 11; }
+.y_doctorms .name {font-size: 0.75rem;color:#333;font-weight: bold;}
+.y_doctorms .name .f_clr66{font-size: .65rem;margin: 0 0 0 .2rem;font-weight: normal;}
+.y_doctorms .name .level{color: #fff;text-align: center;background: #15a0f8;padding: 0 .1rem;font-size: .55rem;border-radius: 3px;vertical-align: middle;display: inline-block;margin-left: .3rem;margin-top: -.2rem;}
+.y_doctorms .name  .level1{color: #fcb303;text-align: center;border:1px solid #fcb303;padding: 0 .1rem;font-size: .55rem;border-radius: 3px;vertical-align: middle;display: inline-block;margin-left: .3rem; }
+.y_doctorms p {font-size: .65rem;color: #666;}
+.y_doctorms .hos_name {margin: .05rem 0;}
+
+.y_doctorms .skill_one {overflow:hidden;font-size: .65rem;color: #999;margin-bottom: .35rem;}  /*列表页 描述 一行显示 类名 skill  详情页全部展示 类名改为 skill_one*/
+.y_doctorms .skill {overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;font-size: .65rem;color: #999;margin-bottom: .35rem;}
+.y_doctorms .skill.f_color3{ color:#ff9900;}
+
+.y_doctorms .btn{margin-top: .3rem;    width: inherit;}
+.y_doctorms .btn2{margin: 0 .75rem .5rem 0;padding: .2rem .6rem;min-width: 4rem;}
+
+.y_doctorms .btn_s {border-radius:0.5rem;border:1px solid #eaeaea;width:3rem;font-size:0.55rem;text-align:center;}
+
+.y_doctorms .border_t {color:#999999;padding: 0.2rem 0;margin-top: 0.35rem;overflow: hidden;line-height: 1rem; border-top: 1px solid #eee}
+.y_doctorms .border_t .money {font-size:.75rem;color:#f71231;    float: left; margin-right: 1rem;}
+.y_doctorms .border_t .money span {font-size:.5rem;}
+.y_doctorms .border_t .experience {font-size: .65rem;}
+.y_doctorms .border_t .experience span {color:#15a0f8;}
+.y_doctorms .border_t .experience p{display: inherit; float: left; margin-right: .2rem; }
+
+.y_doctorms .border_t .icon{     overflow: hidden; clear: both; margin: .2rem 0;}
+.y_doctorms .border_t img{ width: 1rem; height: 1rem; margin-right: .5rem; float: left;}
+
+
+.y_doctorms .service{font-size:.65rem;padding: 0 .75rem .5rem;color:#f71231;line-height: .9rem;}
+.y_doctorms .service p{font-size:.65rem; color:#333;}
+.y_doctorms .service .f_color3{color:#f71231;}
+
+.y_doctorms  .type{position: absolute;right: .75rem;top: 1.8rem;font-size: .65rem;}
+
+.list_service {background:#fff;}
+.list_service .tit {font-size: .7rem;color:#666666;line-height:1.5rem;border-bottom:1px solid #eee;padding:0 4.6%;}
+.list_service .z_list {padding-bottom:0.5rem}
+.list_service .z_list li {width:33.33%;float:left;margin-top:0.5rem;}
+.list_service .z_list .pic {width:2.2rem;height:2.2rem;overflow:hidden;margin:.35rem auto;}
+.list_service .z_list .tc {text-align:center;font-size: .7rem;}
+.list_service .z_list .btn1 {font-size:0.45rem;border:1px solid #ffb400;border-radius:0.4rem;margin:0 1rem .15rem;color:#ffb400;}
+.y_doctorstar {width:100%;overflow:hidden;background:#fff;}
+.y_doctorstar li {float:left;width:33.33%;text-align:center;border-left:1px solid #eee;margin-left:-1px;margin-top:0.5rem;margin-bottom:0.3rem;font-size: .7rem;}
+.y_doctorstar li p {font-size: .7rem;color:#999999;}
+.y_doctorstar li b {font-size:0.85rem;color:#ffb400;}
+.y_doctorstar .y_stars {display:block;margin:0 auto 0.2rem;}
+.y_service .tit {font-size: .75rem;color:#666666;background:#fff;line-height:1.75rem;border-bottom:1px solid #eee;padding:0 4.6%;}
+.y_service .z_list li,.y_service .z_list .clearfix {display:block;padding: 0 .75rem 0rem;border-bottom:1px solid #eee;position: relative;}
+.y_service .z_list .pic {margin-right: .5rem; margin-top: .45rem; overflow: hidden; width: 2rem; height: 2rem; border-radius: 50%;}
+.y_service .z_list .pic img {width: 100%; height: 100%; border-radius: 50%;}
+.y_service li .details,.y_service .details {display:block;font-size:.65rem;line-height:1rem; margin-left: 2.5rem; }
+.y_service .details .li_tit {width: 70%; font-size:.7rem;color:#333;line-height: 1.2rem;padding-top: .35rem;}
+
+.y_service .details .li_tit {font-size:.7rem;color:#333;line-height: 1.2rem;padding-top: .35rem;}
+.y_service .details .li_tit .fr{color: #ff9900;}
+.y_service  .btn{position:absolute;top: .7rem;right:.5rem;padding: .3rem .2rem;}
+.y_service  .btn.lb{position:absolute;top: .7rem;right:4rem;}
+/*只有一行文字时的展示*/
+.y_service .details .li_tit_c{position:relative;font-size:.7rem;color:#333;height: 3rem;line-height:3rem;padding-top: 0;}
+.y_service .details .li_tit_c .btn_btn{position:absolute;top:.7rem;right:0;padding: .1rem .4rem;border-radius: .125rem;line-height: 1.2rem;}
+.y_service .details .li_tit_c .btn_open{border:1px solid #15a0f8; color:#15a0f8;}
+.y_service .details .li_sum {color: #999; margin-bottom: .35rem; }
+
+
+/*--7-18已签约家庭医生 常规服务--*/
+.h_service{overflow: hidden;background:#fff;}
+.h_service ol{overflow: hidden;}
+.h_service  li {width: 20%;float: left;padding: .5rem 0;position: relative;}
+.h_service  li a{display: block;}
+.h_service .pic {width: 35px;height: 35px;margin: 0 auto;position: relative;}
+.h_service .txt {font-size: 0.6rem;text-align: center;margin-top: 0.2rem;width: 100%;height: 1rem;line-height: 1rem;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.h_service2  li{width: 25%} 
+.h_service2 .txt{margin-bottom: .25rem;}
+.h_service .tip{position: absolute;top:.2rem;right: 0; font-size: .4rem;color: #fff; padding: .1rem .2rem;   background: #ff604c;border-radius: 25%;}
+.h_service .tip2{ background:#999;}
+
+/*--xx政府规定服务项目--*/
+.h_gov a{overflow: hidden; line-height: 2.75rem; text-align: center; display: block; background: #fff; font-size: .8rem; background: url(../img/nav_bg.png) 73% center no-repeat #fff; -webkit-background-size: 0.4rem auto; background-size: 0.4rem auto;}
+
+/*医生事迹简介*/
+.zc_docsynopsis {background:#fff;}
+.zc_docsynopsis .doctor_details_btn {height:2.5rem;position:relative;}
+.zc_docsynopsis .doctor_details_btn .clearfix {position:fixed;left:0px;bottom:0;padding-bottom:0.25rem;width:100%;background:#ffffff;border-top:1px solid #eee;}
+.zc_docsynopsis .y_doctordth3 {font-size:0.75rem;line-height:2rem;margin-bottom:0.5rem;border-bottom:1px solid #eee;}
+.zc_docsynopsis .y_doctordetial {background:#fff;}
+.zc_docsynopsis .y_doctordetial dl b{color: #333;}
+.zc_docsynopsis .y_doctordetial dt {font-size: .75rem;color:#15a0f8;line-height: 1.75rem;padding: 0 .75rem; */border-bottom: 1;border-bottom: 1px solid #eee;}
+.zc_docsynopsis .y_doctordetial dd {font-size: 0.7rem;line-height:1.1rem;padding: 0.35rem .75rem; */border-bottom: 1;border-bottom: 1px solid #eee;overflow: hidden;}
+.zc_docsynopsis .y_doctordetial p {font-size: .7rem; text-indent: 1.1rem; line-height:1.1rem; color: #666}
+  /*医生事迹编辑*/
+.zc_docsynopsis.opacity0{opacity: 0;} 
+.zc_docsynopsis textarea{font-size: .75rem;width: 100%;height:auto;border: none;resize: none;}
+.zc_docsynopsis textarea:focus {outline-style:none;outline-width: 2px;}
+  /*评价*/
+.z_assess .z_assess_s{border-bottom:1px solid #eee;}  
+.z_assess .tit {line-height:1.5rem;border-bottom:1px solid #eee;padding:0 4.6%;}
+.z_assess .clearfix {position:relative; padding:.3rem 4.6%;line-height:1.5rem;}
+.z_assess .clearfix .pic {overflow:hidden;width:1.65rem;height:1.65rem;border-radius:50%;margin-top:0.425rem;}
+.z_assess .text {padding: .5rem .75rem .5rem 2.7rem; line-height:1.4rem;}
+.z_assess .text .y_stars {margin-top:0.5rem;}
+.z_assess .fs28{font-size: .7rem;}
+.z_assess  .service{position: absolute;top:1.4rem;left: 2.7rem;}
+.z_assess .z_assess_s .shop_pic img{ width: 32%;margin-right: 1%;}
+
+/*购物底部*/
+.docsigndetails_bg {padding:.5rem 0;margin-bottom:.4rem;background:#fff;position:fixed;bottom:2rem;left:0;width:100%;z-index:10;}
+.docsigndetails {margin:0 .5rem;background:#fff;border:1px solid #eee;border-radius:10px;height:3.85rem;text-align:center;}
+.docsigndetails p{padding-top: .5rem;font-size:.7rem;}
+/*底部有关注*/
+.m_medicine_btn .btn {width:100%;color:#666;}
+.medicine_details_btn {height:2.4rem;position:relative;}
+.medicine_details_btn .gray{background:#fafafa;color:#d6d6d6;}
+.medicine_details_btn .clearfix {position:fixed;left:0px;bottom:0px;width:100%;height:2.4rem;background:#ffffff;border-top:1px solid #eee;z-index: 10;}
+.medicine_details_btn .m_left {width:40.7%;overflow:hidden;zoom:1;/* border-top:1px solid #dbdbdb; */background:#fafafa;height:2.425rem;}
+.medicine_details_btn .m_left .m_collection {float:left;width:33.33%;-webkit-box-sizing:border-box;box-sizing:border-box;}
+.medicine_details_btn .m_left .m_collection s {display:block;margin:0.4rem auto 0.25rem auto;width:0.8rem;height:0.8rem;background:url(../img/cs2.png) center no-repeat;-webkit-background-size:auto 100%;background-size:auto 100%;}
+.medicine_details_btn .m_left .m_collection p {font-size:0.65rem;text-align:center;}
+.medicine_details_btn .m_left .m_collection.follow {border-left:1px solid #eee;}
+.medicine_details_btn .m_left .m_collection.follow s {background:url(../img/z_collection.png) bottom no-repeat;-webkit-background-size:auto 200%;background-size:auto 200%;}
+.medicine_details_btn .m_left .m_collection.m_a1{border-left:1px solid #eee;}
+.medicine_details_btn .m_left .m_collection.m_a1 s{background: url(../img/z_collection.png) bottom no-repeat; -webkit-background-size: auto 200%; background-size: auto 200%;}
+.medicine_details_btn .m_left .m_collection.m_a2 {/*border-left:1px solid #eee;*/}
+.medicine_details_btn .m_left .m_collection.m_a2 s {background:url(../img/z_share.png) center no-repeat;-webkit-background-size:auto 100%;background-size:auto 100%;}
+.medicine_details_btn .fr {width:59.3%;overflow:hidden;zoom:1;}
+.medicine_details_btn .fr .btn-custom {width:50%;-webkit-box-sizing:border-box;box-sizing:border-box;}
+.medicine_details_btn .fr .btn-custom5 {width:50%;-webkit-box-sizing:border-box;box-sizing:border-box;}
+.medicine_details_btn .fr .btn {border-radius:0;float:left;height:2.425rem;font-size:0.7rem;line-height:2.425rem;padding:0px;}
+
+.medicine_details_btn .btn1 {float: left; height: 2.4rem; width: 50%; line-height: 2.4rem; text-align: center; font-size: 0.7rem; }
+.medicine_details_btn .three .m_left{width: 61%;}
+.medicine_details_btn .three .m_left .m_collection {width: 50%;}
+.medicine_details_btn .three .fr{width: 39%;}
+.medicine_details_btn .three .fr .btn-custom,.medicine_details_btn .two .fr .btn-custom5{width: 100%;}
+/*底部无关注*/
+.medicine_details_btn1 {height:2.4rem;position:relative;}
+.medicine_details_btn1 .clearfix {position:fixed;left:0px;bottom:0px;width:100%;height:2.4rem;background:#ffffff;/* border-top:1px solid #eee; */z-index: 10;}
+.medicine_details_btn1 .m_left {width:27.1%;overflow:hidden;zoom:1;/* border-top:1px solid #dbdbdb; */background:#fafafa;height:2.425rem;}
+.medicine_details_btn1 .m_left .m_collection {float:left;width:50%;-webkit-box-sizing:border-box;box-sizing:border-box;}
+.medicine_details_btn1 .m_left .m_collection s {display:block;margin:0.4rem auto 0.25rem auto;width:0.8rem;height:0.8rem;background:url(../img/cs2.png) center no-repeat;-webkit-background-size:auto 100%;background-size:auto 100%;}
+.medicine_details_btn1 .m_left .m_collection p {font-size:0.65rem;text-align:center;}
+.medicine_details_btn1 .m_left .m_collection.follow {border-left:1px solid #eee;}
+.medicine_details_btn1 .m_left .m_collection.follow s {background:url(../img/z_collection.png) bottom no-repeat;-webkit-background-size:auto 200%;background-size:auto 200%;}
+.medicine_details_btn1 .m_left .m_collection.m_a1{border-left:1px solid #eee;}
+.medicine_details_btn1 .m_left .m_collection.m_a1 s{background: url(../img/z_collection.png) bottom no-repeat; -webkit-background-size: auto 200%; background-size: auto 200%;}
+.medicine_details_btn1 .m_left .m_collection.m_a2 {border-left:1px solid #eee;}
+.medicine_details_btn1 .m_left .m_collection.m_a2 s {background:url(../img/z_share.png) center no-repeat;-webkit-background-size:auto 100%;background-size:auto 100%;}
+.medicine_details_btn1 .fr {width:44.6%;overflow:hidden;zoom:1;}
+.medicine_details_btn1 .fr1 {width:28.1%;overflow:hidden;zoom:1;}
+.medicine_details_btn1 .fr2 {width:72.9%;overflow:hidden;zoom:1;}
+.medicine_details_btn1 .fr .btn-custom {width:50%;-webkit-box-sizing:border-box;box-sizing:border-box;}
+.medicine_details_btn1 .fr .btn-custom5 {width:50%;-webkit-box-sizing:border-box;box-sizing:border-box;}
+.medicine_details_btn1 .fr .btn {border-radius:0;float:left;height: 2.43rem;font-size:0.7rem;line-height:2.425rem;padding:0px;border: none;}
+/*.medicine_details_btn1 .btn-custom5:hover,.btn-custom5:focus,.btn-custom5:active,.btn-custom5.active,.open .dropdown-toggle.btn-custom5 {color:#ddd;background:#eee;border-color:#eee;}
+*/
+
+/*家庭医生服务*//*家庭医生列表*/
+.y_servicephone_info .clearfix {padding:0 4.6%;line-height:2.2rem;border-bottom:1px solid #eee;}
+.y_servicephone_info .clearfix .background {padding-right:0.75rem;background:url(../img/nav_bg.png) right center no-repeat;background-size:auto 30%;-webkit-background-size:auto 30%;}
+.y_servicephone_info .clearfix .button {width:0.9rem;height:0.9rem;line-height:0.5rem;border-radius:0;-webkit-border-radius:0;background-color:transparent;-webkit-background-color:transparent;bamargin-top:0.5rem;margin-left:0.25rem;}
+.y_servicephone_info .clearfix .jian {color:#ddd;border:1px solid #eee;}
+.y_servicephone_info .clearfix .add {border:1px solid #999;-webkit-border:1px solid #999;}
+.y_servicephone_info .doc_message {font-size:0.55rem;color:#999;}
+
+/**电话预约*/
+.y_doctordth1 {font-size: .75rem;line-height:1.5rem;border-bottom:1px solid #eee;font-weight:bold;}
+.y_servicephone {padding:0.5rem 4.6%;}
+.y_servicephone .pic {width:2.1rem;height:2.1rem;overflow:hidden;margin-right:0.5rem;}
+.y_servicephone .text {width:80%;}
+.y_servicephone .tr {float:right;font-size: .7rem;}
+.zc_docsynopsis .shop {text-align:center;font-size: .75rem;line-height:1.5rem;color:#333333;}
+.zc_docsynopsis .shop span {color:#179aff;}
+.zc_docsynopsis .service_card .card {width:50%;}
+.zc_docsynopsis .service_card .card p {width:3.75rem;height:1.25rem;border:1px solid #ffb400;border-radius:0.4rem;line-height:1.25rem;margin:0.55rem auto;font-size: .75rem;text-align:center;}
+/*挂号*/
+.m_news_index.doc .apply{height: auto;}
+.m_news_index.doc .num{ color: #666;height: 1.5rem;}
+.m_news_index.doc .money{margin-bottom: .35rem;}
+.m_news_index.doc .btn{min-width: 3.5rem;padding: 0.2rem 0.4rem;margin-top: .5rem;}
+.m_news_index.doc .name2 span font{color: #ff4a00;}
+.m_news_index.doc .name2 span:first{font-size: .7rem;}
+/*预约订单页*/
+.doc_order{background: #fff;padding: 0 4.6% .5rem;}
+.doc_order_message{padding:.5rem 4.6%;background: #e8f6f6;border-radius: .25rem;color: #15a0f8;}
+
+.choice_time {background:#fff;width:100%;}
+.choice_time.m_mt20 .time_fixed{background:#fff;border-top: 1px solid #eee;width:100%;position: relative;bottom: 0;}
+.time_fixed{background:#fff;position: fixed;bottom: 2.12rem;z-index: 10;border-top: 1px solid #eee;width:100%;}
+
+  /*国内医生选择时间，不需要固定*/
+.choice_time_no{display: block;position: relative;bottom: auto;z-index: 1;}
+.choice_time .tit {    font-size: .65rem; height: 1.4rem; line-height: 1.2rem; padding: 0 4.6%;}
+  /*一排三个按钮*/
+.choice_time .choice_btn3 {padding:0 .5rem;}
+.choice_time .choice_btn3 li {font-size:.6rem;line-height:1.4rem;text-align:center;}
+.choice_time .choice_btn3 li div {margin:0 1.5% .5rem;float:left;width:30.33%;box-sizing:border-box;}
+  /*一排俩个按钮*/
+.choice_time .choice_btn2 {padding:0 .5rem;}
+.choice_time .choice_btn2 li {font-size:.7rem;line-height:1.4rem;text-align:center;}
+.choice_time .choice_btn2 li div {margin:0 1.5% .5rem;float:left;width:30%;box-sizing:border-box;}
+  /*可以选择*/
+.choice_time .choice,.choice_time .choice_no,.choice_time .choice_yes {border-radius:5px;border-width:1px;border-style:solid;}
+.choice_time .choice {border-color:#15a0f8;color:#333;}
+  /*不能选择*/
+.choice_time .choice_no {border-color:#dcdcdf;color:#dcdcdf;}
+.choice_time .choice_no span{color:#dcdcdf;}
+  /*已选中*/
+.choice_time .choice_yes {border-color:#15a0f8;color:#fff;background:#15a0f8;}
+.choice_time .choice_yes span{color: #fff;}
+/*账户家庭医生服务设置*/
+  /*选择时间 三列*/
+
+.doc_time select{float:left;font-size: .7rem;width:27.5%;height:1.45rem;color:#999;background:transparent;border:1px solid #eaeaea;border-radius:6px;padding-left: .8rem;margin:.25rem;-webkit-appearance:none;appearance:none;}
+.doc_time .title_70 .left{margin-left: 27%;}
+@media only screen and (max-width: 321px){
+    .doc_time .title_70 .left{margin-left: 25%;}  
+}
+.doc_time .title_70 {    line-height: 2.2rem;}
+.doc_time .title_70 .fr.left1{margin-right: 8%;}
+.doc_time .note{font-size: .7rem;line-height: 1.95rem;color:#333;}
+.doc_time input.money{font-size: .7rem;color:#f71231;width:2.5rem;height:1.45rem;text-align:center;background:transparent;border:1px solid #eaeaea;border-radius:6px;margin:.25rem;-webkit-appearance:none;appearance:none;}
+.doc_time input.money::-webkit-input-placeholder {color:#f71231;}
+.doc_time .add{font-size: .7rem;width:3.15rem;height:2.2rem;line-height:2.2rem;color:#15a0f8;background:transparent;margin-left: 4.6%;-webkit-appearance:none;appearance:none;
+background: url(../img/docter/add.png)no-repeat left;background-size:1.2rem 1.2rem ;padding-left: 1.7rem;}
+.doc_time input.name{font-size: .7rem;height:1.45rem;line-height: 1rem;text-align:right;background:transparent;border:none;margin:.25rem;-webkit-appearance:none;appearance:none;}
+  /*服务设置-自定义服务卡-上传图片*/
+.h_testtit .addpic{background: #fff; padding: .5rem .75rem 0; border-bottom: 1px solid #eee;}
+.h_testtit .addpic img{width: 3rem; height: 3rem; margin-bottom: .5rem; margin-right: .5rem; }
+.doc_time textarea{font-size: .75rem; line-height: 1.1rem; border: none; width: 100%;  padding: .5rem; box-sizing: border-box; font-size: .7rem; }
+/*卡设置的线*/
+.Add_in .clearfix,.Add_out .clearfix{border: none;}
+.Add_in .clearfix:last-child,.Add_out .clearfix:last-child{border-bottom: 1px solid #eee;}
+/*选择*/
+.doc_time .y_ico {float: left; margin: 0.625rem 0.625rem 0 0; width: 0.97rem; height: 0.97rem; background: url(../img/m_radio.png) 0 0 no-repeat; -webkit-background-size: 100% auto; background-size: 100% auto; }
+.doc_time .y_ico.active {background: url(../img/m_radio1.png) 0 0 no-repeat; -webkit-background-size: 100% auto; background-size: 100% auto; }
+  
+  /*选择时间 四列*/
+.doc_time_four select{float:left;font-size: .7rem;width:17%;height:1.45rem;color:#999;background:transparent;border:1px solid #eaeaea;border-radius:6px;padding-left: .4rem;margin:.25rem;-webkit-appearance:none;appearance:none;}
+.doc_time_four .note{font-size: .7rem;line-height: 1.95rem;color:#333;}
+.doc_time_four input.money{font-size: .7rem;color:#f71231;width:3.5rem;height:1.45rem;text-align:center;background:transparent;border:1px solid #eaeaea;border-radius:6px;margin:.2rem;-webkit-appearance:none;appearance:none;}
+.doc_time_four input.money::-webkit-input-placeholder {color:#f71231;}  
+.doc_time_four .emendation{height:1.45rem;overflow:hidden;border:1px solid #eaeaea;border-radius:6px;    margin: .25rem;}
+.doc_time_four .emendation .m_reduce{border-right:1px solid #eaeaea;}
+.doc_time_four .emendation input{width:2rem;color: #666;font-size: 0.7rem; padding-top:0.08rem; line-height:1.45rem; float:left; text-align:center; border:0px;}
+.doc_time_four .emendation .m_add{border-left:1px solid #eaeaea;}
+.doc_time_four .emendation a{font-size: 1rem; float:left; color:#999; height:1.45rem; line-height:1.45rem; width:.8rem; text-align:center;}
+.doc_time_four .z_select{float:left;font-size: .7rem;width:22%;height:1.45rem;color:#999;background:transparent;border:1px solid #eaeaea;border-radius:6px;padding-left: .4rem;margin:.25rem;-webkit-appearance:none;appearance:none;}
+.doc_time_four input.money1{font-size: .7rem;color:#f71231;width:3.5rem;height:1.45rem;text-align:center;background:transparent;border:1px solid #eaeaea;border-radius:6px;margin:.2rem 1.6rem;-webkit-appearance:none;appearance:none;}
+.doc_time_four input.money1::-webkit-input-placeholder{color:#f71231;}  
+
+.doc_time .addit{display: inline; border-bottom: 1px solid #eee;width: 0; position: absolute; height: 1.95rem; top: 0px; right: 0px; background: #ff4b4b; /* background-size: 50%; */ color: #fff; line-height: 1.95rem; font-size: 0.7rem; text-align: center;}
+.doc_time .item{overflow: hidden;position: relative;margin: 0 .5rem;}
+.doc_time .apply{position: relative;zoom: 1;overflow: hidden;}
+.doc_time .apply1 .list{width: 33.33%;text-align: center;}
+.doc_time .apply1 .list .tit{line-height: 1.75rem;font-size: .7rem;}
+.doc_time .apply1 .list .button{background: #f2f2f2;width:60%;line-height:1.75rem;margin:.2rem auto;color: #000;border-radius: 6px;}
+.doc_time .apply1 .list .money{width: 90%;}
+.doc_time .apply1 .list .emendation{width: 62%; margin: .3rem auto;}
+  /*挂号设置时间 统一样式 */
+/*.doc_time .sel{overflow: hidden; display: inline-block; width: 2.5rem; border-radius: 6px; display: inline-block; border: 1px solid #e8e8e8; line-height: 1.5rem; text-align: center; height: 1.5rem; margin-top: 0.2rem; }
+.doc_time .sel  span{display: inline-block; border: none; padding: 0; width: 100%; height: 100%; margin: 0; line-height: inherit; } 
+.doc_time .note {margin: 0 .3rem; }
+.doc_time input.money{margin-left:2rem; }*/
+
+  /*选择医院*/
+.choice_hos{font-size: .7rem; width: 50%; border: 1px solid #eaeaea; border-radius: 6px; -webkit-appearance: none; appearance: none; display: inline-block; background: #fff; line-height: 1rem; height: 1.5rem; line-height: 1.5rem; padding: 0 .35rem;}
+
+/*专家团诊断评估 详情页*/
+  /*===名称 价格描述 ===*/
+.h_msg {background: #fff; border-bottom: 1px solid #eee; padding-bottom: .5rem;  overflow: hidden;}
+.h_msg h2 {font-size: .8rem;margin: .75rem .75rem .25rem;}
+.h_msg p {font-size: .6rem;line-height: 1rem;margin: 0rem .75rem 0;color: #666;}
+.h_msg p.price{font-size: 1.05rem; line-height: 1rem; margin: .35rem 4.6% 0; color: #f71231; font-weight: bold; }
+.h_msg p.clr99{color:#999;}
+.h_msg p.f_color3{color:#ff9900;}
+
+  /*===专家团成员 ===*/
+.h_docsynopsis{background: #fff;}
+.h_docsynopsis a{width: 33.33%; float: left; text-align: center; margin: .5rem 0;}
+.h_docsynopsis .pic{width: 2.25rem; margin: 0 auto .2rem; height: 2.25rem; }
+.h_docsynopsis .pic img{width: 100%; height: 100%; border-radius: 100%; }
+.h_docsynopsis .name h2{font-weight: normal;font-size: .7rem;}
+.h_docsynopsis .name h3{font-weight: normal;font-size: .65rem;color: #999;/* width: 100%; */overflow: hidden;margin-bottom: .2rem;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;}
+.h_docsynopsis.four a{width: 25%; float: left;position: relative; text-align: center; margin: .5rem 0;}
+/*国内医生*/
+.m_inquiryservice {border-top: 1px solid #fff; background: #fff; padding-bottom: 0.5rem; }
+.m_inquiryservice .active {border-color: #15a0f8; }
+.m_inquiryservice li {margin: 0.35rem 2.6% 0; border: 1px solid #eee; border-radius: .25rem; background: #fff; overflow: hidden; zoom:1; border-bottom: 1px solid #eee; padding: .55rem; }
+.m_inquiryservice li .p1{font-size: .75rem;}
+.m_inquiryservice li .p1 span{font-size: .7rem;color: #f71231;}
+.m_inquiryservice li .p2{font-size: .7rem;color: #999;}
+
+/*7-1 特殊服务 页面*/
+
+    /*==预约套餐==*/
+.z_docsetmeal {    padding: .5rem 4.6%;    background: #fff;}
+.servic_tit {font-size:0.9rem;padding-left:4.6%;}
+.z_docsetmeal .setmeal {background:#f8f8f8;border:1px solid #eee;padding:0.5rem;border-radius:15px;margin-bottom:0.5rem;}
+.z_docsetmeal .setmeal .tit2 {padding-top:0.35rem;}
+.z_docsetmeal .setmeal .lineheight {line-height:1.5rem;}
+.z_docsetmeal .active {border:1px solid #179aff;}
+
+/*7-10 预约挂号须知*/
+.y_noticebox {width: 90.625%; margin: 7.8% auto; border: 1px solid #eee; background: #fff; -webkit-border-radius: 3px; border-radius: 3px; }
+.y_noticebox ul {padding: 0 5.1% 1rem; }
+.y_noticebox ul li {margin-top: 0.7rem; padding-left: 1rem; position: relative; font-size: .7rem; }
+.y_noticebox ul li:before {content: ""; position: absolute; width: 0.6rem; height: 0.6rem; left: 0; top: 0.15rem; background: #15a0f8; -webkit-border-radius: 50%; border-radius: 50%; }
+/*处方单*/
+.ordonnance{padding:.35rem 4.6% .35rem;border-bottom: 1px solid #eee;background: #fff;}
+.ordonnance p{font-size: .75rem;color: #999;}
+
+/*7-20上下滑动版日历*/
+.q-tips{background:#acc3c6;color:#666;line-height:1.5;padding:8px 13px;border-bottom:1px solid #dce1e6}
+.page.no-header{padding-top:0}
+.page{background:#fbfbfb!important;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.page>.fix{position:fixed}
+.page{min-height:100%;overflow:hidden;width:100%}
+.page:not(.on){display:none}
+#flightsPage{color:#999}
+.flexbox{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex}
+/*9-2左右点击，只显示两周*/
+.choice_time.calendar .opacity{opacity:0;}
+.choice_time.calendar .lArrow{background:url(../img/le-ri.png) center no-repeat; background-position:0 .2rem;background-size: 150%;;}
+.choice_time.calendar .rArrow{background:url(../img/le-ri.png) center no-repeat; background-position:100% .2rem;background-size: 150%;}
+.choice_time.calendar .ymNaviBtn {height: 1.7rem;width:.45rem;margin-left: 4.6%;margin-right: 4.6%;margin-top:.5rem;overflow: hidden;}
+.choice_time.calendar .ymNaviBtn.fl{padding-right: 3rem;}
+.choice_time.calendar .ymNaviBtn.fr{padding-left: 3rem;}
+.choice_time.calendar .dateSelectionRili{text-align: center;line-height: 2.2rem;}
+/*.choice_time.calendar .time_table{width: 90.8%;overflow: hidden;}
+.choice_time.calendar .time_tr{width: 200%;}*/
+.choice_time.calendar .time{text-align: center; padding: .85rem 4.6%;}
+.choice_time.calendar .time_td{float:left;width: 20%;height: 2.25rem;box-sizing:border-box;border: 1px solid #eee;margin-right:-1px; border-left:1px solid #eee;margin-bottom: -1px;border-bottom: 1px solid #eee;}
+.choice_time.calendar .time_td span{font-size: .6rem;line-height: 1.2rem;}
+.choice_time.calendar .time_td p{font-size: .55rem;line-height: .9rem;}
+.choice_time.calendar .choice,.choice_time.calendar .choice_no,.choice_time.calendar .choice_yes {border-radius:0px;border-width:1px;border-style:solid;}
+/*账户巡诊卡日期表格*/
+.choice_time.calendar .time2 .time_td{width: 25%; }
+.choice_time.calendar .time2 .time_td span{line-height: 2.25rem;}
+/*17-3-14上下午*/
+.work_time .choice_time.calendar{padding: .85rem 0;width: 100%;overflow: auto;}
+.work_time .choice_time.calendar .opacity{opacity:0;}
+.work_time .choice_time.calendar .lArrow{background:url(../img/le-ri.png) center no-repeat; background-position:0 .2rem;background-size: 150%;;}
+.work_time .choice_time.calendar .rArrow{background:url(../img/le-ri.png) center no-repeat; background-position:100% .2rem;background-size: 150%;}
+.work_time .choice_time.calendar .ymNaviBtn {height: 1.7rem;width:.45rem;margin-left: 4.6%;margin-right: 4.6%;margin-top:.5rem;overflow: hidden;}
+.work_time .choice_time.calendar .ymNaviBtn.fl{padding-right: 3rem;}
+.work_time .choice_time.calendar .ymNaviBtn.fr{padding-left: 3rem;}
+.work_time .choice_time.calendar .dateSelectionRili{text-align: center;line-height: 2.2rem;}
+.work_time .time_mes{position:absolute;top:3.01rem;left: 0;z-index: 2;background: #fff;}
+.work_time .time_tex{width: 1.25rem;height: 2.25rem;line-height:1rem;box-sizing:border-box;border: 1px solid #eee;margin-right:-1px; border-left:1px solid #eee;margin-bottom: -1px;border-bottom: 1px solid #eee;}
+.work_time .time_tex span{color:#999;}
+.work_time .choice_time.calendar .time{text-align: center; padding:0  1.25rem;}
+.work_time .choice_time.calendar .time_s{display:block;float: none; width: 2.875rem;height: 2.25rem;box-sizing:border-box;border: 1px solid #eee;margin-right:-1px; border-left:1px solid #eee;margin-bottom: -1px;border-bottom: 1px solid #eee;}
+.work_time .choice_time.calendar .time_s.time_no{background: #ededed;color: #999;line-height: 2.25rem;}
+.work_time .choice_time.calendar .time_s.time_yes{background: #10adff;color: #fff;line-height: 2.25rem;}
+.work_time .choice_time.calendar .time_td span{font-size: .6rem;line-height: .9rem;color:#666;}
+.work_time .choice_time.calendar .time_td p{font-size: .55rem;line-height: 1.1rem;color:#666;}
+.work_time .choice_time.calendar .choice,.choice_time.calendar .choice_no,.choice_time.calendar .choice_yes {border-radius:0px;border-width:1px;border-style:solid;}
+.work_time .mes{text-align: center;background: #fff;padding: .5rem 0;color: #999;}
+.date .remind{margin: .5rem auto;height: 1.75rem;width:14.45rem;}
+.date .remind img{width: 100%;height: 100%;}
+.list-footer{position:fixed;z-index:99;bottom:0;height:49px;width:100%;background-color:#f8f8f8;border-top:1px solid #e5e5e5}
+.list-footer>.list-select>.select-item{padding-top:10px;height:100%;text-align:center;-webkit-box-flex:1;-webkit-flex:1;-moz-box-flex:1;-ms-flex:1;flex:1;width:0;font-size:20px}
+.list-footer>.list-select>.select-item>div{-webkit-transform-origin:50% 20%;-moz-transform-origin:50% 20%;-ms-transform-origin:50% 20%;-o-transform-origin:50% 20%;transform-origin:50% 20%;-webkit-transform:scale(0.83);-moz-transform:scale(0.83);-ms-transform:scale(0.83);-o-transform:scale(0.83);transform:scale(0.83);font-size:12px}
+.list-footer>.list-select .active{color:#1ba9ba}
+.list-footer>.list-select>.disable{color:#999}
+.list-row>.roudway-info{position:absolute;top:20px;left:15px;bottom:0;width:26px}
+.list-row>.roudway-info>.from,.list-row>.roudway-info>.to{width:18px;height:18px;font-size:11px;color:#1ba9ba;border:1px solid #1ba9ba;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;text-align:center;line-height:18px}
+.list-row>.roudway-info>.to{margin-top:60px;color:#1bba5e;border:1px solid #1bba5e}
+.list-row>.roudway-list{margin-left:26px;-webkit-box-flex:5;-webkit-flex:5;-moz-box-flex:5;-ms-flex:5;flex:5;width:0;font-size:0}
+.list-row>.roudway-list>.list-info:last-child{margin-top:5px}
+.list-row .roundWayList-info:last-child{margin-top:10px}
+
+.cal-header{position:fixed;width:100%;top:3.2rem;z-index:10;text-align:center;    background: #fff;}
+.cal-header>.dates{height:2.25rem;border-bottom:1px solid #15a0f8;color: #15a0f8;}
+.cal-header>.dates .dates-item{font-size: .75rem;/*-webkit-transform:scale(0.5);-moz-transform:scale(0.5);-ms-transform:scale(0.5);-o-transform:scale(0.5);transform:scale(0.5);*/line-height:2.25rem;-webkit-box-flex:1;-webkit-flex:1;-moz-box-flex:1;-ms-flex:1;flex:1;}
+.cal-header>.dates .dates-item:first-child,.cal-header>.dates .dates-item:last-child{color:#ff8205}
+.cal-header>.month-container{height:0rem;overflow:hidden}
+.cal-header>.month-container>.month{position:relative;top:0}
+.cal-header>.month-container>.month.animate{-webkit-transition:all .5s ease;-moz-transition:all .5s ease;-o-transition:all .5s ease;transition:all .5s ease}
+.cal-header>.month-container .month-item{color:#333;font-size:.6rem;height:1rem;line-height:1rem;}
+.cal-container{background-color:#fff;margin-top: 2.2rem;}
+.cal-container>.cal-month>.month-header{color:#15a0f8;background:#fff;text-align:center;font-size:.7rem;height:1.75rem;line-height:1.75rem;border-top:1px solid #dce1e6;}
+.cal-container>.cal-month>.cal-row{color:#333;background: #fff;}
+.cal-container>.cal-month>.cal-row>.row-item{-webkit-box-flex:1;-webkit-flex:1;-moz-box-flex:1;-ms-flex:1;flex:1;width:0;position:relative;margin: .1rem .2rem;font-size: .75rem;text-align:center;height:2rem;line-height:2rem;z-index:1;}
+.cal-container>.cal-month>.cal-row>.row-item>.top-string{position:absolute;top:3px;left:0;display:block;width:100%;height:.5rem;line-height:.5rem;font-size:11px;-webkit-transform:scale(0.92);-moz-transform:scale(0.92);-ms-transform:scale(0.92);-o-transform:scale(0.92);transform:scale(0.92);color:#ff8205}
+/*.cal-container>.cal-month>.cal-row>.row-item.weekend>.day,.cal-container>.cal-month>.cal-row>.row-item.rest>.day{color:#ff8205}*/
+.cal-container>.cal-month>.cal-row>.row-item.tiaoxiu>.top-string{color:#888}
+.cal-container>.cal-month>.cal-row>.row-item.low-price>.price{color:#ff8205}
+.cal-container>.cal-month>.cal-row>.row-item.cal-among{background-color:#f5f5f5}
+.cal-container>.cal-month>.cal-row>.row-item.cal-among>.top-string,.cal-container>.cal-month>.cal-row>.row-item.cal-among>.day{color:#1ba9ba}
+.cal-container>.cal-month>.cal-row>.row-item.cal-arr:before{content:"返程";display:block;position:absolute;font-size:11px;-webkit-transform:scale(0.92);-moz-transform:scale(0.92);-ms-transform:scale(0.92);-o-transform:scale(0.92);transform:scale(0.92);left:50%;margin-left:-18px;top:61%;width:36px;height:20px;line-height:20px;color:#1ba9ba}
+.cal-container>.cal-month>.cal-row>.row-item.cal-dep:before{content:"去程";display:block;position:absolute;font-size:11px;-webkit-transform:scale(0.92);-moz-transform:scale(0.92);-ms-transform:scale(0.92);-o-transform:scale(0.92);transform:scale(0.92);left:50%;margin-left:-18px;top:61%;width:36px;height:20px;line-height:20px;color:#1ba9ba}
+.cal-container>.cal-month>.cal-row>.row-item.cal-go,.cal-container>.cal-month>.cal-row>.row-item.cal-active{position:relative}
+.cal-container>.cal-month>.cal-row>.row-item.cal-go .day,.cal-container>.cal-month>.cal-row>.row-item.cal-active .day{background-color:#1ba9ba;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;display:block}
+.cal-container>.cal-month>.cal-row>.row-item.cal-go:before,.cal-container>.cal-month>.cal-row>.row-item.cal-go>.top-string,.cal-container>.cal-month>.cal-row>.row-item.cal-go>.day,.cal-container>.cal-month>.cal-row>.row-item.cal-go>.price,.cal-container>.cal-month>.cal-row>.row-item.cal-active:before,.cal-container>.cal-month>.cal-row>.row-item.cal-active>.top-string,.cal-container>.cal-month>.cal-row>.row-item.cal-active>.day,.cal-container>.cal-month>.cal-row>.row-item.cal-active>.price{color:#fff}
+.cal-container>.cal-month>.cal-row>.row-item.disabled>.top-string,.cal-container>.cal-month>.cal-row>.row-item.disabled>.day,.cal-container>.cal-month>.cal-row>.row-item.disabled>.price{color:#ddd}
+.cal-container>.cal-month>.cal-row>.row-item.cal-go.cal-dep:after{content:"";display:block;background-color:#f5f5f5;position:absolute;z-index:-1;top:0;width:6px;height:100%;right:0}
+.cal-container>.cal-month>.cal-row>.row-item.cal-go.cal-arr:after{content:"";display:block;background-color:#f5f5f5;position:absolute;z-index:-1;top:0;width:6px;height:100%;left:0}
+.cal-container>.cal-month>.cal-row>.row-item.cal-dep.cal-arr:before{content:"去+返"}
+.cal-container>.cal-month>.cal-row>.row-item.cal-go.cal-dep.cal-arr:after{width:0}
+.cal-container>.cal-month>.cal-row>.row-item>.price{position:absolute;font-size:11px;-webkit-transform:scale(0.92);-moz-transform:scale(0.92);-ms-transform:scale(0.92);-o-transform:scale(0.92);transform:scale(0.92);left:0;bottom:22px;height:20px;color:#666;width:100%;text-indent:-7px}
+.cal-container>.cal-month>.cal-row>.row-item>.price:before{position:relative;left:2px}
+.cal-container>.roundway-tip{position:fixed;left:50%;margin-left:-2000px;bottom:50px;padding:10px 30px;width:140px;background-color:rgba(0,0,0,0.25);z-index:10;text-align:center;color:#fff;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;font-size:18px;-webkit-transition:all .8s ease;-moz-transition:all .8s ease;-o-transition:all .8s ease;transition:all .8s ease}
+.cal-container>.roundway-tip>.inter{width:360px;font-size:20px;-webkit-transform:scale(0.5);-moz-transform:scale(0.5);-ms-transform:scale(0.5);-o-transform:scale(0.5);transform:scale(0.5);-webkit-transform-origin:0 0;-moz-transform-origin:0 0;-ms-transform-origin:0 0;-o-transform-origin:0 0;transform-origin:0 0}
+.cal-container>.roundway-tip.in{margin-left:-100px}
+.cal-container>.roundway-tip.out{margin-left:2000px}
+.cal-container .date_bg1{background:url(../img/xuanzhong.png)bottom no-repeat rgba(247, 92, 154, 0.41);background-size:100%;border-radius:5px;color: #fff;}
+.cal-container .date_bg2{background:url(../img/xuanzhong1.png)bottom no-repeat #ffb400;background-size:100%;border-radius:5px;color: #fff;}
+.cal-container .date_bg{background: #15a0f8;border-radius:5px;color: #fff;}
+.cal-container>.cal-month>.cal-row>.row-item.date_bg>.top-string,.cal-container>.cal-month>.cal-row>.row-item.weekend.date_bg>.day,.cal-container>.cal-month>.cal-row>.row-item.rest.date_bg>.day{color: #fff;}
+.cal-container>.cal-month>.cal-row>.row-item.rest>.day,.cal-container>.cal-month>.cal-row>.row-item.tiaoxiu>.day{line-height:2.5rem;}
+.cal-container>.cal-month>.cal-row>.row-item.rest>.top-string,.cal-container>.cal-month>.cal-row>.row-item.tiaoxiu>.top-string{line-height:1rem;}
+.cal-container>.cal-month>.cal-row>.row-item.rest>.day,.cal-container>.cal-month>.cal-row>.row-item.tiaoxiu>.day{line-height:2.5rem;}
+/*新版日历子做的更改，删掉就恢复以前版本2017-7-18*/
+.page{position: relative;width: 100%;}
+.cal-header{position: absolute;top:0;}
+.cal-container{height: 15rem;background: none;position: relative;overflow: auto;}
+.cal-month{float: left;width: 100%;position: relative;}
+/*编辑文本*/
+.y_doctordetial{background:#fff;font-size: .7rem;    overflow: hidden;}
+.y_doctordetial dl dt{font-size: .75rem;color: #15a0f8;line-height: 1.5rem;}
+.y_doctordetial dl dd{font-size: .75rem; line-height: 1.1rem;}
+.y_doctordetial dl dd p{font-size: .75rem;text-indent: 2em; line-height: 1.1rem;}
+.y_doctordetial dl textarea{font-size: .75rem;line-height: 1.1rem;border: none;width: 100%;border: 1px solid #eee;padding: .5rem;box-sizing: border-box;font-size: .7rem;border-radius: 5px;/* max-height: 10rem; *//* overflow: auto; */}
+.y_doctordetial .btn{margin-right: .5rem;margin-bottom: .5rem;}
+.y_doctordetial .btn-custom6{background: #d9f3f2;color: #00968f;border: 1px solid #d9f3f2;}
+.y_doctordetial .btn-custom6.active{background: #15a0f8;color: #fff;border: 1px solid #15a0f8;}
+
+
+/*治疗康复 - 联系我们*/
+.h_contact .name{padding: .575rem 4.6% 0;background: #fff;font-size: 0.75rem;display: block;overflow: hidden;line-height: 1.2rem;}
+.h_contact .name p{font-size: .75rem;display: inline-block;/* line-height: 1rem; */}
+
+
+/*专家医生  - 套餐服务*/
+.h_package {overflow: hidden;background: #fff;line-height: .85rem;}
+.h_package a{display: inline-block;width: 100%;border-bottom: 1px solid #eee;padding: .35rem 0;}
+.h_package .pic {float:left;width:2.25rem;height:2.25rem;margin-left:.75rem;}
+.h_package .pic img{width:100%;}
+
+.h_package .ms{margin-left: 3.5rem;margin-right:.75rem;line-height: 1rem;    position: relative;}
+.h_package .ms .cur{position: absolute; top: .5rem; right: 0; color: red; }
+.h_package .name {font-size: 0.75rem;color:#333;margin: .2rem 0 0;}
+.h_package p {font-size: .65rem;}
+
+/*聊天界面/直播*/
+.talk_hum .pic{width: 2.25rem;height: 2.25rem;border-radius:50%;overflow: hidden;}
+.talk_hum .pic img{width: 100%;}
+.talk_hum .chat{position: relative;font-size: .7rem;}
+.talk_hum .chat .triangle{position:absolute;top:40%;display:block;width:0; height:0; overflow:hidden; line-height:0; font-size:0; border-bottom:.25rem solid transparent; border-top:.25rem solid transparent; }
+.talk_hum .chat .article {color:#000; display:inline-block; *display:inline; zoom:1; border: 1px solid #fff; margin-top: .25rem; border-radius:5px; max-width: 8.65rem; }
+.talk_hum .chat .article p{padding:.35rem;font-size: .55rem;}
+.talk_hum .chat .article img{margin: .35rem .35rem 0 .35rem;}
+.talk_hum .chat_l .triangle {left: 2.4rem;border-left:none;border-right:.25rem solid #fff;}
+.talk_hum .chat_l .article {margin-left: .35rem;background:#fff;color: #9c9c9c;}
+.talk_hum .chat_r .triangle {right:.15rem;border-right:none;border-left:.25rem solid #15a0f8;}
+.talk_hum .chat_r .article {margin-right: .35rem;background:#15a0f8;color: #fff;}
+
+/*直播*/
+.h_zhibo_bg{background: url(../img/zhibo_bg.jpg)  center no-repeat;-webkit-background-size: 100% auto;background-size: 100% auto;}
+.h_zhibo{height: 1.5rem; margin-top: .75rem; line-height: 1.5rem; padding: 0 .75rem; color: #fff; font-weight: bold;    text-shadow: 0 0 5px #000; }
+.h_zhibo .time{width: 40%; text-align: center; float: left; font-size: .75rem; }
+.h_zhibo .num{width: 25%; float: left; background: url(../img/zhibo_1.png) left no-repeat; background-size: 15% auto; padding-left: 1rem; }
+.h_zhibo .close {background: url(../img/zhibo_2.png) center no-repeat; width: 1.5rem; height: 1.5rem; background-size: 50% auto; float: right; }
+
+/*服务条款*/
+.y_registerbox .modal-dialog{max-height: 70%; overflow: auto; }
+.y_registerbox .modal-body{ text-align: left;}
+.y_registerbox .y_btnbox{margin: 1rem 0.35rem; padding-top: 0.75rem; border-top: 1px dashed #999; position: relative; }
+
+/*账户-分公司-医院审核*/
+.y_doctorms_hos{border-bottom:1px solid #eee;position: relative; }
+.y_doctorms_hos .hos{overflow:hidden;padding:.5rem .75rem; display:block;}
+.y_doctorms_hos span.btn {color: #fcb303;text-align: center;border:1px solid #fcb303;padding: 0 .1rem;font-size: .55rem;border-radius: 3px;vertical-align: middle;display: inline-block;margin-left: .3rem;}
+.y_doctorms_hos .type{position: absolute; right: .75rem; top: .4rem; }
+
+.y_doctorms_hos .y_pic{float:left;width:3.25rem;height:3.25rem;overflow:hidden;font-weight:bold;position: relative;}
+.y_doctorms_hos .y_pic1{border-radius: 50%;overflow: hidden;}
+.y_doctorms_hos  img{width: 100%; height: 100%;}
+.y_doctorms_hos .y_ms{margin-left: 3.75rem;}
+.y_doctorms_hos .y_ms h2{line-height: .9rem;font-weight: normal;font-size: 0.7rem;overflow:hidden;margin-bottom: .2rem;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp:2;-webkit-box-orient: vertical;}
+/*审核页面-样式*/
+.box .y_doctorms_hos .y_ms h2{line-height: .9rem;font-weight: normal;font-size: 0.7rem;overflow:hidden;margin-bottom: .2rem;overflow: hidden;text-overflow: ellipsis;width:79%;display: -webkit-box;-webkit-line-clamp:2;-webkit-box-orient: vertical;}
+
+.y_doctorms_hos .y_ms h4{font-size: 0.65rem;line-height:0.8rem;font-weight:normal;overflow: hidden;margin-bottom: .2rem;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+
+/*账户-在线培训*/
+/*账户-在线培训*/
+.music a{ display:block; overflow:hidden; width:100%;}
+.music .g_inoculate{overflow:hidden; }
+.music .video .desc{position: absolute; bottom: 0; left: 0; line-height: 1.5rem; width: 90%; color: #fff;   background: rgba(0,0,0,.5); height: 1.5rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding: 0 5%; }
+
+.music .video .desc2{position: absolute; bottom: 0; left: 0; width: 100%; color: #fff; height: 100%; overflow: hidden; background: rgba(0,0,0,.5); }
+.music .video .txt{position: absolute; left: 50%; top: 50%; text-align: center; transform: translate(-50%,-50%); color: #fff; z-index: 66;}
+.music .video  .txt .name{font-size: .95rem; margin-bottom: .35rem; letter-spacing: 1px;}
+.music .video .desc2 .txt .btn{padding: .2rem .75rem; line-height: inherit; color: #fff; opacity: 1; }
+
+.music .video   .live{position: absolute; top: 1rem; left: 1rem; z-index: 111; background: rgba(0,0,0,.5); font-size: .6rem; padding: .25rem .25rem .25rem 0.75rem; border-radius: .25rem; color: #fff; }
+.music .video   .live:before{position: absolute; display: block; content: ""; width: 5px; height: 5px; background: #ff604c; left: .35rem; top: 0.55rem; border-radius: 50%; }
+.music .g_inoculate em.tip2{    position: absolute; left: 0; top: 1.12rem; }
+
+.music .video .zb-pic{  width:100%; height:7.5rem;}
+.music .video .zb-pic img{  width:100%; height:100%;}
+
+/*诊断结果*/
+.h_ways{padding: .5rem .75rem;background: #fff;    overflow: hidden;}
+.h_ways .list{position: relative;    display: inline-block;}
+.h_ways .btn{float: left;  width:18.4%; margin-bottom: .5rem;  padding:0.3rem 0; background: #d9f3f2;color: #15a0f8;border-color: #15a0f8;-webkit-transition: all 0s ease-in-out;transition: all 0s ease-in-out;}
+.h_ways .btn + .btn{ margin-left:2%;}
+.h_ways .btn.active{background: #15a0f8;color: #fff;border: 1px solid #15a0f8;}
+
+.h_ways .btn.disabled,.h_ways .btn[disabled] {pointer-events:none;cursor:not-allowed;filter:alpha(opacity=65);-webkit-box-shadow:none;box-shadow:none;opacity:.65;}
+.h_ways .btn.disabled,.h_ways .btn[disabled],.h_ways .btn.disabled:hover,.h_ways .btn[disabled]:hover,.h_ways .btn.disabled:focus,.h_ways .btn[disabled]:focus,.h_ways .btn.disabled:active,.h_ways .btn[disabled]:active {background: #ebeaf0; color: #d2d2d2; border-color: #e1e1e1;}
+
+.h_ways .box{position: absolute; top: 2rem; left: 0; width: 5rem; background: #15a0f8; z-index: 99; border-radius: 5px; }
+.h_ways .box:before{content:""; position: absolute; top: -.3rem; left: .5rem; width: 0; height: 0; border-left: .3rem solid transparent; border-right: .3rem solid transparent; border-bottom: .3rem solid #15a0f8; }
+.h_ways .box a{color: #fff; display: block; line-height: 2rem; text-align: center; border-bottom: 1px solid #fff; }
+
+/*立即拨打*/
+.h_being_phone h3{line-height: 5rem;font-size: .75rem;border-bottom: none;}
+.h_being_phone .wrapper{overflow: hidden;}
+.h_being_phone .pic{width: 30%;}
+.h_being_phone .pic1{margin-left: 10%;}
+.h_being_phone .pic2{margin-right: 10%;}
+.h_being_phone .pic img{width: 35%;height: auto;display: block;margin: 0 auto .35rem;}
+.h_being_phone .loading{margin: .5rem 0;width: 20%;}
+
+/*报告详情 底部按钮*/
+.y_orderltbtnbx{padding: .4rem 4.6%; width: 90.8%; background: #fff;overflow: hidden;text-align: center;}
+.y_orderltbtnbx .btn{min-width:4.5rem;margin-left:0.5rem;}
+
+

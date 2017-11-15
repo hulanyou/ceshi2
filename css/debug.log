@@ -1,0 +1,32 @@
+[0326/160146:ERROR:gpu_info_collector_win.cc(103)] Can't retrieve a valid WinSAT assessment.
+[0326/160146:ERROR:proxy_service_factory.cc(105)] Cannot use V8 Proxy resolver in single process mode.
+[0329/163150:ERROR:gpu_info_collector_win.cc(103)] Can't retrieve a valid WinSAT assessment.
+[0329/163150:ERROR:proxy_service_factory.cc(105)] Cannot use V8 Proxy resolver in single process mode.
+[0405/171154:ERROR:proxy_service_factory.cc(105)] Cannot use V8 Proxy resolver in single process mode.
+[0407/121340:ERROR:proxy_service_factory.cc(105)] Cannot use V8 Proxy resolver in single process mode.
+[0408/150506:ERROR:proxy_service_factory.cc(105)] Cannot use V8 Proxy resolver in single process mode.
+[0414/094822:ERROR:proxy_service_factory.cc(105)] Cannot use V8 Proxy resolver in single process mode.
+[0419/094047:ERROR:proxy_service_factory.cc(105)] Cannot use V8 Proxy resolver in single process mode.
+[0419/094236:ERROR:proxy_service_factory.cc(105)] Cannot use V8 Proxy resolver in single process mode.
+[0420/093922:ERROR:proxy_service_factory.cc(105)] Cannot use V8 Proxy resolver in single process mode.
+[0420/190848:ERROR:proxy_service_factory.cc(105)] Cannot use V8 Proxy resolver in single process mode.
+[0511/104002:ERROR:proxy_service_factory.cc(105)] Cannot use V8 Proxy resolver in single process mode.
+[0517/111855:ERROR:proxy_service_factory.cc(105)] Cannot use V8 Proxy resolver in single process mode.
+[0520/100143:ERROR:proxy_service_factory.cc(105)] Cannot use V8 Proxy resolver in single process mode.
+[0520/153317:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0520/153321:WARNING:dhcp_proxy_script_adapter_fetcher_win.cc(264)] Error fetching PAC URL from DHCP: 2
+[0520/153321:WARNING:dhcp_proxy_script_adapter_fetcher_win.cc(264)] Error fetching PAC URL from DHCP: 2
+[0520/153321:WARNING:dhcp_proxy_script_adapter_fetcher_win.cc(264)] Error fetching PAC URL from DHCP: 2
+[0520/153330:WARNING:dhcp_proxy_script_adapter_fetcher_win.cc(264)] Error fetching PAC URL from DHCP: 2
+[0520/153330:WARNING:dhcp_proxy_script_adapter_fetcher_win.cc(264)] Error fetching PAC URL from DHCP: 2
+[0520/153330:WARNING:dhcp_proxy_script_adapter_fetcher_win.cc(264)] Error fetching PAC URL from DHCP: 2
+[0520/153849:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0520/153849:WARNING:dhcp_proxy_script_adapter_fetcher_win.cc(264)] Error fetching PAC URL from DHCP: 2
+[0520/153849:WARNING:dhcp_proxy_script_adapter_fetcher_win.cc(264)] Error fetching PAC URL from DHCP: 2
+[0520/153849:WARNING:dhcp_proxy_script_adapter_fetcher_win.cc(264)] Error fetching PAC URL from DHCP: 2
+[0520/153850:INFO:CONSOLE(16)] "将根据已有的meta标签来设置缩放比例", source: http://127.0.0.1:8020/html/new/js/init.js (16)
+[0520/153902:INFO:CONSOLE(16)] "将根据已有的meta标签来设置缩放比例", source: http://127.0.0.1:8020/html/new/js/init.js (16)
+[0520/153903:INFO:CONSOLE(16)] "将根据已有的meta标签来设置缩放比例", source: http://127.0.0.1:8020/html/new/js/init.js (16)
+[0520/153905:INFO:CONSOLE(16)] "将根据已有的meta标签来设置缩放比例", source: http://127.0.0.1:8020/html/new/js/init.js (16)
+[0520/153907:INFO:CONSOLE(16)] "将根据已有的meta标签来设置缩放比例", source: http://127.0.0.1:8020/html/new/js/init.js (16)
+[0520/153920:ERROR:renderer_main.cc(227)] Running without renderer sandbox

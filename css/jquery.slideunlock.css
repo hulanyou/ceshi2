@@ -1,0 +1,19 @@
+/*滑动解锁*/
+#slide-wrapper{width: 300px; position: relative; margin: 0 auto; }
+#slider{padding: 0 20px; height: 34px; line-height: 34px; position: relative; border-radius: 2px; background-color: #e8e8e8; overflow: hidden; text-align: center; font-size: 12px; }
+#drag_bg{width: 0; position: absolute; left: 0; top: 0; height: 100%; background:#7ac23c; }
+
+#label{width: 40px; position: absolute; left: 0; top: 0; height: 100%; z-index: 999; cursor: pointer; border: 1px solid #ccc; box-sizing: border-box; }
+.handler_bg {background: #fff url(../img/slider.png) no-repeat center; }
+#slider.success .handler_bg{background: #fff url(../img/complet.png) no-repeat center; }
+#lableTip {position: absolute; left: 0; top: 0; height: 100%; width: 100%; color: #9c9c9c; -moz-user-select: none; -webkit-user-select: none; user-select: none; -o-user-select: none; -ms-user-select: none; font-size: 12px; }
+#slider.success #lableTip{color: #fff; }
+
+.slidetounlock{
+    background:-webkit-gradient(linear,left top,right top,color-stop(0,#4d4d4d),color-stop(.4,#4d4d4d),color-stop(.5,#fff),color-stop(.6,#4d4d4d),color-stop(1,#4d4d4d));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    -webkit-animation:slidetounlock 3s infinite;
+    -webkit-text-size-adjust:none
+}
+@-webkit-keyframes slidetounlock{0%{background-position:-200px 0} 100%{background-position:200px 0}}

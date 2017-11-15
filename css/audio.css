@@ -1,0 +1,39 @@
+
+.audiojs audio { position: absolute; left: -1px; }        
+
+.audiojs .play { display: block; }       
+.playing .play, .playing .loading, .playing .error { display: none; }         
+.playing .pause { display: block; }            
+.loading .play, .loading .pause, .loading .error { display: none; }        
+.loading .loading { display: block; }               
+.error .time, .error .play, .error .pause, .error .scrubber, .error .loading {display: none;}         
+.error .error { display: block; }     
+
+.audiojs .play-pause{width: 35px;height: 30px;float: left;}
+
+.audiojs p{ display: none;width: 35px;height: 30px;cursor: pointer;}
+
+.audiojs .play{background: url("../img/player-graphics.gif") 4px 1px no-repeat;}
+.audiojs .pause{background: url("../img/player-graphics.gif") 5px -88px no-repeat;}
+.audiojs .loading{background: url("../img/loading.gif") 70% center no-repeat; background-size: 50% 50%;}
+.audiojs .error{background: url("../img/player-graphics.gif") 6px -58px no-repeat;}
+.audiojs .error-message{float: left;display: none;margin: 0px 10px;height: 30x;width: 50%;color: #666;overflow: hidden;line-height: 30px;white-space: nowrap;/* color: #fff; */text-overflow: ellipsis;-o-text-overflow: ellipsis;-icab-text-overflow: ellipsis;-khtml-text-overflow: ellipsis;-moz-text-overflow: ellipsis;-webkit-text-overflow: ellipsis;}
+
+.error .error-message { display: block; }
+.audiojs .error-message a { color: #eee; text-decoration: none; padding-bottom: 1px; border-bottom: 1px solid #999; white-space: wrap; }
+
+.error .play-pause p { cursor: auto; }   
+
+.audiojs{height: 30px;width: 100%;}
+
+.audiojs .scrubber{background: #e2e2e2;height: 5px;margin-top: 15px;position: relative;float: left;width: 60%;margin: 13px 8px 0;border-radius: 5px;}
+.audiojs .progress{background: #15a0f8;height: 5px;position: absolute;left: 0;top: 0;z-index: 1;border-radius: 5px;}
+.audiojs .progress:after{content: "";display: inline-block;width: 12px;height: 12px;border-radius: 50%;background: #fff;border: 1px solid #ccc;position: absolute;right: -12px;top: -5px;z-index: 11;box-shadow: 0 0 3px #ccc;}
+
+.audiojs .loaded{background: #ccc;height: 5px;position: absolute;top: 0;left: 0;border-radius: 5px;}
+
+.audiojs .time{height: 30px; float: left; line-height: 30px; color: #333; }
+.audiojs .time em{font-size: 12px;color: #333;font-style: normal;}
+.audiojs .time strong{font-size: 12px;color: #333;font-weight: normal;}
+
+.audiojs1{width: 70%;}
